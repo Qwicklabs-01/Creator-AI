@@ -1,0 +1,98 @@
+{
+  "sha": "ae136db77f3271c2490dbd267be0efe00596d2ec",
+  "url": "https://api.github.com/repos/Jakeschincariol/claude-illegal-codes/git/trees/ae136db77f3271c2490dbd267be0efe00596d2ec",
+  "tree": [
+    {
+      "path": "67",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8dd3a446f5578bff106ab48a1d684abf5d3733f0",
+      "url": "https://api.github.com/repos/Jakeschincariol/claude-illegal-codes/git/trees/8dd3a446f5578bff106ab48a1d684abf5d3733f0"
+    },
+    {
+      "path": "67/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd0a7b8743f5f213930a7c484649edd8a8bd6d6b",
+      "size": 2566,
+      "url": "https://api.github.com/repos/Jakeschincariol/claude-illegal-codes/git/blobs/bd0a7b8743f5f213930a7c484649edd8a8bd6d6b"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac31f09aba721de8d139c7bef3d5024421426472",
+      "size": 1073,
+      "url": "https://api.github.com/repos/Jakeschincariol/claude-illegal-codes/git/blobs/ac31f09aba721de8d139c7bef3d5024421426472"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "168a80fb5bc78a87f75c650727fa3c456a6b436d",
+      "size": 2367,
+      "url": "https://api.github.com/repos/Jakeschincariol/claude-illegal-codes/git/blobs/168a80fb5bc78a87f75c650727fa3c456a6b436d"
+    },
+    {
+      "path": "aura-farming",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b94a084c4d830be8d5e22e23785adc44638eb966",
+      "url": "https://api.github.com/repos/Jakeschincariol/claude-illegal-codes/git/trees/b94a084c4d830be8d5e22e23785adc44638eb966"
+    },
+    {
+      "path": "aura-farming/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bdc8a0d1b420ca3d6d19e8a07a24ccf6b617c29",
+      "size": 2563,
+      "url": "https://api.github.com/repos/Jakeschincariol/claude-illegal-codes/git/blobs/9bdc8a0d1b420ca3d6d19e8a07a24ccf6b617c29"
+    },
+    {
+      "path": "china-maxing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8cfc4f747828c52df26e27de3e1db969408ecf5b",
+      "url": "https://api.github.com/repos/Jakeschincariol/claude-illegal-codes/git/trees/8cfc4f747828c52df26e27de3e1db969408ecf5b"
+    },
+    {
+      "path": "china-maxing/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb5ec97a726c07ca76c55a036e86964c39ecea06",
+      "size": 2007,
+      "url": "https://api.github.com/repos/Jakeschincariol/claude-illegal-codes/git/blobs/cb5ec97a726c07ca76c55a036e86964c39ecea06"
+    },
+    {
+      "path": "crash-out",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c1c93f47d7560dad7209389a9742aad5aeb26596",
+      "url": "https://api.github.com/repos/Jakeschincariol/claude-illegal-codes/git/trees/c1c93f47d7560dad7209389a9742aad5aeb26596"
+    },
+    {
+      "path": "crash-out/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01b1d870872b86e097d27399bba7fa12ad81af30",
+      "size": 1907,
+      "url": "https://api.github.com/repos/Jakeschincariol/claude-illegal-codes/git/blobs/01b1d870872b86e097d27399bba7fa12ad81af30"
+    },
+    {
+      "path": "larp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "096ff458122bcfd29a562b9615466cc2353e327e",
+      "url": "https://api.github.com/repos/Jakeschincariol/claude-illegal-codes/git/trees/096ff458122bcfd29a562b9615466cc2353e327e"
+    },
+    {
+      "path": "larp/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b2443a30dfa3912a477a3b84881efac8a51d911",
+      "size": 2412,
+      "url": "https://api.github.com/repos/Jakeschincariol/claude-illegal-codes/git/blobs/5b2443a30dfa3912a477a3b84881efac8a51d911"
+    }
+  ],
+  "truncated": false
+}

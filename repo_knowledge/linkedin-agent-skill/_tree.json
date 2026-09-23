@@ -1,0 +1,281 @@
+{
+  "sha": "add2c23882fe79180737d242ff80a5da205eda6a",
+  "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/trees/add2c23882fe79180737d242ff80a5da205eda6a",
+  "tree": [
+    {
+      "path": ".claude-plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c8c84f78d3f6239b1fa385aa7c5860f15f3fe0ad",
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/trees/c8c84f78d3f6239b1fa385aa7c5860f15f3fe0ad"
+    },
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b181c9a7b6d8b830a4150f9ac6435a706d1b74c",
+      "size": 603,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/4b181c9a7b6d8b830a4150f9ac6435a706d1b74c"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3414e31bbd2d0a2cdb92d5d55f98f1606b651297",
+      "size": 656,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/3414e31bbd2d0a2cdb92d5d55f98f1606b651297"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b0e230ead6088cacdb2f118f36a41827d733e37",
+      "size": 42,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/4b0e230ead6088cacdb2f118f36a41827d733e37"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac31f09aba721de8d139c7bef3d5024421426472",
+      "size": 1073,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/ac31f09aba721de8d139c7bef3d5024421426472"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07e49432aea34ebab7721c88c2845dcfa0328bc0",
+      "size": 8103,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/07e49432aea34ebab7721c88c2845dcfa0328bc0"
+    },
+    {
+      "path": "skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a53771b2a54070f962eac8c2cc41d82751dff94",
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/trees/7a53771b2a54070f962eac8c2cc41d82751dff94"
+    },
+    {
+      "path": "skills/li-audit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "39cefa48e0d036f1529f45cf4960978768d841f3",
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/trees/39cefa48e0d036f1529f45cf4960978768d841f3"
+    },
+    {
+      "path": "skills/li-audit/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b57a54dedbd00d7b84dc7d34ca41abe93d142bf",
+      "size": 3417,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/7b57a54dedbd00d7b84dc7d34ca41abe93d142bf"
+    },
+    {
+      "path": "skills/li-carousel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b89fb53472438e78cde90fa5405c692582c4e8cd",
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/trees/b89fb53472438e78cde90fa5405c692582c4e8cd"
+    },
+    {
+      "path": "skills/li-carousel/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c204f52499b5956c8f0faf6c4ee548897df810b4",
+      "size": 2860,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/c204f52499b5956c8f0faf6c4ee548897df810b4"
+    },
+    {
+      "path": "skills/li-comment",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "940f036932349e11bbcd5004c942ff322d68393d",
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/trees/940f036932349e11bbcd5004c942ff322d68393d"
+    },
+    {
+      "path": "skills/li-comment/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14f1b9971c064c6f223a3b46c15ae0bee499c960",
+      "size": 4160,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/14f1b9971c064c6f223a3b46c15ae0bee499c960"
+    },
+    {
+      "path": "skills/li-dm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e3be55c71abc3d20a4a34c2bbe698de9d537ce36",
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/trees/e3be55c71abc3d20a4a34c2bbe698de9d537ce36"
+    },
+    {
+      "path": "skills/li-dm/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d11b2fb92ad512cf52b78e492299a1b0c617877",
+      "size": 3117,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/7d11b2fb92ad512cf52b78e492299a1b0c617877"
+    },
+    {
+      "path": "skills/li-human",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "581d82d2faa194888b66d5691e37494b74707d6b",
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/trees/581d82d2faa194888b66d5691e37494b74707d6b"
+    },
+    {
+      "path": "skills/li-human/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deb77798583834077af4b29154cdf35b0438af85",
+      "size": 4522,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/deb77798583834077af4b29154cdf35b0438af85"
+    },
+    {
+      "path": "skills/li-human/detect.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bd306abed7dccd428768b98072c8a7e200e359ae",
+      "size": 8526,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/bd306abed7dccd428768b98072c8a7e200e359ae"
+    },
+    {
+      "path": "skills/li-human/humanize.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "415d2f496380114e06a7f9beeb0531f10a752234",
+      "size": 9460,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/415d2f496380114e06a7f9beeb0531f10a752234"
+    },
+    {
+      "path": "skills/li-human/slop.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb7e6c4b938a1adbc855bc0c90b088765a4f0d49",
+      "size": 15874,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/cb7e6c4b938a1adbc855bc0c90b088765a4f0d49"
+    },
+    {
+      "path": "skills/li-inbox",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7cdc1f192ec218cffabe8370dc034f49d1c66c81",
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/trees/7cdc1f192ec218cffabe8370dc034f49d1c66c81"
+    },
+    {
+      "path": "skills/li-inbox/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84cfad2a67d38cd2b52eb23f4c192a880fa809fa",
+      "size": 2892,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/84cfad2a67d38cd2b52eb23f4c192a880fa809fa"
+    },
+    {
+      "path": "skills/li-plan",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "40803791d5aaea283bc93ed1185337b519f4ca08",
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/trees/40803791d5aaea283bc93ed1185337b519f4ca08"
+    },
+    {
+      "path": "skills/li-plan/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b66afd7feaa7955a40d03ebf5329a93b8c59492a",
+      "size": 3617,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/b66afd7feaa7955a40d03ebf5329a93b8c59492a"
+    },
+    {
+      "path": "skills/li-post",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "97da2bf2cdeac732b2095e07d03e38425c8bcf6a",
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/trees/97da2bf2cdeac732b2095e07d03e38425c8bcf6a"
+    },
+    {
+      "path": "skills/li-post/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6dd9bed51cb8196483820184b5736f251e77d25",
+      "size": 4336,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/c6dd9bed51cb8196483820184b5736f251e77d25"
+    },
+    {
+      "path": "skills/li-post/hooks.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaab5b45fc8cad9aa601a2593b1fa15d16a5324b",
+      "size": 9414,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/eaab5b45fc8cad9aa601a2593b1fa15d16a5324b"
+    },
+    {
+      "path": "skills/li-profile",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9ad66982b650a84054658f22317d556a15b527e0",
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/trees/9ad66982b650a84054658f22317d556a15b527e0"
+    },
+    {
+      "path": "skills/li-profile/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "515e17918651c13cf1b83c3c0106b4e16d6d12fa",
+      "size": 3271,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/515e17918651c13cf1b83c3c0106b4e16d6d12fa"
+    },
+    {
+      "path": "skills/li-profile/rubric.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77320c03452b7d13b2781e871c383ca361f0d515",
+      "size": 2462,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/77320c03452b7d13b2781e871c383ca361f0d515"
+    },
+    {
+      "path": "skills/li-reply",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d4c8eeaebfeb03636ace34e1307650b442a15d3a",
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/trees/d4c8eeaebfeb03636ace34e1307650b442a15d3a"
+    },
+    {
+      "path": "skills/li-reply/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a740baf525b7f51ca1c01e7e8c8c5e067b5c5cc7",
+      "size": 3016,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/a740baf525b7f51ca1c01e7e8c8c5e067b5c5cc7"
+    },
+    {
+      "path": "skills/li-repurpose",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "13fb53411ab3c59c3fb992f840a26face16dd868",
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/trees/13fb53411ab3c59c3fb992f840a26face16dd868"
+    },
+    {
+      "path": "skills/li-repurpose/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92815a3735df47334319633f54cb53f01e8a6120",
+      "size": 2720,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/92815a3735df47334319633f54cb53f01e8a6120"
+    },
+    {
+      "path": "templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c73a6581620fc06beffe5a394bc9ce870b78a01",
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/trees/6c73a6581620fc06beffe5a394bc9ce870b78a01"
+    },
+    {
+      "path": "templates/voice.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4553c06a6d0bb7738b432ebae6be16fe9d3a9e44",
+      "size": 1425,
+      "url": "https://api.github.com/repos/Jakeschincariol/linkedin-agent-skill/git/blobs/4553c06a6d0bb7738b432ebae6be16fe9d3a9e44"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,406 @@
+{
+  "sha": "8f60ec6d9e28e430849b57b5e21cbdfe9860df99",
+  "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/8f60ec6d9e28e430849b57b5e21cbdfe9860df99",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4886c250d7adabacc72b03ab7eadef92de2ad994",
+      "size": 40,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/4886c250d7adabacc72b03ab7eadef92de2ad994"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac31f09aba721de8d139c7bef3d5024421426472",
+      "size": 1073,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/ac31f09aba721de8d139c7bef3d5024421426472"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2540b08510b54c96e608cb7516e975a13921230",
+      "size": 4136,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/f2540b08510b54c96e608cb7516e975a13921230"
+    },
+    {
+      "path": "apollo-13",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cb7234345e1ad2d2c64f6eaba7473a99acca5029",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/cb7234345e1ad2d2c64f6eaba7473a99acca5029"
+    },
+    {
+      "path": "apollo-13/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c8cfdff3e91ca69815b9623a382c6cf7f93c019",
+      "size": 1631,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/9c8cfdff3e91ca69815b9623a382c6cf7f93c019"
+    },
+    {
+      "path": "autopilot-chaos",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f785f86d7ded7cc44590e7c78a04ffe34a5b7c20",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/f785f86d7ded7cc44590e7c78a04ffe34a5b7c20"
+    },
+    {
+      "path": "autopilot-chaos/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "285c277f3fbcc6eaefb5c88e8a1b2dd633e455c2",
+      "size": 1483,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/285c277f3fbcc6eaefb5c88e8a1b2dd633e455c2"
+    },
+    {
+      "path": "basement-hacker",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2e3414ceb628ac2052c1ee6d686a6e8e178a9f07",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/2e3414ceb628ac2052c1ee6d686a6e8e178a9f07"
+    },
+    {
+      "path": "basement-hacker/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2eb34b69023d1a4fff81ad2a08fde60a556f89ad",
+      "size": 1481,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/2eb34b69023d1a4fff81ad2a08fde60a556f89ad"
+    },
+    {
+      "path": "caffeine-overdose",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e4cc72322ef471bfd152b5392cd75f5f059fd96",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/8e4cc72322ef471bfd152b5392cd75f5f059fd96"
+    },
+    {
+      "path": "caffeine-overdose/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "770d060ca5a803788035683a80b404ce81f8e3e6",
+      "size": 1463,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/770d060ca5a803788035683a80b404ce81f8e3e6"
+    },
+    {
+      "path": "chinese-grandpa",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "88726a806486079b01bf9a08451f3d3004cb4785",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/88726a806486079b01bf9a08451f3d3004cb4785"
+    },
+    {
+      "path": "chinese-grandpa/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a353759d201eff46a179121bc5bd94c33a609a4",
+      "size": 2051,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/6a353759d201eff46a179121bc5bd94c33a609a4"
+    },
+    {
+      "path": "cowboy-coder",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c4f579a8dc77845cd8f762adb8a4f42403a48ba8",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/c4f579a8dc77845cd8f762adb8a4f42403a48ba8"
+    },
+    {
+      "path": "cowboy-coder/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "066f3369b9a100c648519ba1765c0c423ae149ae",
+      "size": 1521,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/066f3369b9a100c648519ba1765c0c423ae149ae"
+    },
+    {
+      "path": "crackhead-energy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "900de57370af79a35faf865ccce5c53f92f01587",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/900de57370af79a35faf865ccce5c53f92f01587"
+    },
+    {
+      "path": "crackhead-energy/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b2f97f4ffde254aabba40418e0187b9ac5c4e91",
+      "size": 1366,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/0b2f97f4ffde254aabba40418e0187b9ac5c4e91"
+    },
+    {
+      "path": "divorced-dad",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0da7a6cdb01900f35baf17100795dde289ae42d0",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/0da7a6cdb01900f35baf17100795dde289ae42d0"
+    },
+    {
+      "path": "divorced-dad/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55fcb67af24c690af0045335276cb895b8ab3d7b",
+      "size": 1520,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/55fcb67af24c690af0045335276cb895b8ab3d7b"
+    },
+    {
+      "path": "duct-tape-dev",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "82024f359a8c1c4b84485f58a3a046ea52fd0757",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/82024f359a8c1c4b84485f58a3a046ea52fd0757"
+    },
+    {
+      "path": "duct-tape-dev/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93eaf979923e65693ddeb7b166a51df01cab093e",
+      "size": 1374,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/93eaf979923e65693ddeb7b166a51df01cab093e"
+    },
+    {
+      "path": "feral-goblin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8c46809ec4f941157f8bff7362949c97439854b6",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/8c46809ec4f941157f8bff7362949c97439854b6"
+    },
+    {
+      "path": "feral-goblin/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd0ae4ef685302b4a398bf172a5061603c2be3fc",
+      "size": 1318,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/dd0ae4ef685302b4a398bf172a5061603c2be3fc"
+    },
+    {
+      "path": "gas-station-genius",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21bfda19d1b790a51239748a43fd0533f69e7ae2",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/21bfda19d1b790a51239748a43fd0533f69e7ae2"
+    },
+    {
+      "path": "gas-station-genius/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1c4f755d9dca1903383a64f17b601b49936f045",
+      "size": 1532,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/c1c4f755d9dca1903383a64f17b601b49936f045"
+    },
+    {
+      "path": "goblin-mode",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2913530e5f1b233f7c0fdb9e017338141bb48425",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/2913530e5f1b233f7c0fdb9e017338141bb48425"
+    },
+    {
+      "path": "goblin-mode/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5d29d9e77c2b71abc4c82f1384cfced558f289c",
+      "size": 1414,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/d5d29d9e77c2b71abc4c82f1384cfced558f289c"
+    },
+    {
+      "path": "keyboard-gremlin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "61038725c1f44727adaf40ca5f2dbf28074c7a58",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/61038725c1f44727adaf40ca5f2dbf28074c7a58"
+    },
+    {
+      "path": "keyboard-gremlin/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edfc0b4d4903a0ac1f1732bf9ffef5d938760c66",
+      "size": 1431,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/edfc0b4d4903a0ac1f1732bf9ffef5d938760c66"
+    },
+    {
+      "path": "macgyver",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "273bbf72dd36f64bce5bc0839f0d94f46800e78f",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/273bbf72dd36f64bce5bc0839f0d94f46800e78f"
+    },
+    {
+      "path": "macgyver/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aab58cd141cf1379f12f4eea95b1cbef8fcd70bc",
+      "size": 1632,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/aab58cd141cf1379f12f4eea95b1cbef8fcd70bc"
+    },
+    {
+      "path": "meth-lab",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1fbd32131e8375a87d091c956c222f4ff8cc237f",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/1fbd32131e8375a87d091c956c222f4ff8cc237f"
+    },
+    {
+      "path": "meth-lab/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fd7362299e4b82b7f8cfd4019ca2c37bfa21194",
+      "size": 1652,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/6fd7362299e4b82b7f8cfd4019ca2c37bfa21194"
+    },
+    {
+      "path": "panic-mode",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3f676da115ba5b9a2d10718e32c1227b842b64f5",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/3f676da115ba5b9a2d10718e32c1227b842b64f5"
+    },
+    {
+      "path": "panic-mode/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2f766bb6b449701307b68e8093c77c070c6a45b",
+      "size": 1543,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/c2f766bb6b449701307b68e8093c77c070c6a45b"
+    },
+    {
+      "path": "questionable-engineering",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6421f4636283b7e1f8963cb056794f28db283795",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/6421f4636283b7e1f8963cb056794f28db283795"
+    },
+    {
+      "path": "questionable-engineering/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d5165a62af7578e4663a2cd89aebf9055775b2e",
+      "size": 1594,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/8d5165a62af7578e4663a2cd89aebf9055775b2e"
+    },
+    {
+      "path": "rage-compile",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c77f01bce086f7b80053ec2605ab89807bfad2c7",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/c77f01bce086f7b80053ec2605ab89807bfad2c7"
+    },
+    {
+      "path": "rage-compile/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2391593b5d2e78f28c2317f29da0365fb38a6345",
+      "size": 1462,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/2391593b5d2e78f28c2317f29da0365fb38a6345"
+    },
+    {
+      "path": "redneck-engineer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "71cce3fefcc9b98fcc8ebc7c86c6d5d8a2d776ea",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/71cce3fefcc9b98fcc8ebc7c86c6d5d8a2d776ea"
+    },
+    {
+      "path": "redneck-engineer/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c3ad2e63e4e828650452535d6a1a491fe8db5d7",
+      "size": 1597,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/6c3ad2e63e4e828650452535d6a1a491fe8db5d7"
+    },
+    {
+      "path": "schizotech",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7fbe4523059e05fe8dd6145e9a81c827f4f575cf",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/7fbe4523059e05fe8dd6145e9a81c827f4f575cf"
+    },
+    {
+      "path": "schizotech/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4e836403e002c35ab07695e528bbb8b3404ea9d",
+      "size": 1576,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/b4e836403e002c35ab07695e528bbb8b3404ea9d"
+    },
+    {
+      "path": "sleep-deprived-founder",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "94a9fde832bf88dfcfc594a1b3d060e85371dac0",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/94a9fde832bf88dfcfc594a1b3d060e85371dac0"
+    },
+    {
+      "path": "sleep-deprived-founder/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e51d07b50ba4f5fb075b391797f435510ec3c770",
+      "size": 1503,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/e51d07b50ba4f5fb075b391797f435510ec3c770"
+    },
+    {
+      "path": "speedrun",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3abdacd42ca6f518a59d51bab1d530ce0e85a596",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/3abdacd42ca6f518a59d51bab1d530ce0e85a596"
+    },
+    {
+      "path": "speedrun/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15b40eb651422534c61e53b2c9910cb9ffc48c23",
+      "size": 1373,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/15b40eb651422534c61e53b2c9910cb9ffc48c23"
+    },
+    {
+      "path": "tax-fraud",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "850bbe73f884738eb95fe5b0d2ef19eb2f28ee8e",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/850bbe73f884738eb95fe5b0d2ef19eb2f28ee8e"
+    },
+    {
+      "path": "tax-fraud/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77a1daf7f5218c3da81bf75c9da28817afb120f0",
+      "size": 1507,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/77a1daf7f5218c3da81bf75c9da28817afb120f0"
+    },
+    {
+      "path": "weaponized-autism",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ffdf8d5df5268dbc1db80a1bb273085c88b4ef16",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/ffdf8d5df5268dbc1db80a1bb273085c88b4ef16"
+    },
+    {
+      "path": "weaponized-autism/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72ccac3b3946ea027a720b7cfb93181eb72550bd",
+      "size": 1816,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/72ccac3b3946ea027a720b7cfb93181eb72550bd"
+    },
+    {
+      "path": "zero-sleep",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "52d678076631876ff7c53ff6ded345cc1e64163a",
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/trees/52d678076631876ff7c53ff6ded345cc1e64163a"
+    },
+    {
+      "path": "zero-sleep/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ef274c8ad89dc8e6fff053fd2b1d1fffd5a488a",
+      "size": 1588,
+      "url": "https://api.github.com/repos/Jakeschincariol/unhinged-claude-skills/git/blobs/8ef274c8ad89dc8e6fff053fd2b1d1fffd5a488a"
+    }
+  ],
+  "truncated": false
+}

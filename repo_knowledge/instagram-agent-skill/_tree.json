@@ -1,0 +1,343 @@
+{
+  "sha": "d03c56bb598be770c60b201f94237e5d1a4268a6",
+  "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/trees/d03c56bb598be770c60b201f94237e5d1a4268a6",
+  "tree": [
+    {
+      "path": ".claude-plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e7d6df4f3e86712c776c1354aad708c0069912f8",
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/trees/e7d6df4f3e86712c776c1354aad708c0069912f8"
+    },
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "412e40151c8edbac1a70cc6cf5d840f4d458a939",
+      "size": 622,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/412e40151c8edbac1a70cc6cf5d840f4d458a939"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48791a9fbff297ce6bf0a050e840046b05bad769",
+      "size": 848,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/48791a9fbff297ce6bf0a050e840046b05bad769"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b0e230ead6088cacdb2f118f36a41827d733e37",
+      "size": 42,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/4b0e230ead6088cacdb2f118f36a41827d733e37"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac31f09aba721de8d139c7bef3d5024421426472",
+      "size": 1073,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/ac31f09aba721de8d139c7bef3d5024421426472"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26a4630274fb05cf5e0206d3fbc64bee655d4210",
+      "size": 16346,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/26a4630274fb05cf5e0206d3fbc64bee655d4210"
+    },
+    {
+      "path": "skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb55209bd8d668c25d0830a130ef7043c3775289",
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/trees/bb55209bd8d668c25d0830a130ef7043c3775289"
+    },
+    {
+      "path": "skills/ig-audit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6304a09719b1fb394d37555fe9aed013581a1194",
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/trees/6304a09719b1fb394d37555fe9aed013581a1194"
+    },
+    {
+      "path": "skills/ig-audit/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bc2de35751896ee2a1a5a1c8b708130a46f1b51",
+      "size": 4556,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/5bc2de35751896ee2a1a5a1c8b708130a46f1b51"
+    },
+    {
+      "path": "skills/ig-caption",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7b9b53b806c34c5c85b197fa9586e1b2b157f4da",
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/trees/7b9b53b806c34c5c85b197fa9586e1b2b157f4da"
+    },
+    {
+      "path": "skills/ig-caption/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f8cc931d304d7ff58cf3702039259274879cbb6",
+      "size": 4628,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/5f8cc931d304d7ff58cf3702039259274879cbb6"
+    },
+    {
+      "path": "skills/ig-caption/caption.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b53780779f08461260502172ed2e45ad7bc6998f",
+      "size": 9694,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/b53780779f08461260502172ed2e45ad7bc6998f"
+    },
+    {
+      "path": "skills/ig-carousel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "787462b0fedbccd08007fbdb7776f1e9c67e3d72",
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/trees/787462b0fedbccd08007fbdb7776f1e9c67e3d72"
+    },
+    {
+      "path": "skills/ig-carousel/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4cba2342048bf220fbe37b55c0a4da4388898da",
+      "size": 4090,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/e4cba2342048bf220fbe37b55c0a4da4388898da"
+    },
+    {
+      "path": "skills/ig-comment",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "383c4a668dedea0f10f12afc0156974a16302d6f",
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/trees/383c4a668dedea0f10f12afc0156974a16302d6f"
+    },
+    {
+      "path": "skills/ig-comment/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54ee4a95bf182f7fc498b55add9f0c832fa80a32",
+      "size": 4304,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/54ee4a95bf182f7fc498b55add9f0c832fa80a32"
+    },
+    {
+      "path": "skills/ig-dm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3d77e96a349fe445d1b4238f7eadf217f0cd409",
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/trees/a3d77e96a349fe445d1b4238f7eadf217f0cd409"
+    },
+    {
+      "path": "skills/ig-dm/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d50b08fb87ea83fce94cd63dd466de9a1642326",
+      "size": 4682,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/3d50b08fb87ea83fce94cd63dd466de9a1642326"
+    },
+    {
+      "path": "skills/ig-human",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a220acafa30c12af7ae616bdcd684c5b161b0eb",
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/trees/7a220acafa30c12af7ae616bdcd684c5b161b0eb"
+    },
+    {
+      "path": "skills/ig-human/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4afd5ce2c09d54c53abf62e50fc6b57f8d1f23fc",
+      "size": 5242,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/4afd5ce2c09d54c53abf62e50fc6b57f8d1f23fc"
+    },
+    {
+      "path": "skills/ig-human/detect.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bd306abed7dccd428768b98072c8a7e200e359ae",
+      "size": 8526,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/bd306abed7dccd428768b98072c8a7e200e359ae"
+    },
+    {
+      "path": "skills/ig-human/humanize.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "897e28c95c68c89be171ef4e3d5ce160510aab0f",
+      "size": 10909,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/897e28c95c68c89be171ef4e3d5ce160510aab0f"
+    },
+    {
+      "path": "skills/ig-human/slop.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c691191a98892c19cd5fb69aa7fbbf861ff0853e",
+      "size": 21632,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/c691191a98892c19cd5fb69aa7fbbf861ff0853e"
+    },
+    {
+      "path": "skills/ig-plan",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0a41fa65112dd81748f88b4f94a2e265b7a37848",
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/trees/0a41fa65112dd81748f88b4f94a2e265b7a37848"
+    },
+    {
+      "path": "skills/ig-plan/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19ee7cf3c3f04e54841b51ae2fe15395b9c9df5d",
+      "size": 3916,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/19ee7cf3c3f04e54841b51ae2fe15395b9c9df5d"
+    },
+    {
+      "path": "skills/ig-profile",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e0d7de338f7af8a993fba68bfd724168566b24b9",
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/trees/e0d7de338f7af8a993fba68bfd724168566b24b9"
+    },
+    {
+      "path": "skills/ig-profile/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f02b5b99fbafcbd7a454f0a6a701091329bd675",
+      "size": 3407,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/9f02b5b99fbafcbd7a454f0a6a701091329bd675"
+    },
+    {
+      "path": "skills/ig-profile/rubric.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e920392932fd7eea893f433d140d9dbf3873ba01",
+      "size": 4152,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/e920392932fd7eea893f433d140d9dbf3873ba01"
+    },
+    {
+      "path": "skills/ig-reel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c8e9e7c114cd480647034b8f405999c238bd2dc0",
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/trees/c8e9e7c114cd480647034b8f405999c238bd2dc0"
+    },
+    {
+      "path": "skills/ig-reel/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43aee7ce0abe5f181dc6fde5af271825c936600c",
+      "size": 6547,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/43aee7ce0abe5f181dc6fde5af271825c936600c"
+    },
+    {
+      "path": "skills/ig-reel/beats.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7f2db6a0af656075c571a77b405b06b2857ad021",
+      "size": 8223,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/7f2db6a0af656075c571a77b405b06b2857ad021"
+    },
+    {
+      "path": "skills/ig-reel/hooks.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "922884029dbd0c885cb7f8e90b885d2e03215a01",
+      "size": 17897,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/922884029dbd0c885cb7f8e90b885d2e03215a01"
+    },
+    {
+      "path": "skills/ig-reel/hookscore.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c5299c59687070dc9b22561dcf3842908f204d96",
+      "size": 12814,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/c5299c59687070dc9b22561dcf3842908f204d96"
+    },
+    {
+      "path": "skills/ig-reply",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "52ee041189b94b56fcd7088e086a2f4e00803a6e",
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/trees/52ee041189b94b56fcd7088e086a2f4e00803a6e"
+    },
+    {
+      "path": "skills/ig-reply/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82deff73cbe2f115b2e8a30ee77b901e5679828f",
+      "size": 3991,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/82deff73cbe2f115b2e8a30ee77b901e5679828f"
+    },
+    {
+      "path": "skills/ig-repurpose",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d542f8d19b75456afe2b702764c5b94970c9d4d8",
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/trees/d542f8d19b75456afe2b702764c5b94970c9d4d8"
+    },
+    {
+      "path": "skills/ig-repurpose/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f83d69a0e94cc632837fcd8fa7ce5751f9a37514",
+      "size": 3411,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/f83d69a0e94cc632837fcd8fa7ce5751f9a37514"
+    },
+    {
+      "path": "skills/ig-story",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bed2a68c137d5edd9d923d526fe128442a33277b",
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/trees/bed2a68c137d5edd9d923d526fe128442a33277b"
+    },
+    {
+      "path": "skills/ig-story/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6b3b55bddfd17490b7c87ac098818f1fd9a1001",
+      "size": 4369,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/c6b3b55bddfd17490b7c87ac098818f1fd9a1001"
+    },
+    {
+      "path": "skills/ig-viral",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1047d0ba5376623842e09cc9085446b55aa17544",
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/trees/1047d0ba5376623842e09cc9085446b55aa17544"
+    },
+    {
+      "path": "skills/ig-viral/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "274af157563ebaba98f6f066d322dfcf8c27beb5",
+      "size": 7004,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/274af157563ebaba98f6f066d322dfcf8c27beb5"
+    },
+    {
+      "path": "skills/ig-viral/swipe.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fa2c5fa631b0978b47addf695a35633cfa6efda2",
+      "size": 8396,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/fa2c5fa631b0978b47addf695a35633cfa6efda2"
+    },
+    {
+      "path": "templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0a6ed539450171ebfd37b3e3b6daa10a53449c7c",
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/trees/0a6ed539450171ebfd37b3e3b6daa10a53449c7c"
+    },
+    {
+      "path": "templates/voice.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cb2d7d085c1172df441daba5c1ed41125999d41",
+      "size": 1961,
+      "url": "https://api.github.com/repos/Jakeschincariol/instagram-agent-skill/git/blobs/6cb2d7d085c1172df441daba5c1ed41125999d41"
+    }
+  ],
+  "truncated": false
+}

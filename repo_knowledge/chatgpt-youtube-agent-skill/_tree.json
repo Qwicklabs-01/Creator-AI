@@ -1,0 +1,274 @@
+{
+  "sha": "6314d3c17dfa1e596096654204e8a09e28cdfd74",
+  "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/trees/6314d3c17dfa1e596096654204e8a09e28cdfd74",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b908d4cbe37ccea3388a2f308595ae63a255755d",
+      "size": 29,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/b908d4cbe37ccea3388a2f308595ae63a255755d"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac31f09aba721de8d139c7bef3d5024421426472",
+      "size": 1073,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/ac31f09aba721de8d139c7bef3d5024421426472"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc0e13d6a7ae19113d5c9b2be74c9a782782268d",
+      "size": 2386,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/dc0e13d6a7ae19113d5c9b2be74c9a782782268d"
+    },
+    {
+      "path": "skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a48601a5e155781e795abe8b191d1e30513becf",
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/trees/7a48601a5e155781e795abe8b191d1e30513becf"
+    },
+    {
+      "path": "skills/yt-audit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d868b8cf2658a7061d930ee532b75743e0935785",
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/trees/d868b8cf2658a7061d930ee532b75743e0935785"
+    },
+    {
+      "path": "skills/yt-audit/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca68617c283dc57707ce69dcd6a544f0ba2b040f",
+      "size": 2326,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/ca68617c283dc57707ce69dcd6a544f0ba2b040f"
+    },
+    {
+      "path": "skills/yt-chapters",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ad8fb406c1d69adea1c8e6772055559b1149b15f",
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/trees/ad8fb406c1d69adea1c8e6772055559b1149b15f"
+    },
+    {
+      "path": "skills/yt-chapters/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d27cbeb65cb475381caa5754bbaa52554d56ee22",
+      "size": 1380,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/d27cbeb65cb475381caa5754bbaa52554d56ee22"
+    },
+    {
+      "path": "skills/yt-chapters/chapters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a86ec660720c238a9d72a11b2801c5585fe3dc0",
+      "size": 3744,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/2a86ec660720c238a9d72a11b2801c5585fe3dc0"
+    },
+    {
+      "path": "skills/yt-comment",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dacbffdf44cd7fb47fb00fadf8e0efa4865c941e",
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/trees/dacbffdf44cd7fb47fb00fadf8e0efa4865c941e"
+    },
+    {
+      "path": "skills/yt-comment/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c3dca2df9493c05474d1d0ef6154790cbdc59ed",
+      "size": 2303,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/4c3dca2df9493c05474d1d0ef6154790cbdc59ed"
+    },
+    {
+      "path": "skills/yt-edit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "793554c7f06f141e4c1088e9718f0b06046e63d0",
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/trees/793554c7f06f141e4c1088e9718f0b06046e63d0"
+    },
+    {
+      "path": "skills/yt-edit/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31da6f9d59f1aa354af4a0a9c21b108d76fd2e5c",
+      "size": 1639,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/31da6f9d59f1aa354af4a0a9c21b108d76fd2e5c"
+    },
+    {
+      "path": "skills/yt-edit/deadair.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dde0c9886aa412d7368fd3c964d883699c2d142a",
+      "size": 4244,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/dde0c9886aa412d7368fd3c964d883699c2d142a"
+    },
+    {
+      "path": "skills/yt-package",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "184d60e494d9f249b5fe5caf0a8b34f93eb05514",
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/trees/184d60e494d9f249b5fe5caf0a8b34f93eb05514"
+    },
+    {
+      "path": "skills/yt-package/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4527bd5efd487495a814d8b3d5a69241b2015399",
+      "size": 2302,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/4527bd5efd487495a814d8b3d5a69241b2015399"
+    },
+    {
+      "path": "skills/yt-package/title.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cbb8169f0f8f171bfe2bd0743c868ce341fea37",
+      "size": 4080,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/7cbb8169f0f8f171bfe2bd0743c868ce341fea37"
+    },
+    {
+      "path": "skills/yt-plan",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a03eb5180080877d0bdac71d69453bd6b16f848c",
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/trees/a03eb5180080877d0bdac71d69453bd6b16f848c"
+    },
+    {
+      "path": "skills/yt-plan/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4402b6970232af8b3aa9b28edd223ac605fa006",
+      "size": 2096,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/e4402b6970232af8b3aa9b28edd223ac605fa006"
+    },
+    {
+      "path": "skills/yt-retention",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b179d37b3b4c5a5937edb5bfa2fd7f9d85be62d3",
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/trees/b179d37b3b4c5a5937edb5bfa2fd7f9d85be62d3"
+    },
+    {
+      "path": "skills/yt-retention/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1a51f495acebd82e73a9078ee8ec6cfa485da12",
+      "size": 1696,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/e1a51f495acebd82e73a9078ee8ec6cfa485da12"
+    },
+    {
+      "path": "skills/yt-retention/retention.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7df80972b3a90e638dead0df7288aa777778226",
+      "size": 4666,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/a7df80972b3a90e638dead0df7288aa777778226"
+    },
+    {
+      "path": "skills/yt-script",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d72dddb62aeab3bf9ed4a91093775d0acaed9409",
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/trees/d72dddb62aeab3bf9ed4a91093775d0acaed9409"
+    },
+    {
+      "path": "skills/yt-script/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b26481700576562bf9de25652773ba74760ae22",
+      "size": 2684,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/9b26481700576562bf9de25652773ba74760ae22"
+    },
+    {
+      "path": "skills/yt-script/hooks.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b69eab6dcd6638ae0f4ec28140097f774cc79242",
+      "size": 9895,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/b69eab6dcd6638ae0f4ec28140097f774cc79242"
+    },
+    {
+      "path": "skills/yt-script/hookscore.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f65da556410e4e4418442f5eec41921fe7f53a2",
+      "size": 5703,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/2f65da556410e4e4418442f5eec41921fe7f53a2"
+    },
+    {
+      "path": "skills/yt-seo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9937c46f893f99dac8dd5ea7c32cf116713c41b1",
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/trees/9937c46f893f99dac8dd5ea7c32cf116713c41b1"
+    },
+    {
+      "path": "skills/yt-seo/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef102934f737108a6cf3e2c6e3267b0a5affb3f9",
+      "size": 2175,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/ef102934f737108a6cf3e2c6e3267b0a5affb3f9"
+    },
+    {
+      "path": "skills/yt-shorts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb6977165fe06b634df95e346a158246ac5dd4f0",
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/trees/bb6977165fe06b634df95e346a158246ac5dd4f0"
+    },
+    {
+      "path": "skills/yt-shorts/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "accbc27c38ba3c47a9a80a793aa7d0de080cb55a",
+      "size": 1516,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/accbc27c38ba3c47a9a80a793aa7d0de080cb55a"
+    },
+    {
+      "path": "skills/yt-viral",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "53010cec7b292e2da451e0681a1234105bee004c",
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/trees/53010cec7b292e2da451e0681a1234105bee004c"
+    },
+    {
+      "path": "skills/yt-viral/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4bbd0d8e185bc1af09778f0eb2ce0985ade96c3",
+      "size": 1748,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/b4bbd0d8e185bc1af09778f0eb2ce0985ade96c3"
+    },
+    {
+      "path": "skills/yt-viral/swipe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f84b72e742ab846270d79a79931dd25a86f4a62a",
+      "size": 3573,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/f84b72e742ab846270d79a79931dd25a86f4a62a"
+    },
+    {
+      "path": "templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a9ad0ee0efee20a5d3d88568116335fa9da68300",
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/trees/a9ad0ee0efee20a5d3d88568116335fa9da68300"
+    },
+    {
+      "path": "templates/voice.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0eea162de1feb1659571d8c988322341967b50b5",
+      "size": 1139,
+      "url": "https://api.github.com/repos/Jakeschincariol/chatgpt-youtube-agent-skill/git/blobs/0eea162de1feb1659571d8c988322341967b50b5"
+    }
+  ],
+  "truncated": false
+}

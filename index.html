@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creator — AI Content Engineering & Growth Bot</title>
+  <meta name="description" content="Creator is an AI content engineering system synthesizing all 68+ hook formulas, 35 PromptMaster waste patterns, anti-AI humanizer, and HyperFrames motion blueprints.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+  <div class="app-layout">
+    <!-- Mobile Overlay Backdrop -->
+    <div id="sidebarBackdrop" class="sidebar-backdrop"></div>
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar" id="appSidebar">
+      <div class="brand">
+        <div class="brand-top-row">
+          <div class="brand-badge">
+            <div class="pulse-dot"></div>
+            <span>AI BOT ACTIVE</span>
+          </div>
+          <button id="btnSidebarClose" class="sidebar-close-btn" aria-label="Close menu">✕</button>
+        </div>
+        <div class="brand-title-group">
+          <div class="logo-icon">⚡</div>
+          <div>
+            <h1 class="brand-name">CREATOR</h1>
+            <p class="brand-sub">Content Engineering Bot</p>
+          </div>
+        </div>
+        <div class="created-by-pill">
+          <span>✨ Created by Sakshi</span>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <div class="nav-section-label">ASSISTANT & STUDIOS</div>
+        <button class="nav-item active" data-tab="chat">
+          <span class="nav-icon">🤖</span>
+          <span class="nav-text">Creator AI Chat</span>
+          <span class="nav-pill">Live</span>
+        </button>
+        <button class="nav-item" data-tab="linkedin">
+          <span class="nav-icon">💼</span>
+          <span class="nav-text">LinkedIn Studio</span>
+          <span class="nav-badge">21 Hooks</span>
+        </button>
+        <button class="nav-item" data-tab="youtube">
+          <span class="nav-icon">🎥</span>
+          <span class="nav-text">YouTube Engine</span>
+          <span class="nav-badge">21 Hooks</span>
+        </button>
+        <button class="nav-item" data-tab="instagram">
+          <span class="nav-icon">📸</span>
+          <span class="nav-text">Instagram Reels</span>
+          <span class="nav-badge">26 Hooks</span>
+        </button>
+        <button class="nav-item" data-tab="promptmaster">
+          <span class="nav-icon">🧠</span>
+          <span class="nav-text">PromptMaster</span>
+          <span class="nav-badge">35 Rules</span>
+        </button>
+        <button class="nav-item" data-tab="humanizer">
+          <span class="nav-icon">🛡️</span>
+          <span class="nav-text">Anti-AI Humanizer</span>
+          <span class="nav-badge">Slop Zero</span>
+        </button>
+        <button class="nav-item" data-tab="singdia">
+          <span class="nav-icon">🎵</span>
+          <span class="nav-text">Music Studio</span>
+          <span class="nav-badge">12 Langs</span>
+        </button>
+        <button class="nav-item" data-tab="hyperframes">
+          <span class="nav-icon">🎬</span>
+          <span class="nav-text">HyperFrames Motion</span>
+          <span class="nav-badge">22 Blueprints</span>
+        </button>
+        <button class="nav-item" data-tab="unhinged">
+          <span class="nav-icon">⚡</span>
+          <span class="nav-text">Unhinged Modes</span>
+          <span class="nav-badge">25 Skills</span>
+        </button>
+        <button class="nav-item" data-tab="freellm">
+          <span class="nav-icon">⚡</span>
+          <span class="nav-text">FreeLLM Gateway</span>
+          <span class="nav-badge">34 APIs</span>
+        </button>
+        <button class="nav-item" data-tab="matrix">
+          <span class="nav-icon">📚</span>
+          <span class="nav-text">Knowledge Matrix</span>
+          <span class="nav-badge">All Data</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="intel-summary">
+          <div class="intel-stat">
+            <span class="intel-num">68</span>
+            <span class="intel-lbl">Hook Formulas</span>
+          </div>
+          <div class="intel-stat">
+            <span class="intel-num">35</span>
+            <span class="intel-lbl">Waste Patterns</span>
+          </div>
+          <div class="intel-stat">
+            <span class="intel-num">12</span>
+            <span class="intel-lbl">Music Langs</span>
+          </div>
+        </div>
+        <div class="author-attribution">
+          Created by <strong>Sakshi</strong> • Creator Ecosystem
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Top Header -->
+      <header class="top-bar">
+        <div class="top-bar-left">
+          <button id="btnMobileSidebarToggle" class="mobile-menu-btn" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="page-title-area">
+            <h2 id="currentTabTitle">Creator AI Chat Assistant</h2>
+            <p id="currentTabDesc">Autonomous content engineer loaded with 68+ hook formulas, anti-slop rules, and prompt optimization.</p>
+          </div>
+        </div>
+        <div class="header-actions">
+          <div class="author-badge-header">
+            <span class="sparkle-icon">👑</span>
+            <span>Created by <strong>Sakshi</strong></span>
+          </div>
+          <div class="status-chip desktop-only">
+            <span class="status-indicator"></span>
+            <span>Knowledge Synced</span>
+          </div>
+          <button id="btnExportAll" class="btn btn-secondary">
+            <span>📥 Export All</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- View Containers -->
+      <div class="views-wrapper">
+        
+        <!-- 1. CREATOR AI CHAT TAB -->
+        <section id="tab-chat" class="tab-view active">
+          <div class="chat-layout">
+            <div class="chat-sidebar">
+              <div class="card-header-compact">
+                <span class="card-tag">PERSONA SWITCHER</span>
+              </div>
+              <div class="persona-selector">
+                <label class="persona-option active" data-persona="standard">
+                  <input type="radio" name="persona" value="standard" checked>
+                  <div class="persona-info">
+                    <span class="persona-name">🌟 Master Creator</span>
+                    <span class="persona-desc">Balanced, high-retention viral strategist</span>
+                  </div>
+                </label>
+                <label class="persona-option" data-persona="unhinged">
+                  <input type="radio" name="persona" value="unhinged">
+                  <div class="persona-info">
+                    <span class="persona-name">⚡ /speedrun Agent</span>
+                    <span class="persona-desc">Zero preamble, 1-shot extreme throughput</span>
+                  </div>
+                </label>
+                <label class="persona-option" data-persona="slop-hunter">
+                  <input type="radio" name="persona" value="slop-hunter">
+                  <div class="persona-info">
+                    <span class="persona-name">🛡️ AI Slop Hunter</span>
+                    <span class="persona-desc">Ruthless anti-cliché & cadence purifier</span>
+                  </div>
+                </label>
+                <label class="persona-option" data-persona="promptmaster">
+                  <input type="radio" name="persona" value="promptmaster">
+                  <div class="persona-info">
+                    <span class="persona-name">🧠 Prompt Architect</span>
+                    <span class="persona-desc">Zero-token-waste compiler</span>
+                  </div>
+                </label>
+              </div>
+
+              <div class="quick-prompts-card">
+                <div class="card-header-compact">
+                  <span class="card-tag">ONE-CLICK PROMPTS</span>
+                </div>
+                <div class="quick-chips">
+                  <button class="chip-btn" data-prompt="Generate 3 high-tension LinkedIn hooks about AI automation with line 1 under 180 chars and line 2 payoff.">💼 3 Viral LinkedIn Hooks</button>
+                  <button class="chip-btn" data-prompt="Write a 60-second YouTube hook for a video titled 'Why 99% of Developers Fail with Claude'. Score it using weakest-link rubric.">🎥 YouTube Retention Hook</button>
+                  <button class="chip-btn" data-prompt="Create an Instagram Reel Dual-Hook (Spoken voiceover + On-screen text under 6 words) about productivity.">📸 IG Reel Dual-Hook</button>
+                  <button class="chip-btn" data-prompt="Audit my prompt: 'Write me an email for my clients about our new feature and make it good.' against all 35 waste patterns.">🧠 Audit PromptMaster</button>
+                  <button class="chip-btn" data-prompt="Give me a HyperFrames animation blueprint for a 3D kinetic UI demo with GSAP code.">🎬 Motion Blueprint Code</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="chat-main">
+              <div class="chat-messages" id="chatMessages">
+                <div class="message bot-message">
+                  <div class="message-avatar">⚡</div>
+                  <div class="message-body">
+                    <div class="message-header">
+                      <span class="message-sender">Creator</span>
+                      <span class="message-time">Just now</span>
+                    </div>
+                    <div class="message-content">
+                      <p><strong>I am Creator</strong> — your autonomous content engineering system built directly on Jake Schincariol's 68+ hook formulas, anti-slop rules, promptmaster audits, and HyperFrames video blueprints.</p>
+                      <p>How can I assist you right now?</p>
+                      <ul>
+                        <li>Generate & score viral hooks (LinkedIn, YouTube, IG Reels)</li>
+                        <li>Purge AI fingerprints and buzzwords from drafts</li>
+                        <li>Audit prompts against the 35 credit-waste patterns</li>
+                        <li>Structure 4-stage Reel beat sheets or long-form video scripts</li>
+                        <li>Generate HyperFrames motion design & GSAP code</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="chat-input-container">
+                <form id="chatForm" class="chat-form">
+                  <textarea id="chatInput" placeholder="Ask Creator to generate hooks, scripts, humanize text, or audit prompts..." rows="2"></textarea>
+                  <div class="chat-form-actions">
+                    <div class="char-counter"><span id="chatCharCount">0</span> chars</div>
+                    <button type="submit" class="btn btn-primary" id="btnSendChat">
+                      <span>Send to Creator</span>
+                      <span class="btn-icon">➤</span>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2. LINKEDIN STUDIO TAB -->
+        <section id="tab-linkedin" class="tab-view">
+          <div class="studio-grid">
+            <div class="studio-col">
+              <div class="glass-card">
+                <div class="card-header">
+                  <div class="card-title-group">
+                    <span class="card-icon">💼</span>
+                    <div>
+                      <h3 class="card-title">LinkedIn Post Hook Generator & Linter</h3>
+                      <p class="card-desc">Desktop truncation test (210 chars / 3 lines mobile) + 21 formulas</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="liTopic">Topic / Core Insight</label>
+                  <input type="text" id="liTopic" class="form-control" placeholder="e.g. Scaling an AI agency from $0 to $50k/mo">
+                </div>
+                <div class="form-group">
+                  <label for="liFormula">Select Hook Formula (21 Variations)</label>
+                  <select id="liFormula" class="form-control">
+                    <!-- Populated dynamically -->
+                  </select>
+                </div>
+                <div class="form-row">
+                  <button id="btnGenerateLiHook" class="btn btn-primary">⚡ Generate 3 Scored Hooks</button>
+                </div>
+
+                <div class="divider">OR TEST EXISTING DRAFT</div>
+
+                <div class="form-group">
+                  <label for="liDraftInput">Your LinkedIn Post Draft</label>
+                  <textarea id="liDraftInput" class="form-control" rows="5" placeholder="Paste your LinkedIn hook and body here to audit truncation and punchiness..."></textarea>
+                </div>
+                <button id="btnScoreLiHook" class="btn btn-secondary">🔍 Score & Lint Post</button>
+              </div>
+            </div>
+
+            <div class="studio-col">
+              <div class="glass-card" id="liResultsCard">
+                <div class="card-header">
+                  <h3 class="card-title">Audit & Score Breakdown</h3>
+                  <div class="score-badge-large" id="liScoreBadge">--/100</div>
+                </div>
+                <div id="liScoreDetails" class="score-details-container">
+                  <div class="empty-state">Generate or paste a LinkedIn hook to inspect real-time metrics.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 3. YOUTUBE CHANNEL ENGINE TAB -->
+        <section id="tab-youtube" class="tab-view">
+          <div class="studio-grid">
+            <div class="studio-col">
+              <div class="glass-card">
+                <div class="card-header">
+                  <div class="card-title-group">
+                    <span class="card-icon">🎥</span>
+                    <div>
+                      <h3 class="card-title">YouTube Retention Hook & Script Engine</h3>
+                      <p class="card-desc">0-15s Critical retention window, Title Confirmation & Weakest-link scoring</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="ytVideoTitle">Video Title (for Click-Confirmation Check)</label>
+                  <input type="text" id="ytVideoTitle" class="form-control" placeholder="e.g. I Tested 10 AI Tools So You Don't Have To">
+                </div>
+                <div class="form-group">
+                  <label for="ytHookInput">0-15s Spoken Hook Line</label>
+                  <textarea id="ytHookInput" class="form-control" rows="3" placeholder="If you're still spending 4 hours editing videos, this 1 setting will save you 80% of your time."></textarea>
+                </div>
+                <div class="form-row">
+                  <button id="btnScoreYtHook" class="btn btn-primary">🔍 Score YouTube Hook</button>
+                  <button id="btnGenerateYtScript" class="btn btn-secondary">📜 Generate Full Script Beat Sheet</button>
+                </div>
+
+                <div class="hook-guidelines-box">
+                  <div class="box-title">⚡ The 3 Golden YouTube Hook Rules:</div>
+                  <ol>
+                    <li><strong>Confirm the click in sentence 1</strong> (prevents 0:08 drop-off).</li>
+                    <li><strong>Say "you" or "your" in first 6 words</strong>.</li>
+                    <li><strong>Name the concrete stakes</strong> (what they lose/fail without this).</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+
+            <div class="studio-col">
+              <div class="glass-card" id="ytResultsCard">
+                <div class="card-header">
+                  <h3 class="card-title">Retention & Weakest-Link Diagnostics</h3>
+                  <div class="score-badge-large" id="ytScoreBadge">--/100</div>
+                </div>
+                <div id="ytScoreDetails" class="score-details-container">
+                  <div class="empty-state">Enter a YouTube title and hook to run the 5-dimension audit.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 4. INSTAGRAM VIRAL STUDIO TAB -->
+        <section id="tab-instagram" class="tab-view">
+          <div class="studio-grid">
+            <div class="studio-col">
+              <div class="glass-card">
+                <div class="card-header">
+                  <div class="card-title-group">
+                    <span class="card-icon">📸</span>
+                    <div>
+                      <h3 class="card-title">Instagram Reel Dual-Hook & Beat Sheet</h3>
+                      <p class="card-desc">Spoken Audio Hook + On-Screen Text (&le; 6 words) + 4-Stage Beats</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="igVisualHook">On-Screen Visual Text (&le; 6 Words, Bold)</label>
+                  <input type="text" id="igVisualHook" class="form-control" placeholder="e.g. Stop making this mistake">
+                </div>
+                <div class="form-group">
+                  <label for="igSpokenHook">Spoken Voiceover Hook (8-15 Words)</label>
+                  <input type="text" id="igSpokenHook" class="form-control" placeholder="e.g. This one tiny habit is secretly killing your daily focus, and here is how to fix it in 30 seconds.">
+                </div>
+                <div class="form-row">
+                  <button id="btnScoreIgHook" class="btn btn-primary">🔍 Score Dual-Hook</button>
+                  <button id="btnGenerateReelBeats" class="btn btn-secondary">🎬 Generate 4-Stage Beat Sheet</button>
+                </div>
+
+                <div class="divider">26 REEL HOOK FORMULAS</div>
+                <div class="form-group">
+                  <select id="igFormulaSelect" class="form-control">
+                    <!-- Populated dynamically -->
+                  </select>
+                </div>
+                <button id="btnApplyIgFormula" class="btn btn-sm btn-outline">Apply Selected Formula</button>
+              </div>
+            </div>
+
+            <div class="studio-col">
+              <div class="glass-card" id="igResultsCard">
+                <div class="card-header">
+                  <h3 class="card-title">Reel Director Output</h3>
+                  <div class="score-badge-large" id="igScoreBadge">--/100</div>
+                </div>
+                <div id="igScoreDetails" class="score-details-container">
+                  <div class="empty-state">Test a dual-hook or generate a beat sheet to view visual director cues.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 5. PROMPTMASTER 35-AUDITOR TAB -->
+        <section id="tab-promptmaster" class="tab-view">
+          <div class="studio-grid">
+            <div class="studio-col">
+              <div class="glass-card">
+                <div class="card-header">
+                  <div class="card-title-group">
+                    <span class="card-icon">🧠</span>
+                    <div>
+                      <h3 class="card-title">PromptMaster 35 Credit-Waste Auditor</h3>
+                      <p class="card-desc">Scan for 35 retry traps, calculate token waste, and 1-shot compile</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="pmPromptInput">Paste Raw Prompt to Audit</label>
+                  <textarea id="pmPromptInput" class="form-control" rows="6" placeholder="Write me some good social media content about our marketing app and give me ideas."></textarea>
+                </div>
+                <div class="form-row">
+                  <button id="btnAuditPrompt" class="btn btn-primary">🔍 Run 35-Pattern Audit</button>
+                  <button id="btnLoadBadPrompt" class="btn btn-secondary">Load Sample Flawed Prompt</button>
+                </div>
+
+                <div class="waste-stat-box">
+                  <div class="stat-pill"><span id="pmWasteCount">0</span> Traps Detected</div>
+                  <div class="stat-pill"><span id="pmWastedTokens">~0</span> Tokens/Retry Saved</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="studio-col">
+              <div class="glass-card" id="pmResultsCard">
+                <div class="card-header">
+                  <h3 class="card-title">1-Shot Optimized Prompt</h3>
+                  <button class="btn btn-sm btn-outline" id="btnCopyOptimizedPrompt">📋 Copy</button>
+                </div>
+                <div id="pmResultsDetails" class="score-details-container">
+                  <div class="empty-state">Audit a prompt to see detected flaws and the optimized 1-shot replacement.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 6. ANTI-AI HUMANIZER TAB -->
+        <section id="tab-humanizer" class="tab-view">
+          <div class="studio-grid">
+            <div class="studio-col">
+              <div class="glass-card">
+                <div class="card-header">
+                  <div class="card-title-group">
+                    <span class="card-icon">🛡️</span>
+                    <div>
+                      <h3 class="card-title">Anti-AI Slop Humanizer & Lexicon Purifier</h3>
+                      <p class="card-desc">Invisible unicode removal, typography normalization & 50+ banned buzzwords</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="humanizerInput">Draft Text to Inspect & Clean</label>
+                  <textarea id="humanizerInput" class="form-control" rows="8" placeholder="In today's fast-paced world, we delve into a plethora of game-changing strategies—a true testament to innovation."></textarea>
+                </div>
+                <div class="form-row">
+                  <button id="btnDetectSlop" class="btn btn-secondary">🔍 5-Check Human Panel</button>
+                  <button id="btnCleanSlop" class="btn btn-primary">⚡ Purge Slop & Humanize</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="studio-col">
+              <div class="glass-card" id="humanizerResultsCard">
+                <div class="card-header">
+                  <h3 class="card-title">Cleaned Human Draft & Metrics</h3>
+                  <div class="score-badge-large" id="humanScoreBadge">--/100</div>
+                </div>
+                <div id="humanizerResultsDetails" class="score-details-container">
+                  <div class="empty-state">Run the 5-check panel to inspect burstiness, banned words, and typography.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 6. SINGDIA PERSONALIZED MUSIC STUDIO TAB -->
+        <section id="tab-singdia" class="tab-view">
+          <div class="studio-grid">
+            <div class="studio-col">
+              <div class="glass-card">
+                <div class="card-header">
+                  <div class="card-title-group">
+                    <span class="card-icon">🎵</span>
+                    <div>
+                      <h3 class="card-title">AI Music Studio</h3>
+                      <p class="card-desc">Personalized songs across 12 Indian languages, 8 genres & Suno/Udio audio blueprints</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Quick Presets -->
+                <div class="preset-pills-group">
+                  <span class="preset-label">Quick Presets:</span>
+                  <button class="pill-btn active" id="sdPresetBday">🎂 Birthday Surprise</button>
+                  <button class="pill-btn" id="sdPresetAnniv">💑 Romantic Anniversary</button>
+                  <button class="pill-btn" id="sdPresetSangeet">💃 Punjabi Sangeet</button>
+                  <button class="pill-btn" id="sdPresetBestie">🤝 Bestie Roast & Toast</button>
+                  <button class="pill-btn" id="sdPresetLullaby">🌙 Sweet Lullaby</button>
+                </div>
+
+                <div class="form-grid-2">
+                  <div class="form-group">
+                    <label for="sdRecipient">Recipient Name *</label>
+                    <input type="text" id="sdRecipient" class="form-control" value="Pooja" placeholder="e.g. Pooja, Aarav, Mom, Rohan">
+                  </div>
+                  <div class="form-group">
+                    <label for="sdSender">Sender Name / From *</label>
+                    <input type="text" id="sdSender" class="form-control" value="Rahul" placeholder="e.g. Rahul, Simran, All of Us">
+                  </div>
+                </div>
+
+                <div class="form-grid-2">
+                  <div class="form-group">
+                    <label for="sdOccasion">Occasion *</label>
+                    <select id="sdOccasion" class="form-control">
+                      <option value="Birthday" selected>🎂 Birthday</option>
+                      <option value="Anniversary">💍 Anniversary</option>
+                      <option value="Wedding / Sangeet">🎉 Wedding / Sangeet</option>
+                      <option value="Love / Valentine">❤️ Love / Valentine</option>
+                      <option value="Proposal">💍 Proposal Moment</option>
+                      <option value="Friendship / Appreciation">🤝 Friendship & Gratitude</option>
+                      <option value="Farewell / New Journey">✈️ Farewell / New Job</option>
+                      <option value="Sweet Lullaby">🌙 Baby Lullaby / Good Night</option>
+                      <option value="Apology / Make Up">🙏 Heartfelt Apology</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="sdRelationship">Relationship *</label>
+                    <select id="sdRelationship" class="form-control">
+                      <option value="Best Friend" selected>Best Friend</option>
+                      <option value="Partner / Soulmate">Partner / Soulmate</option>
+                      <option value="Spouse / Husband / Wife">Spouse / Husband / Wife</option>
+                      <option value="Sibling / Brother / Sister">Sibling / Brother / Sister</option>
+                      <option value="Parents / Mom / Dad">Parents / Mom / Dad</option>
+                      <option value="Child / Son / Daughter">Child / Son / Daughter</option>
+                      <option value="Colleague / Mentor">Colleague / Mentor</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-grid-2">
+                  <div class="form-group">
+                    <label for="sdLanguage">Song Language *</label>
+                    <select id="sdLanguage" class="form-control">
+                      <option value="Hinglish" selected>Hinglish (Urban Pop / Trendy)</option>
+                      <option value="Hindi">Hindi (Pure & Poetic)</option>
+                      <option value="Punjabi">Punjabi (High Energy / Dhol)</option>
+                      <option value="English">English (Global Pop / Indie)</option>
+                      <option value="Tamil">Tamil (Melodic / Kollywood)</option>
+                      <option value="Telugu">Telugu (Energetic / Tollywood)</option>
+                      <option value="Bengali">Bengali (Rabindra / Melodious)</option>
+                      <option value="Gujarati">Gujarati (Garba / Folk Pop)</option>
+                      <option value="Marathi">Marathi (Bhavgeet / Lavani Vibe)</option>
+                      <option value="Kannada">Kannada (Sandalwood Harmony)</option>
+                      <option value="Malayalam">Malayalam (Coastal Acoustic)</option>
+                      <option value="Spanish">Spanish (Latin Fiesta / Balada)</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="sdGenre">Musical Genre & Vibe *</label>
+                    <select id="sdGenre" class="form-control">
+                      <option value="Modern Hindi Pop" selected>Modern Hindi Pop (115 BPM)</option>
+                      <option value="Bollywood Romantic">Bollywood Romantic (85 BPM)</option>
+                      <option value="Punjabi Dhol / Sangeet">Punjabi Dhol / Sangeet (128 BPM)</option>
+                      <option value="Ghazal / Sufi">Ghazal / Sufi Soul (72 BPM)</option>
+                      <option value="Desi Hip-Hop / Rap">Desi Hip-Hop / Melodic Rap (92 BPM)</option>
+                      <option value="90s Retro Melody">90s Retro Bollywood (95 BPM)</option>
+                      <option value="Acoustic Coffeehouse">Acoustic Coffeehouse Indie (78 BPM)</option>
+                      <option value="Sweet Lullaby">Sweet Dream Lullaby (64 BPM)</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="sdMemory">Shared Memory or Special Story *</label>
+                  <textarea id="sdMemory" class="form-control" rows="2" placeholder="e.g. that rainy Goa road trip where our car broke down and we ate roadside maggi">that crazy Goa road trip where the car broke down and we ate roadside maggi at 3 AM</textarea>
+                </div>
+
+                <div class="form-group">
+                  <label for="sdInsideJoke">Inside Jokes, Quirks & Nicknames</label>
+                  <textarea id="sdInsideJoke" class="form-control" rows="2" placeholder="e.g. always stealing my fries, terrible singing in the shower, drama queen">always stealing my fries, calling everyone bro, drama queen of our group</textarea>
+                </div>
+
+                <div class="form-row">
+                  <button id="btnGenerateSong" class="btn btn-primary">✨ Generate 2 Song Arrangements</button>
+                  <button id="btnRandomSongPreset" class="btn btn-secondary">🎲 Random Story</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Song Showcase & Audio Player -->
+            <div class="studio-col">
+              <div class="glass-card" id="songShowcaseCard">
+                <div class="card-header">
+                  <div class="card-title-group">
+                    <h3 class="card-title" id="songDisplayTitle">Personalized Song Arrangements</h3>
+                    <p class="card-desc" id="songDisplaySubtitle">Mukhda, Antara, Bridge & Suno AI Audio Prompts</p>
+                  </div>
+                  <div class="score-badge-large" id="songMeterBadge">92/100</div>
+                </div>
+
+                <!-- Song Sub-tabs -->
+                <div class="matrix-tabs">
+                  <button class="matrix-tab-btn active" id="btnSongTabV1">Version 1 (Emotional)</button>
+                  <button class="matrix-tab-btn" id="btnSongTabV2">Version 2 (Upbeat)</button>
+                  <button class="matrix-tab-btn" id="btnSongTabSuno">Suno / Udio Prompt</button>
+                  <button class="matrix-tab-btn" id="btnSongTabCard">Gift Dedication Card</button>
+                </div>
+
+                <!-- Audio Visualizer Mockup Player -->
+                <div class="music-player-bar">
+                  <button class="player-play-btn" id="btnPlayAudioMock">▶</button>
+                  <div class="player-info">
+                    <div class="player-track-name" id="playerTrackTitle">A Heartfelt Song for Pooja</div>
+                    <div class="player-track-genre" id="playerTrackGenre">Modern Hindi Pop • 115 BPM • Hinglish</div>
+                  </div>
+                  <div class="audio-waves" id="audioWaves">
+                    <div class="wave-bar"></div>
+                    <div class="wave-bar"></div>
+                    <div class="wave-bar"></div>
+                    <div class="wave-bar"></div>
+                    <div class="wave-bar"></div>
+                    <div class="wave-bar"></div>
+                    <div class="wave-bar"></div>
+                    <div class="wave-bar"></div>
+                  </div>
+                </div>
+
+                <!-- Dynamic Lyrics & Content Output -->
+                <div class="song-output-display" id="songOutputContent">
+                  <!-- Populated dynamically -->
+                </div>
+
+                <!-- Meter Health Card -->
+                <div class="song-meter-grid" id="songMeterStats">
+                  <div class="meter-stat-card">
+                    <span class="m-val" id="smRhyme">A+</span>
+                    <span class="m-lbl">Rhyme Flow</span>
+                  </div>
+                  <div class="meter-stat-card">
+                    <span class="m-val" id="smConsistency">94%</span>
+                    <span class="m-lbl">Syllable Meter</span>
+                  </div>
+                  <div class="meter-stat-card">
+                    <span class="m-val" id="smPersonal">100%</span>
+                    <span class="m-lbl">Personalized</span>
+                  </div>
+                  <div class="meter-stat-card">
+                    <span class="m-val" id="smLines">18</span>
+                    <span class="m-lbl">Lyrical Lines</span>
+                  </div>
+                </div>
+
+                <div class="form-row" style="margin-top:16px;">
+                  <button class="btn btn-outline" id="btnCopySongLyrics">📋 Copy Complete Lyrics</button>
+                  <button class="btn btn-outline" id="btnCopySunoPrompt">🎵 Copy Suno Audio Prompt</button>
+                  <button class="btn btn-secondary" id="btnCopyGiftCard">💌 Copy Gift Message</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 7. HYPERFRAMES MOTION STUDIO TAB -->
+        <section id="tab-hyperframes" class="tab-view">
+          <div class="studio-grid">
+            <div class="studio-col">
+              <div class="glass-card">
+                <div class="card-header">
+                  <div class="card-title-group">
+                    <span class="card-icon">🎬</span>
+                    <div>
+                      <h3 class="card-title">HyperFrames Motion Blueprint Generator</h3>
+                      <p class="card-desc">22 Animation blueprints, GSAP easing recipes & video composition engines</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="hfBlueprintSelect">Select Animation Blueprint</label>
+                  <select id="hfBlueprintSelect" class="form-control">
+                    <!-- Populated dynamically -->
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="hfHeadline">Motion Headline / Text Beat</label>
+                  <input type="text" id="hfHeadline" class="form-control" value="SHIP 10X FASTER WITH AI">
+                </div>
+                <div class="form-row">
+                  <button id="btnGenerateMotionCode" class="btn btn-primary">⚡ Generate GSAP Motion Code</button>
+                </div>
+                <div class="blueprint-summary-box" id="hfBlueprintSummary">
+                  Select a blueprint to inspect timing rules and motion architecture.
+                </div>
+              </div>
+            </div>
+
+            <div class="studio-col">
+              <div class="glass-card">
+                <div class="card-header">
+                  <h3 class="card-title">Ready-to-Use Motion Code & Storyboard</h3>
+                  <button class="btn btn-sm btn-outline" id="btnCopyMotionCode">📋 Copy Code</button>
+                </div>
+                <div id="hfCodeOutput" class="code-editor-container">
+                  <pre><code class="language-javascript">// Select a blueprint and click Generate to produce production GSAP / HyperFrames code.</code></pre>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 8. UNHINGED AGENT MODES TAB -->
+        <section id="tab-unhinged" class="tab-view">
+          <div class="glass-card">
+            <div class="card-header">
+              <div class="card-title-group">
+                <span class="card-icon">⚡</span>
+                <div>
+                  <h3 class="card-title">25 Unhinged & High-Leverage Agent Personas</h3>
+                  <p class="card-desc">Aggressive, zero-fluff, maximum-velocity productivity modes</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="unhinged-grid" id="unhingedGrid">
+              <!-- Populated dynamically -->
+            </div>
+          </div>
+        </section>
+
+        <!-- 9. FREELLM GATEWAY TAB -->
+        <section id="tab-freellm" class="tab-view">
+          <div class="studio-grid">
+            <div class="studio-col">
+              <div class="glass-card">
+                <div class="card-header">
+                  <div class="card-title-group">
+                    <span class="card-icon">⚡</span>
+                    <div>
+                      <h3 class="card-title">FreeLLMAPI Multi-Provider Gateway</h3>
+                      <p class="card-desc">Automatic failover across 34 free AI providers (Groq, Gemini, Cerebras, Mistral, SambaNova, OpenRouter)</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                  <label for="freeProviderSelect">Select Provider to Configure</label>
+                  <select id="freeProviderSelect" class="form-control">
+                    <option value="groq">Groq (Llama 3.3 70B, Mixtral - 30 RPM)</option>
+                    <option value="gemini">Google Gemini (Gemini 2.0 Flash - 15 RPM)</option>
+                    <option value="cerebras">Cerebras (Llama 3.1 70B Fast)</option>
+                    <option value="mistral">Mistral AI (Codestral, Mistral Small)</option>
+                    <option value="sambanova">SambaNova (Llama 3.1 70B, Qwen 2.5 72B)</option>
+                    <option value="openrouter">OpenRouter (Free Router)</option>
+                    <option value="deepseek">DeepSeek (DeepSeek-V3 / R1)</option>
+                    <option value="github">GitHub Models (Free Azure AI)</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="freeApiKeyInput">Enter Free API Key</label>
+                  <input type="password" id="freeApiKeyInput" class="form-control" placeholder="gsk_... or AIzaSy... or csk_...">
+                </div>
+                <div class="form-row">
+                  <button id="btnSaveFreeKey" class="btn btn-primary">💾 Save Key & Activate</button>
+                  <button id="btnTestFailover" class="btn btn-secondary">⚡ Test Live Failover</button>
+                </div>
+
+                <div class="hook-guidelines-box" style="margin-top:16px;">
+                  <div class="box-title">🛡️ Smart 429 Rate-Limit Failover:</div>
+                  <p style="color:var(--text-muted);font-size:0.8rem;line-height:1.5;">
+                    When Groq or Gemini hits a rate limit (HTTP 429), Creator automatically shifts prompts to Cerebras, Mistral, or SambaNova within 20 milliseconds without failing your request.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="studio-col">
+              <div class="glass-card">
+                <div class="card-header">
+                  <h3 class="card-title">Free Providers Status & Live Routing</h3>
+                  <div class="status-chip" id="freeActiveCountBadge">8 Configurable</div>
+                </div>
+                <div id="freeProvidersList" class="score-details-container">
+                  <!-- Populated dynamically -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 10. KNOWLEDGE MATRIX TAB -->
+        <section id="tab-matrix" class="tab-view">
+          <div class="glass-card">
+            <div class="card-header">
+              <div class="card-title-group">
+                <span class="card-icon">📚</span>
+                <div>
+                  <h3 class="card-title">Creator Master Knowledge Matrix</h3>
+                  <p class="card-desc">Search and explore all 68+ hook formulas, 35 waste patterns, profile rubrics & slop terms</p>
+                </div>
+              </div>
+              <input type="text" id="matrixSearch" class="form-control search-input" placeholder="Search formulas, rules, patterns, buzzwords...">
+            </div>
+
+            <div class="matrix-tabs">
+              <button class="matrix-tab-btn active" data-matrix="li-hooks">LinkedIn (21)</button>
+              <button class="matrix-tab-btn" data-matrix="yt-hooks">YouTube (21)</button>
+              <button class="matrix-tab-btn" data-matrix="ig-hooks">Instagram (26)</button>
+              <button class="matrix-tab-btn" data-matrix="singdia-music">Music Studio (12 Langs / 8 Genres)</button>
+              <button class="matrix-tab-btn" data-matrix="waste-patterns">Waste Patterns (35)</button>
+              <button class="matrix-tab-btn" data-matrix="slop-words">Slop Lexicon</button>
+            </div>
+
+            <div class="matrix-content" id="matrixContent">
+              <!-- Populated dynamically -->
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- Scripts -->
+  <script src="creator_engine.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

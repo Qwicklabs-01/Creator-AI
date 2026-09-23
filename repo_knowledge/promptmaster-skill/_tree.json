@@ -1,0 +1,100 @@
+{
+  "sha": "43c704602fccaf18da67760bcb1022428591ddeb",
+  "url": "https://api.github.com/repos/Jakeschincariol/promptmaster-skill/git/trees/43c704602fccaf18da67760bcb1022428591ddeb",
+  "tree": [
+    {
+      "path": ".claude",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "afac082ae74b310b7503a524de6d32187af576a1",
+      "url": "https://api.github.com/repos/Jakeschincariol/promptmaster-skill/git/trees/afac082ae74b310b7503a524de6d32187af576a1"
+    },
+    {
+      "path": ".claude/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "132e4fd22a3c483eda59598115f250e6ee46828e",
+      "url": "https://api.github.com/repos/Jakeschincariol/promptmaster-skill/git/trees/132e4fd22a3c483eda59598115f250e6ee46828e"
+    },
+    {
+      "path": ".claude/skills/promptmaster",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8c6e5e521f37daaca4ba37afadf6de7700ee99b7",
+      "url": "https://api.github.com/repos/Jakeschincariol/promptmaster-skill/git/trees/8c6e5e521f37daaca4ba37afadf6de7700ee99b7"
+    },
+    {
+      "path": ".claude/skills/promptmaster/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39ac0e56c00701bd6f0869d3e0a91c5785575f70",
+      "size": 4572,
+      "url": "https://api.github.com/repos/Jakeschincariol/promptmaster-skill/git/blobs/39ac0e56c00701bd6f0869d3e0a91c5785575f70"
+    },
+    {
+      "path": ".claude/skills/promptmaster/decisions-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33742b14331b56d7c58ea380d698cd9ea2fdf015",
+      "size": 659,
+      "url": "https://api.github.com/repos/Jakeschincariol/promptmaster-skill/git/blobs/33742b14331b56d7c58ea380d698cd9ea2fdf015"
+    },
+    {
+      "path": ".claude/skills/promptmaster/waste-patterns.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7355f71b4e73f969800be1a65d632228318614b",
+      "size": 11162,
+      "url": "https://api.github.com/repos/Jakeschincariol/promptmaster-skill/git/blobs/e7355f71b4e73f969800be1a65d632228318614b"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e43b0f988953ae3a84b00331d0ccf5f7d51cb3cf",
+      "size": 10,
+      "url": "https://api.github.com/repos/Jakeschincariol/promptmaster-skill/git/blobs/e43b0f988953ae3a84b00331d0ccf5f7d51cb3cf"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac31f09aba721de8d139c7bef3d5024421426472",
+      "size": 1073,
+      "url": "https://api.github.com/repos/Jakeschincariol/promptmaster-skill/git/blobs/ac31f09aba721de8d139c7bef3d5024421426472"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed3120ac2091e03abaca05ecb741324518472f23",
+      "size": 2533,
+      "url": "https://api.github.com/repos/Jakeschincariol/promptmaster-skill/git/blobs/ed3120ac2091e03abaca05ecb741324518472f23"
+    },
+    {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39ac0e56c00701bd6f0869d3e0a91c5785575f70",
+      "size": 4572,
+      "url": "https://api.github.com/repos/Jakeschincariol/promptmaster-skill/git/blobs/39ac0e56c00701bd6f0869d3e0a91c5785575f70"
+    },
+    {
+      "path": "decisions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33742b14331b56d7c58ea380d698cd9ea2fdf015",
+      "size": 659,
+      "url": "https://api.github.com/repos/Jakeschincariol/promptmaster-skill/git/blobs/33742b14331b56d7c58ea380d698cd9ea2fdf015"
+    },
+    {
+      "path": "waste-patterns.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7355f71b4e73f969800be1a65d632228318614b",
+      "size": 11162,
+      "url": "https://api.github.com/repos/Jakeschincariol/promptmaster-skill/git/blobs/e7355f71b4e73f969800be1a65d632228318614b"
+    }
+  ],
+  "truncated": false
+}

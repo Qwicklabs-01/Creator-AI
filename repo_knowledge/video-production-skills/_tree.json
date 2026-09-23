@@ -1,0 +1,4413 @@
+{
+  "sha": "f80248b5e2e41286a6ad5662601e0aa41e121201",
+  "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/f80248b5e2e41286a6ad5662601e0aa41e121201",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aafcb345668bd80cbb256b066898d4df8988da0e",
+      "size": 30,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/aafcb345668bd80cbb256b066898d4df8988da0e"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37a1fff0396d789f451a4b7ae0255185f7285027",
+      "size": 3263,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/37a1fff0396d789f451a4b7ae0255185f7285027"
+    },
+    {
+      "path": "general-video",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eeeb2dc8c628fc355df1bc4e7a776f4939dac8d3",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/eeeb2dc8c628fc355df1bc4e7a776f4939dac8d3"
+    },
+    {
+      "path": "general-video/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8830870bb8b822d5d941aa1ca6d696db13cfd7bf",
+      "size": 19961,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/8830870bb8b822d5d941aa1ca6d696db13cfd7bf"
+    },
+    {
+      "path": "general-video/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b33b8945ba15f78a1310b560c334ac29c5285080",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/b33b8945ba15f78a1310b560c334ac29c5285080"
+    },
+    {
+      "path": "general-video/scripts/frame-packets.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0384ecdd6c641cb7823a9c0afeccfe0b1aa65fb",
+      "size": 1506,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/b0384ecdd6c641cb7823a9c0afeccfe0b1aa65fb"
+    },
+    {
+      "path": "general-video/scripts/frame-packets.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56fc33774961e9166bdeb706d45252ef8b12becd",
+      "size": 3584,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/56fc33774961e9166bdeb706d45252ef8b12becd"
+    },
+    {
+      "path": "general-video/sub-agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "49d5fbbddf3d53742dc16a9866e48209eb112a24",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/49d5fbbddf3d53742dc16a9866e48209eb112a24"
+    },
+    {
+      "path": "general-video/sub-agents/frame-worker.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aed2f5cf35cf7b31f10e52340593689d257ff85",
+      "size": 2306,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/4aed2f5cf35cf7b31f10e52340593689d257ff85"
+    },
+    {
+      "path": "hyperframes-animation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "194b82f83cb4f7d614beb5a602fefafbcac90581",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/194b82f83cb4f7d614beb5a602fefafbcac90581"
+    },
+    {
+      "path": "hyperframes-animation/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00aaaeed5c5f216b593781b9905c97b83bef3695",
+      "size": 7785,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/00aaaeed5c5f216b593781b9905c97b83bef3695"
+    },
+    {
+      "path": "hyperframes-animation/adapters",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a6d7f4c7be0e2c05edb60cb42ee023590fb33225",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/a6d7f4c7be0e2c05edb60cb42ee023590fb33225"
+    },
+    {
+      "path": "hyperframes-animation/adapters/animate-text.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d722d705c09ff53cb163a19164df0c0e44aacc37",
+      "size": 4069,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d722d705c09ff53cb163a19164df0c0e44aacc37"
+    },
+    {
+      "path": "hyperframes-animation/adapters/animejs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f1b8f979393bcbbd6f52b6a63d9c3993ab5d52a",
+      "size": 6224,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/1f1b8f979393bcbbd6f52b6a63d9c3993ab5d52a"
+    },
+    {
+      "path": "hyperframes-animation/adapters/css-animations.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61915aa7938798b86653abe35cd94a3fbe139df3",
+      "size": 5407,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/61915aa7938798b86653abe35cd94a3fbe139df3"
+    },
+    {
+      "path": "hyperframes-animation/adapters/gsap-easing-and-stagger.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e03eafd531a93b837718f80042fb89711031fda",
+      "size": 13270,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/8e03eafd531a93b837718f80042fb89711031fda"
+    },
+    {
+      "path": "hyperframes-animation/adapters/gsap-timeline-and-labels.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98256c8560cee648312985db689dc10b5c1f30e3",
+      "size": 3734,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/98256c8560cee648312985db689dc10b5c1f30e3"
+    },
+    {
+      "path": "hyperframes-animation/adapters/gsap-transforms-and-perf.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e84670dc2997b53c1d8855b8e96e3a925d1070b5",
+      "size": 8552,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e84670dc2997b53c1d8855b8e96e3a925d1070b5"
+    },
+    {
+      "path": "hyperframes-animation/adapters/gsap.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6638706693ce6efd73e33d8880c682ce1018702d",
+      "size": 7627,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/6638706693ce6efd73e33d8880c682ce1018702d"
+    },
+    {
+      "path": "hyperframes-animation/adapters/html-in-canvas-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f826b1f9215cbab54669cd0711b3cfccd5c9a53f",
+      "size": 17166,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/f826b1f9215cbab54669cd0711b3cfccd5c9a53f"
+    },
+    {
+      "path": "hyperframes-animation/adapters/lottie.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f56d33ea9e429a93be7027dacb4aece37cb6d6a",
+      "size": 4145,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/5f56d33ea9e429a93be7027dacb4aece37cb6d6a"
+    },
+    {
+      "path": "hyperframes-animation/adapters/three.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6c3b1c5533b074712144a8a945869e14b42728b",
+      "size": 5231,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e6c3b1c5533b074712144a8a945869e14b42728b"
+    },
+    {
+      "path": "hyperframes-animation/adapters/typegpu.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "675d1bd753f6e1104d16cccec9e1386268bb6c50",
+      "size": 8100,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/675d1bd753f6e1104d16cccec9e1386268bb6c50"
+    },
+    {
+      "path": "hyperframes-animation/adapters/waapi.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc87cdad98a192e692a2b4ee84a240852877a434",
+      "size": 4248,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/fc87cdad98a192e692a2b4ee84a240852877a434"
+    },
+    {
+      "path": "hyperframes-animation/blueprints-index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "864a68b7555998de0bbc5f47df8565d29701d1b7",
+      "size": 26512,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/864a68b7555998de0bbc5f47df8565d29701d1b7"
+    },
+    {
+      "path": "hyperframes-animation/blueprints",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "803e00c66b1265a6835fefd16ff3cc41b63168c8",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/803e00c66b1265a6835fefd16ff3cc41b63168c8"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/agent-progress-theater.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90501e4b6f15a1c46481c4836855287c4a843ecd",
+      "size": 16091,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/90501e4b6f15a1c46481c4836855287c4a843ecd"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/camera-journey.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1e4e62d0c59c3f1f116235a575a9b0566c2ec51",
+      "size": 13648,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e1e4e62d0c59c3f1f116235a575a9b0566c2ec51"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/comparison-split.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "625cf89d2e640d535bb3ca127fdbe86869ebaf54",
+      "size": 3316,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/625cf89d2e640d535bb3ca127fdbe86869ebaf54"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/constellation-hub.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1234152fd2897bb3b624d34ce92cba278e7afc94",
+      "size": 7144,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/1234152fd2897bb3b624d34ce92cba278e7afc94"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/cta-morph-press.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc791c9348677d8bff63e27f2d400767ef5395a0",
+      "size": 6407,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/cc791c9348677d8bff63e27f2d400767ef5395a0"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/cursor-ui-demo.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d47a66779c1acdc857992865c9551cb94505d9ac",
+      "size": 20276,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d47a66779c1acdc857992865c9551cb94505d9ac"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/dataviz-countup.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cea2a1cd78020c92873fb300c5ea9f2a7d858e3",
+      "size": 14611,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/2cea2a1cd78020c92873fb300c5ea9f2a7d858e3"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/device-surface-showcase.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "408ce700d62290a474180bb5022682c1e67afdea",
+      "size": 17151,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/408ce700d62290a474180bb5022682c1e67afdea"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/fixed-anchor-cycle.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1752ee4540f2868595210a2ba29683c289584eee",
+      "size": 9089,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/1752ee4540f2868595210a2ba29683c289584eee"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/grid-card-assemble.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7588d447e58ee12076f1d768dc6eb05d6987151",
+      "size": 15594,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e7588d447e58ee12076f1d768dc6eb05d6987151"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/kinetic-type-beats.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d992335175fc688ae3de3f7efe5f7e1f3ed69f4",
+      "size": 29151,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/4d992335175fc688ae3de3f7efe5f7e1f3ed69f4"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/logo-assemble-lockup.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "554e175ab5cae93607007b81aa443ea0d65e2481",
+      "size": 26609,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/554e175ab5cae93607007b81aa443ea0d65e2481"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/overwhelm-surround.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "751d143984013d5d50cdd2514eb6ea62b22374bd",
+      "size": 6140,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/751d143984013d5d50cdd2514eb6ea62b22374bd"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/panel-edit-live-sync.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2eb2fd2f0e1a3c940b2fcb011c8a919931fcb6c1",
+      "size": 13394,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/2eb2fd2f0e1a3c940b2fcb011c8a919931fcb6c1"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/prompt-type-submit-generate.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57fd27e8aadb9c5eaa4ffe7afeb9ecd3925e0380",
+      "size": 18636,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/57fd27e8aadb9c5eaa4ffe7afeb9ecd3925e0380"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/spatial-pan-stations.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3f172e4bc11e466ddacd32109a01073f76a709b",
+      "size": 4868,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d3f172e4bc11e466ddacd32109a01073f76a709b"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/ticker-takeover.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4e0984685f3f3a76017a9cafc08bea524796863",
+      "size": 3052,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/f4e0984685f3f3a76017a9cafc08bea524796863"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/titlecard-reveal.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90bf56b587c40a39b7256f5ee0661c9b0cb23bf0",
+      "size": 7444,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/90bf56b587c40a39b7256f5ee0661c9b0cb23bf0"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/transcript-scroll-artifact-reveal.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7cc88d4b3190cad5138feabac13a51791add0fc",
+      "size": 11666,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/c7cc88d4b3190cad5138feabac13a51791add0fc"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/typewriter-reveal.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23b1cbaf91d0914365f160323e869a997f3fd98c",
+      "size": 6276,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/23b1cbaf91d0914365f160323e869a997f3fd98c"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/video-text-pivot.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40f75fcb792a48938f2267761d0657b99b8fc25d",
+      "size": 3281,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/40f75fcb792a48938f2267761d0657b99b8fc25d"
+    },
+    {
+      "path": "hyperframes-animation/blueprints/zoom-out-workspace-reveal.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38467542024a00eaba44f1e3258dac37088aed5e",
+      "size": 14714,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/38467542024a00eaba44f1e3258dac37088aed5e"
+    },
+    {
+      "path": "hyperframes-animation/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "92c70db6495872582ed42b806b42ea5f8025c349",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/92c70db6495872582ed42b806b42ea5f8025c349"
+    },
+    {
+      "path": "hyperframes-animation/examples/brand-reveal-assemble-zoom.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31950a9e6cf36fbe50879a7601032693a91deb21",
+      "size": 12285,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/31950a9e6cf36fbe50879a7601032693a91deb21"
+    },
+    {
+      "path": "hyperframes-animation/examples/comparison-split-cards.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d60e753aea56df33cc8664c1757898c96f92ae41",
+      "size": 21754,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d60e753aea56df33cc8664c1757898c96f92ae41"
+    },
+    {
+      "path": "hyperframes-animation/examples/concept-demo-decode-pan.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af4efcf614a120aeb8d135de1061797cfc8064ad",
+      "size": 18382,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/af4efcf614a120aeb8d135de1061797cfc8064ad"
+    },
+    {
+      "path": "hyperframes-animation/examples/cta-morph-press.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3896aa43a38c26c07a56256246d7ab5cc9655ca3",
+      "size": 15192,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/3896aa43a38c26c07a56256246d7ab5cc9655ca3"
+    },
+    {
+      "path": "hyperframes-animation/examples/cta-orbit-collapse.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad5d77e935a07758022666e6a35003b3856015a8",
+      "size": 50646,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ad5d77e935a07758022666e6a35003b3856015a8"
+    },
+    {
+      "path": "hyperframes-animation/examples/demo-page-scroll-spotlight.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4557db48dc5eba07e85627d337ade88db88c564a",
+      "size": 25019,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/4557db48dc5eba07e85627d337ade88db88c564a"
+    },
+    {
+      "path": "hyperframes-animation/examples/hook-counter-burst.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d2ae6f62d3ef15a35ccf6428b30b47b6ee4347c",
+      "size": 23004,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/7d2ae6f62d3ef15a35ccf6428b30b47b6ee4347c"
+    },
+    {
+      "path": "hyperframes-animation/examples/messaging-multi-phrase.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b641d96e83131746ebbcd619079f3762318e03fd",
+      "size": 12223,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/b641d96e83131746ebbcd619079f3762318e03fd"
+    },
+    {
+      "path": "hyperframes-animation/examples/metric-video-text-pivot.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01fb553342f4078754d9ec130e2f7e06288a1da5",
+      "size": 25640,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/01fb553342f4078754d9ec130e2f7e06288a1da5"
+    },
+    {
+      "path": "hyperframes-animation/examples/problem-mockup-overwhelm.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5f7800456103173abc6a537104c89ec30e316f7",
+      "size": 44482,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/a5f7800456103173abc6a537104c89ec30e316f7"
+    },
+    {
+      "path": "hyperframes-animation/examples/proof-logo-chain.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52df7b20b5055c8cd65422ae46ec859141d05a97",
+      "size": 28911,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/52df7b20b5055c8cd65422ae46ec859141d05a97"
+    },
+    {
+      "path": "hyperframes-animation/examples/takeover-ticker-displace.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c1a23baa04d54ce305f0e6ea73e1e4d1e17b3aa",
+      "size": 10947,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/6c1a23baa04d54ce305f0e6ea73e1e4d1e17b3aa"
+    },
+    {
+      "path": "hyperframes-animation/examples/workflow-approve-press.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5de4d62ab7356bbb269bb8455b66074f43553b1",
+      "size": 20674,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/a5de4d62ab7356bbb269bb8455b66074f43553b1"
+    },
+    {
+      "path": "hyperframes-animation/rules-index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8568d22791ec1ef7690c175df6bf5cfeecf33559",
+      "size": 21204,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/8568d22791ec1ef7690c175df6bf5cfeecf33559"
+    },
+    {
+      "path": "hyperframes-animation/rules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b2cd1aa083319272e733fd0fe755108eb90015d4",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/b2cd1aa083319272e733fd0fe755108eb90015d4"
+    },
+    {
+      "path": "hyperframes-animation/rules/3d-camera-flight.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08ac4895b81030042022f39273d3f3ad6ac85597",
+      "size": 18137,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/08ac4895b81030042022f39273d3f3ad6ac85597"
+    },
+    {
+      "path": "hyperframes-animation/rules/3d-page-scroll.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3a8f86350862068d719aed7312998e04e50ebe7",
+      "size": 7406,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e3a8f86350862068d719aed7312998e04e50ebe7"
+    },
+    {
+      "path": "hyperframes-animation/rules/3d-text-depth-layers.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ca2641b068a358188bb922a35ef32271067d67b",
+      "size": 6708,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/5ca2641b068a358188bb922a35ef32271067d67b"
+    },
+    {
+      "path": "hyperframes-animation/rules/ai-tracking-box.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ae63af7e598367da6737be778d0611af47b5913",
+      "size": 6562,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/0ae63af7e598367da6737be778d0611af47b5913"
+    },
+    {
+      "path": "hyperframes-animation/rules/ambient-glow-bloom.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1807bdd92e1f0b4465a3f046f414c8feee3db36",
+      "size": 9840,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e1807bdd92e1f0b4465a3f046f414c8feee3db36"
+    },
+    {
+      "path": "hyperframes-animation/rules/anchored-layout-expand.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "040e9766d6bcad3b24e3929018014d31c63b2b9d",
+      "size": 10313,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/040e9766d6bcad3b24e3929018014d31c63b2b9d"
+    },
+    {
+      "path": "hyperframes-animation/rules/asr-keyword-glow.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a0eb9019f431da239941a52bfb63dfb1286d062",
+      "size": 6762,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/8a0eb9019f431da239941a52bfb63dfb1286d062"
+    },
+    {
+      "path": "hyperframes-animation/rules/avatar-cloud-network.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d47ebc9dd91262b1d9505e2e3b15d1a49963921",
+      "size": 6578,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/7d47ebc9dd91262b1d9505e2e3b15d1a49963921"
+    },
+    {
+      "path": "hyperframes-animation/rules/camera-cursor-tracking.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b979bade937bcf312ce63950275848c094073a12",
+      "size": 7911,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/b979bade937bcf312ce63950275848c094073a12"
+    },
+    {
+      "path": "hyperframes-animation/rules/card-morph-anchor.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ae8ae1cb7501061e84a0daa110bddea8f3a98f4",
+      "size": 7411,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/3ae8ae1cb7501061e84a0daa110bddea8f3a98f4"
+    },
+    {
+      "path": "hyperframes-animation/rules/center-outward-expansion.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b6c1063807493b65e6ac64ccc80dffb0769bdeb",
+      "size": 4263,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/0b6c1063807493b65e6ac64ccc80dffb0769bdeb"
+    },
+    {
+      "path": "hyperframes-animation/rules/chart-scrub-readout.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "527878f1765ffbfa558f6644fc88e8255198a037",
+      "size": 10348,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/527878f1765ffbfa558f6644fc88e8255198a037"
+    },
+    {
+      "path": "hyperframes-animation/rules/chromatic-glitch.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c35713a92b72f4147e0f9a4b73c3a4cdd6fa691b",
+      "size": 10339,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/c35713a92b72f4147e0f9a4b73c3a4cdd6fa691b"
+    },
+    {
+      "path": "hyperframes-animation/rules/context-sensitive-cursor.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a75f6da5459d5a6c6840311b9f1e36b3415b2fce",
+      "size": 6938,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/a75f6da5459d5a6c6840311b9f1e36b3415b2fce"
+    },
+    {
+      "path": "hyperframes-animation/rules/control-target-sync.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d521589c961e57ee825940f5a09b4ad442e175ab",
+      "size": 10276,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d521589c961e57ee825940f5a09b4ad442e175ab"
+    },
+    {
+      "path": "hyperframes-animation/rules/coordinate-target-zoom.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a28e80fa6fb9292acff3854d0274157c3ee907f3",
+      "size": 7607,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/a28e80fa6fb9292acff3854d0274157c3ee907f3"
+    },
+    {
+      "path": "hyperframes-animation/rules/counting-dynamic-scale.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d9da5f3072e4ee2990b44dde6c9c37a302429c0",
+      "size": 5977,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/5d9da5f3072e4ee2990b44dde6c9c37a302429c0"
+    },
+    {
+      "path": "hyperframes-animation/rules/css-marker-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97ba6c4a039ec1adff8d47ad97d12316a68970b1",
+      "size": 5702,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/97ba6c4a039ec1adff8d47ad97d12316a68970b1"
+    },
+    {
+      "path": "hyperframes-animation/rules/cursor-click-ripple.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95ef75b981a8a3d68d2ab3d732f20cac02d2cb20",
+      "size": 6400,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/95ef75b981a8a3d68d2ab3d732f20cac02d2cb20"
+    },
+    {
+      "path": "hyperframes-animation/rules/cursor-drag.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2495915994fae112de73037fd3d93ab450fdea9",
+      "size": 10215,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e2495915994fae112de73037fd3d93ab450fdea9"
+    },
+    {
+      "path": "hyperframes-animation/rules/depth-of-field-blur.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1b974a8f2f4c9ac40c23f5fc65e86646f9f83f7",
+      "size": 8876,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e1b974a8f2f4c9ac40c23f5fc65e86646f9f83f7"
+    },
+    {
+      "path": "hyperframes-animation/rules/depth-scatter-assemble.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d1968088a6f5a7567eafeec1790e01c88e4ee96",
+      "size": 7054,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/8d1968088a6f5a7567eafeec1790e01c88e4ee96"
+    },
+    {
+      "path": "hyperframes-animation/rules/discrete-text-sequence.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d3ba111cb68e0da64aa9b0eb11615cfa5731d7d",
+      "size": 6454,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/2d3ba111cb68e0da64aa9b0eb11615cfa5731d7d"
+    },
+    {
+      "path": "hyperframes-animation/rules/dynamic-content-sequencing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "259cc6361fe2fa1e3978ffc176a3f7a5ad6f5d1c",
+      "size": 8561,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/259cc6361fe2fa1e3978ffc176a3f7a5ad6f5d1c"
+    },
+    {
+      "path": "hyperframes-animation/rules/gradient-text-sweep.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e633dad56b20dae13c220baca7d34626b17b09db",
+      "size": 8751,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e633dad56b20dae13c220baca7d34626b17b09db"
+    },
+    {
+      "path": "hyperframes-animation/rules/gsap-effects.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dcf6954f2523429f22cc05227baef32a74af6fe",
+      "size": 6912,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/0dcf6954f2523429f22cc05227baef32a74af6fe"
+    },
+    {
+      "path": "hyperframes-animation/rules/hacker-flip-3d.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04c23cca398ff3c05b7aaccf56b3171deecf76e7",
+      "size": 5589,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/04c23cca398ff3c05b7aaccf56b3171deecf76e7"
+    },
+    {
+      "path": "hyperframes-animation/rules/kinetic-beat-slam.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c82b1595c0eef03e4bbebbea46a20889a6567475",
+      "size": 6451,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/c82b1595c0eef03e4bbebbea46a20889a6567475"
+    },
+    {
+      "path": "hyperframes-animation/rules/motion-blur-streak.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d631de6260ed0512370e2f5e449e90f1968364e4",
+      "size": 10619,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d631de6260ed0512370e2f5e449e90f1968364e4"
+    },
+    {
+      "path": "hyperframes-animation/rules/multi-cursor-choreography.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd5895557bd7512b640580394209764052a6607e",
+      "size": 10520,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/bd5895557bd7512b640580394209764052a6607e"
+    },
+    {
+      "path": "hyperframes-animation/rules/multi-phase-camera.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b03ce7cf24c13143ba3c57bb8c82e3b49ae7c2e",
+      "size": 7773,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/9b03ce7cf24c13143ba3c57bb8c82e3b49ae7c2e"
+    },
+    {
+      "path": "hyperframes-animation/rules/nudge-curve.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25e552618d5ce65abf4dd7eef6590e3cc9e66aa6",
+      "size": 2689,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/25e552618d5ce65abf4dd7eef6590e3cc9e66aa6"
+    },
+    {
+      "path": "hyperframes-animation/rules/orbit-3d-entry.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef46b771c38a2b30d038d3631a08a4b640c2c7e8",
+      "size": 6628,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ef46b771c38a2b30d038d3631a08a4b640c2c7e8"
+    },
+    {
+      "path": "hyperframes-animation/rules/particle-burst.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01a96e4a8a040e23f4e577ecd893d6a27469d428",
+      "size": 9956,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/01a96e4a8a040e23f4e577ecd893d6a27469d428"
+    },
+    {
+      "path": "hyperframes-animation/rules/physics-press-reaction.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fec017088384a1893e214f988a06227001e6559",
+      "size": 6687,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/9fec017088384a1893e214f988a06227001e6559"
+    },
+    {
+      "path": "hyperframes-animation/rules/press-release-spring.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c6eac9671ce61e9307abf5bb068beea59f74e4a",
+      "size": 7041,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/3c6eac9671ce61e9307abf5bb068beea59f74e4a"
+    },
+    {
+      "path": "hyperframes-animation/rules/reactive-displacement.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae4b84f9acabd6337faa7601ff793684ddda8996",
+      "size": 6539,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ae4b84f9acabd6337faa7601ff793684ddda8996"
+    },
+    {
+      "path": "hyperframes-animation/rules/scale-swap-transition.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc350543577bd640f035cca1f7e27acdbc2bbb92",
+      "size": 5517,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/cc350543577bd640f035cca1f7e27acdbc2bbb92"
+    },
+    {
+      "path": "hyperframes-animation/rules/sine-wave-loop.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6619603b75febc427b49c0b21def8e9727bd461e",
+      "size": 6163,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/6619603b75febc427b49c0b21def8e9727bd461e"
+    },
+    {
+      "path": "hyperframes-animation/rules/split-tilt-cards.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "def415a99b833199d84c4e93b562c3951dd7602c",
+      "size": 5669,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/def415a99b833199d84c4e93b562c3951dd7602c"
+    },
+    {
+      "path": "hyperframes-animation/rules/spring-pop-entrance.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2debc1eee003dd25f6c163f856aa8a0f7922466c",
+      "size": 6533,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/2debc1eee003dd25f6c163f856aa8a0f7922466c"
+    },
+    {
+      "path": "hyperframes-animation/rules/stat-bars-and-fills.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58679e72cbe9c8f532317ce6804db086f8cfe192",
+      "size": 5486,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/58679e72cbe9c8f532317ce6804db086f8cfe192"
+    },
+    {
+      "path": "hyperframes-animation/rules/svg-icon-enrichment.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "073d0fd0bb81296548bf3e56b860630e41fa6c01",
+      "size": 7621,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/073d0fd0bb81296548bf3e56b860630e41fa6c01"
+    },
+    {
+      "path": "hyperframes-animation/rules/svg-path-draw.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cf1199878846201788d159125c873669d5f835d",
+      "size": 5646,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/6cf1199878846201788d159125c873669d5f835d"
+    },
+    {
+      "path": "hyperframes-animation/rules/theme-crossfade-morph.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0621633e2bdf9e2d3c98c15764212852f720858e",
+      "size": 9404,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/0621633e2bdf9e2d3c98c15764212852f720858e"
+    },
+    {
+      "path": "hyperframes-animation/rules/vertical-spring-ticker.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55e22ca56f7156e09371ea6ab49ee1a97cc75f56",
+      "size": 5498,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/55e22ca56f7156e09371ea6ab49ee1a97cc75f56"
+    },
+    {
+      "path": "hyperframes-animation/rules/viewport-change.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe6faac8f23ea9896eead3162deec3cc1ee0917b",
+      "size": 8974,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/fe6faac8f23ea9896eead3162deec3cc1ee0917b"
+    },
+    {
+      "path": "hyperframes-animation/rules/waterfall-entry.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e19322bf3b4bb067ffb713c0ff73ca87f0517605",
+      "size": 4582,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e19322bf3b4bb067ffb713c0ff73ca87f0517605"
+    },
+    {
+      "path": "hyperframes-animation/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cc5cd3d2c27f48a99ca59642aedf24f5e17c4c3f",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/cc5cd3d2c27f48a99ca59642aedf24f5e17c4c3f"
+    },
+    {
+      "path": "hyperframes-animation/scripts/animation-map-sampling.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a118c6f6966b91b74f96fc77bf8ca59b8a230fc",
+      "size": 1400,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/7a118c6f6966b91b74f96fc77bf8ca59b8a230fc"
+    },
+    {
+      "path": "hyperframes-animation/scripts/animation-map-sampling.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef6ddb8b7eb03d736b16b15b380380515b49ba1a",
+      "size": 1689,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ef6ddb8b7eb03d736b16b15b380380515b49ba1a"
+    },
+    {
+      "path": "hyperframes-animation/scripts/animation-map.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bb3c81bc648489891beca8838863811f8516a99",
+      "size": 23340,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/0bb3c81bc648489891beca8838863811f8516a99"
+    },
+    {
+      "path": "hyperframes-animation/scripts/animation-map.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d93c33f66380c2f9db5d376dfa63e26f41074b00",
+      "size": 19354,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d93c33f66380c2f9db5d376dfa63e26f41074b00"
+    },
+    {
+      "path": "hyperframes-animation/scripts/package-loader.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce1846a12d43dc01c7c9b9d4b19a62723b960242",
+      "size": 13549,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ce1846a12d43dc01c7c9b9d4b19a62723b960242"
+    },
+    {
+      "path": "hyperframes-animation/scripts/package-loader.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b36a3ceb37d00bc2e07c7cc50714945a1d583a5",
+      "size": 2575,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/7b36a3ceb37d00bc2e07c7cc50714945a1d583a5"
+    },
+    {
+      "path": "hyperframes-animation/techniques.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88abb439bf9bc1b4cd00ce72dd029c79966f8944",
+      "size": 15772,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/88abb439bf9bc1b4cd00ce72dd029c79966f8944"
+    },
+    {
+      "path": "hyperframes-animation/transitions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c496cf9f55387807d7b2e35ce461de90d383dac",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/6c496cf9f55387807d7b2e35ce461de90d383dac"
+    },
+    {
+      "path": "hyperframes-animation/transitions/TRANSITION-REGISTRY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f554e33c5e68e4203d2058c6603b407a4f80cf8a",
+      "size": 8135,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/f554e33c5e68e4203d2058c6603b407a4f80cf8a"
+    },
+    {
+      "path": "hyperframes-animation/transitions/catalog.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d40b9db5c520fc642fafe5b0e2f351ce2e12e1e",
+      "size": 6679,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/3d40b9db5c520fc642fafe5b0e2f351ce2e12e1e"
+    },
+    {
+      "path": "hyperframes-animation/transitions/css-3d.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b86b52012b41d8da60f9fb396da3a4dab8d7e985",
+      "size": 421,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/b86b52012b41d8da60f9fb396da3a4dab8d7e985"
+    },
+    {
+      "path": "hyperframes-animation/transitions/css-blur.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2698ba90ece6a581d0482e89c244cf2cf0c5651e",
+      "size": 1787,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/2698ba90ece6a581d0482e89c244cf2cf0c5651e"
+    },
+    {
+      "path": "hyperframes-animation/transitions/css-cover.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ec60b80cec571776134265053b2ef1a322b4077",
+      "size": 1448,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/6ec60b80cec571776134265053b2ef1a322b4077"
+    },
+    {
+      "path": "hyperframes-animation/transitions/css-destruction.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5db9b97385d7ff1650cadcb427b29d3031a50326",
+      "size": 4484,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/5db9b97385d7ff1650cadcb427b29d3031a50326"
+    },
+    {
+      "path": "hyperframes-animation/transitions/css-dissolve.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3966fa9aa5b6dcb36f5215c5c2cba53cb177736e",
+      "size": 2462,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/3966fa9aa5b6dcb36f5215c5c2cba53cb177736e"
+    },
+    {
+      "path": "hyperframes-animation/transitions/css-distortion.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44627f7c276a2dac3cec216b5aabd2fffaec1a79",
+      "size": 1803,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/44627f7c276a2dac3cec216b5aabd2fffaec1a79"
+    },
+    {
+      "path": "hyperframes-animation/transitions/css-grid.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee16700684216e80e81d60d8c28a1079173e6f44",
+      "size": 370,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ee16700684216e80e81d60d8c28a1079173e6f44"
+    },
+    {
+      "path": "hyperframes-animation/transitions/css-light.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08d4d5293eff3412695e0df81bf140f687bd5671",
+      "size": 2376,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/08d4d5293eff3412695e0df81bf140f687bd5671"
+    },
+    {
+      "path": "hyperframes-animation/transitions/css-mechanical.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa119e7de2a02db264c43fe2e65eb68d1de85884",
+      "size": 1613,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/fa119e7de2a02db264c43fe2e65eb68d1de85884"
+    },
+    {
+      "path": "hyperframes-animation/transitions/css-other.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "698368a3879d0e28a4b9b83e1e49c25e60e47dc4",
+      "size": 838,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/698368a3879d0e28a4b9b83e1e49c25e60e47dc4"
+    },
+    {
+      "path": "hyperframes-animation/transitions/css-push.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7f550351f1d044eb342d32cb68943cc01491b67",
+      "size": 1195,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/b7f550351f1d044eb342d32cb68943cc01491b67"
+    },
+    {
+      "path": "hyperframes-animation/transitions/css-radial.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "040dad2f130fbe74b508255b81e6a0d812b8861e",
+      "size": 1060,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/040dad2f130fbe74b508255b81e6a0d812b8861e"
+    },
+    {
+      "path": "hyperframes-animation/transitions/css-scale.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b16e26469d6b813c730567fa931adb753b42797f",
+      "size": 715,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/b16e26469d6b813c730567fa931adb753b42797f"
+    },
+    {
+      "path": "hyperframes-animation/transitions/overview.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "425a13e256e9322759f02e9261be282123b028f8",
+      "size": 13857,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/425a13e256e9322759f02e9261be282123b028f8"
+    },
+    {
+      "path": "hyperframes-audio",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b1aad4f47a267235bb6d2b7c85dcba1626f728b7",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/b1aad4f47a267235bb6d2b7c85dcba1626f728b7"
+    },
+    {
+      "path": "hyperframes-audio/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ae3b42d69cc1ace7c4c2f69a79600e729b03827",
+      "size": 24734,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/4ae3b42d69cc1ace7c4c2f69a79600e729b03827"
+    },
+    {
+      "path": "hyperframes-audio/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9c5cab63a03e7884f4819e3654ce7e1aa2d8620",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/c9c5cab63a03e7884f4819e3654ce7e1aa2d8620"
+    },
+    {
+      "path": "hyperframes-audio/references/attributes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "224275a9d1f672bbb8a21a5533d27c3d0ae1b672",
+      "size": 6216,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/224275a9d1f672bbb8a21a5533d27c3d0ae1b672"
+    },
+    {
+      "path": "hyperframes-audio/references/diagnosis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63e34b6715dade480df07295666618deca972de5",
+      "size": 12080,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/63e34b6715dade480df07295666618deca972de5"
+    },
+    {
+      "path": "hyperframes-audio/references/fx-registry.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bfb37f1b6a16d697b0412eddf7cb1b5a5025620",
+      "size": 6928,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/5bfb37f1b6a16d697b0412eddf7cb1b5a5025620"
+    },
+    {
+      "path": "hyperframes-audio/references/presets.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6189aa2e2a00713ee6b345622bb3b3692a62efd5",
+      "size": 13155,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/6189aa2e2a00713ee6b345622bb3b3692a62efd5"
+    },
+    {
+      "path": "hyperframes-audio/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b80cf21c94dab080d8c35c9215b2c1e2d18b91f4",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/b80cf21c94dab080d8c35c9215b2c1e2d18b91f4"
+    },
+    {
+      "path": "hyperframes-audio/scripts/carve.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3ee147fb87a4f04052b56a9ed49b19e3a41005a",
+      "size": 24102,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/a3ee147fb87a4f04052b56a9ed49b19e3a41005a"
+    },
+    {
+      "path": "hyperframes-audio/scripts/carve.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dd7a372e890b4ae8acaf55fdb0e829533c19df9",
+      "size": 11278,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/3dd7a372e890b4ae8acaf55fdb0e829533c19df9"
+    },
+    {
+      "path": "hyperframes-cli",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ccee31562c89d05411fc07b2b72c59248c69555",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/8ccee31562c89d05411fc07b2b72c59248c69555"
+    },
+    {
+      "path": "hyperframes-cli/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09c4fe1a58fe16fdba484df1a0fb2568fe5d1f42",
+      "size": 18291,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/09c4fe1a58fe16fdba484df1a0fb2568fe5d1f42"
+    },
+    {
+      "path": "hyperframes-cli/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6af4f594927306d946d649055da6ce8ca53d6ece",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/6af4f594927306d946d649055da6ce8ca53d6ece"
+    },
+    {
+      "path": "hyperframes-cli/references/beats.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da3c05f507d0f8f4485412135e15e71bd9d72f9d",
+      "size": 921,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/da3c05f507d0f8f4485412135e15e71bd9d72f9d"
+    },
+    {
+      "path": "hyperframes-cli/references/cloud.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ba144583ef764882dace3e29f293359a0fc8a65",
+      "size": 11029,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/0ba144583ef764882dace3e29f293359a0fc8a65"
+    },
+    {
+      "path": "hyperframes-cli/references/cloudrun.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ae21e35c7208eb4e4f7ac0d8522b2d81ed6e373",
+      "size": 3583,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/7ae21e35c7208eb4e4f7ac0d8522b2d81ed6e373"
+    },
+    {
+      "path": "hyperframes-cli/references/compare-and-batch.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e2a2e0dd33dd01f9673bd3a5d34be89ba6cab99",
+      "size": 4378,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/7e2a2e0dd33dd01f9673bd3a5d34be89ba6cab99"
+    },
+    {
+      "path": "hyperframes-cli/references/doctor-browser.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96e12569fb10bdcaeb826a6b6a48ffdb02fb2166",
+      "size": 2725,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/96e12569fb10bdcaeb826a6b6a48ffdb02fb2166"
+    },
+    {
+      "path": "hyperframes-cli/references/init-and-scaffold.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f51f11eeca4154b4957635c218a1b3ec86ce5bd6",
+      "size": 5374,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/f51f11eeca4154b4957635c218a1b3ec86ce5bd6"
+    },
+    {
+      "path": "hyperframes-cli/references/lambda.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c5639f0c73bff78f17c10e1ed6539ac72e4ccc4",
+      "size": 16703,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/9c5639f0c73bff78f17c10e1ed6539ac72e4ccc4"
+    },
+    {
+      "path": "hyperframes-cli/references/lint-validate-inspect.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cb92660f13591836ee374803f35e50da264b134",
+      "size": 12561,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/2cb92660f13591836ee374803f35e50da264b134"
+    },
+    {
+      "path": "hyperframes-cli/references/preview-render.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db0e351ee2c0f43f3acf6be0111373e72277ed84",
+      "size": 26037,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/db0e351ee2c0f43f3acf6be0111373e72277ed84"
+    },
+    {
+      "path": "hyperframes-cli/references/upgrade-info-misc.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fdc89537ea27c88761d81d512ef7747fa75d082",
+      "size": 4212,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/2fdc89537ea27c88761d81d512ef7747fa75d082"
+    },
+    {
+      "path": "hyperframes-core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "85ce3f00d1ab2ec8d17165220d2a57245d52f026",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/85ce3f00d1ab2ec8d17165220d2a57245d52f026"
+    },
+    {
+      "path": "hyperframes-core/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64268b4a33dcfec3b6f8da1246fa0d3bf82ab374",
+      "size": 13066,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/64268b4a33dcfec3b6f8da1246fa0d3bf82ab374"
+    },
+    {
+      "path": "hyperframes-core/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9385827fa620832251e555decfbd17b5ad7613d0",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/9385827fa620832251e555decfbd17b5ad7613d0"
+    },
+    {
+      "path": "hyperframes-core/references/brief-contract.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "416e409bbd927f17da9f9b0df195618db39b8a55",
+      "size": 12095,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/416e409bbd927f17da9f9b0df195618db39b8a55"
+    },
+    {
+      "path": "hyperframes-core/references/brief-format.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6195edf37e56e1af0b254aed39f41b32710cbd4f",
+      "size": 7155,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/6195edf37e56e1af0b254aed39f41b32710cbd4f"
+    },
+    {
+      "path": "hyperframes-core/references/composition-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8b7385f9f028bd1977420cef8b6177d97df2f1b",
+      "size": 13844,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/f8b7385f9f028bd1977420cef8b6177d97df2f1b"
+    },
+    {
+      "path": "hyperframes-core/references/creator-editing-recipes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5e9f31c87b9061f798dcd2725904dd0b2f6bb01",
+      "size": 10253,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/f5e9f31c87b9061f798dcd2725904dd0b2f6bb01"
+    },
+    {
+      "path": "hyperframes-core/references/data-attributes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f041de197e9af873aa69218a27400e2219d7ae11",
+      "size": 15720,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/f041de197e9af873aa69218a27400e2219d7ae11"
+    },
+    {
+      "path": "hyperframes-core/references/determinism-rules.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16d8bf4fd01e4628ca7b0f81ef68181a24411e25",
+      "size": 9019,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/16d8bf4fd01e4628ca7b0f81ef68181a24411e25"
+    },
+    {
+      "path": "hyperframes-core/references/frame-worker-core.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b1da927f26a9873db73756bdde9320e24d3bee4",
+      "size": 16802,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/6b1da927f26a9873db73756bdde9320e24d3bee4"
+    },
+    {
+      "path": "hyperframes-core/references/full-screen-motion.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f100cb829be89f88b2bedbe6360aaea2e4cc6db",
+      "size": 3655,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/4f100cb829be89f88b2bedbe6360aaea2e4cc6db"
+    },
+    {
+      "path": "hyperframes-core/references/minimal-composition.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d425877c5ee036da8fc4e0336475beba4accd477",
+      "size": 2511,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d425877c5ee036da8fc4e0336475beba4accd477"
+    },
+    {
+      "path": "hyperframes-core/references/production-loop.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92a5c46846d6fe483e9ee865e4bcfb805bef30fa",
+      "size": 7295,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/92a5c46846d6fe483e9ee865e4bcfb805bef30fa"
+    },
+    {
+      "path": "hyperframes-core/references/review-loop.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a9ecc3d6714258f63cb9e82f464fac69db7f4a3",
+      "size": 6936,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/8a9ecc3d6714258f63cb9e82f464fac69db7f4a3"
+    },
+    {
+      "path": "hyperframes-core/references/script-format.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad2b8ba4708d0d1e25965a2d2330f2ed526d5290",
+      "size": 2821,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ad2b8ba4708d0d1e25965a2d2330f2ed526d5290"
+    },
+    {
+      "path": "hyperframes-core/references/storyboard-format.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fe8102ff6f55cdbeb97d03be49b1e6058a25d01",
+      "size": 7782,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/8fe8102ff6f55cdbeb97d03be49b1e6058a25d01"
+    },
+    {
+      "path": "hyperframes-core/references/sub-compositions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13db379bc42e254349ab21af82cf7632362a1022",
+      "size": 11506,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/13db379bc42e254349ab21af82cf7632362a1022"
+    },
+    {
+      "path": "hyperframes-core/references/subagent-dispatch.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2148342b4622d5f2982e22369590adcaf376ea12",
+      "size": 3677,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/2148342b4622d5f2982e22369590adcaf376ea12"
+    },
+    {
+      "path": "hyperframes-core/references/tailwind.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "715451e4990df7f71eb661d1aa2697645369e588",
+      "size": 5039,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/715451e4990df7f71eb661d1aa2697645369e588"
+    },
+    {
+      "path": "hyperframes-core/references/tracks-and-clips.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a92078052a3656b171340c7dcb784af8bfeb9b3",
+      "size": 5660,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/2a92078052a3656b171340c7dcb784af8bfeb9b3"
+    },
+    {
+      "path": "hyperframes-core/references/variables-and-media.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1537ffd01c0ac21500e14e79a28a5c68c1b2672c",
+      "size": 8330,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/1537ffd01c0ac21500e14e79a28a5c68c1b2672c"
+    },
+    {
+      "path": "hyperframes-core/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7d68f6486913ec960d76a51a9b145a6d39b6a2d",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/a7d68f6486913ec960d76a51a9b145a6d39b6a2d"
+    },
+    {
+      "path": "hyperframes-core/scripts/lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ec1ef8bba5b6181f896d239585080ce790b4fdd2",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/ec1ef8bba5b6181f896d239585080ce790b4fdd2"
+    },
+    {
+      "path": "hyperframes-core/scripts/lib/frame-packets-core.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a182f17ff985d1360567e7192e6e431441f8a6c",
+      "size": 8696,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/1a182f17ff985d1360567e7192e6e431441f8a6c"
+    },
+    {
+      "path": "hyperframes-creative",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1afda9bdea256c342cbe0ab9b2e152afc3958c09",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/1afda9bdea256c342cbe0ab9b2e152afc3958c09"
+    },
+    {
+      "path": "hyperframes-creative/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c41dfd7fcd47b84ec2ee8c92289a3894a5bced6",
+      "size": 6354,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/4c41dfd7fcd47b84ec2ee8c92289a3894a5bced6"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "87dabb98e2bb4c84ee5f32ddd58929bd3756068c",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/87dabb98e2bb4c84ee5f32ddd58929bd3756068c"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/biennale-yellow",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8842e51f84ff4a0ea900b01c2cd7074215eeabed",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/8842e51f84ff4a0ea900b01c2cd7074215eeabed"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/biennale-yellow/FRAME.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c082ea2fefdd47bd2679d72d6a50a3a41aa99eaf",
+      "size": 17789,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/c082ea2fefdd47bd2679d72d6a50a3a41aa99eaf"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/biennale-yellow/caption-skin.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ca668456354e2bf252452c0af04c1599a123f12",
+      "size": 8258,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/8ca668456354e2bf252452c0af04c1599a123f12"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/biennale-yellow/frame-showcase.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "186f8252ad7aeaa18d1fbed1680e4227f0a9ac23",
+      "size": 34908,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/186f8252ad7aeaa18d1fbed1680e4227f0a9ac23"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/blockframe",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6dce09e7ae66c4eb22169d5635b7b30dfdd2fc90",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/6dce09e7ae66c4eb22169d5635b7b30dfdd2fc90"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/blockframe/FRAME.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00e4d88318288c8c138716d266b13dcb31350d57",
+      "size": 16292,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/00e4d88318288c8c138716d266b13dcb31350d57"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/blockframe/caption-skin.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0cdb26fd0a8a5b816ac82d9de8b1c92ad180798",
+      "size": 8472,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/f0cdb26fd0a8a5b816ac82d9de8b1c92ad180798"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/blockframe/frame-showcase.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f5a165072f67559e2c10bbd12d5cbb8bae820e5",
+      "size": 38856,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/3f5a165072f67559e2c10bbd12d5cbb8bae820e5"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/blue-professional",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb09161314fea868e054f4999e2cc1b1e142dcd1",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/fb09161314fea868e054f4999e2cc1b1e142dcd1"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/blue-professional/FRAME.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e821dee2dccc8e424ac160ca6714d561027cce46",
+      "size": 17202,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e821dee2dccc8e424ac160ca6714d561027cce46"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/blue-professional/caption-skin.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a599c2703c2453e50cf263cb31bcb6f5b576872",
+      "size": 8384,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/5a599c2703c2453e50cf263cb31bcb6f5b576872"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/blue-professional/frame-showcase.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff00e7be733ca18714a5b48c4f49669b68d17f5f",
+      "size": 39108,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ff00e7be733ca18714a5b48c4f49669b68d17f5f"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/bold-poster",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "03ac16ba93c8997eb74b85f50b36a1c631ca7fd9",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/03ac16ba93c8997eb74b85f50b36a1c631ca7fd9"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/bold-poster/FRAME.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9f31256cd127913c3ff2457811f8467639da539",
+      "size": 15984,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/c9f31256cd127913c3ff2457811f8467639da539"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/bold-poster/caption-skin.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee1d4bfb6871de5dcf32c970d8d5b39b663d7f51",
+      "size": 8847,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ee1d4bfb6871de5dcf32c970d8d5b39b663d7f51"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/bold-poster/frame-showcase.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8f91897faa3b5b4c74108a6424fcf9290325cd6",
+      "size": 32385,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/a8f91897faa3b5b4c74108a6424fcf9290325cd6"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/broadside",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "61da5157fe54e58360a7fe2c0bc9f109e94c6a57",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/61da5157fe54e58360a7fe2c0bc9f109e94c6a57"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/broadside/FRAME.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dff52def23bb5492844cbbc25a25c19909c6fc4",
+      "size": 16303,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/4dff52def23bb5492844cbbc25a25c19909c6fc4"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/broadside/caption-skin.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00f4b6f8db1791833dabc8e163e15845f1e45810",
+      "size": 8558,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/00f4b6f8db1791833dabc8e163e15845f1e45810"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/broadside/frame-showcase.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d2a6cd15266207ca6feed354cadd2b8eaa21670",
+      "size": 33899,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/0d2a6cd15266207ca6feed354cadd2b8eaa21670"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/capsule",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d9fe5a05b97014b95b2c5c7942866ce13f041d1e",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/d9fe5a05b97014b95b2c5c7942866ce13f041d1e"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/capsule/FRAME.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a37f828c847c031f1603406ce1440a8fc2b4f803",
+      "size": 17214,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/a37f828c847c031f1603406ce1440a8fc2b4f803"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/capsule/caption-skin.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0742a0532170739e8dfd6a2b2b0dc60ddf7566aa",
+      "size": 8501,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/0742a0532170739e8dfd6a2b2b0dc60ddf7566aa"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/capsule/frame-showcase.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65b4e196dbf09cd76208df59daaf77b142bd1dba",
+      "size": 43052,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/65b4e196dbf09cd76208df59daaf77b142bd1dba"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/cartesian",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ec9754f87c5a6294e773a7c3d81928882e49d459",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/ec9754f87c5a6294e773a7c3d81928882e49d459"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/cartesian/FRAME.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a00c21d9250ace9886fc835834993b9d63f64b3f",
+      "size": 17294,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/a00c21d9250ace9886fc835834993b9d63f64b3f"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/cartesian/caption-skin.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "135fa971929954b52a5b4f0f7964de8dddd624ae",
+      "size": 8442,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/135fa971929954b52a5b4f0f7964de8dddd624ae"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/cartesian/frame-showcase.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7918b04e9ddb4bfb924668f24470a24e1d4b9e71",
+      "size": 35340,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/7918b04e9ddb4bfb924668f24470a24e1d4b9e71"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/cobalt-grid",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a223eb99c8ddcde97567d2ddd60570332b5936f",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/5a223eb99c8ddcde97567d2ddd60570332b5936f"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/cobalt-grid/FRAME.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af52eec8f3cd86880530f4c0169c9cf422e31e4e",
+      "size": 17286,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/af52eec8f3cd86880530f4c0169c9cf422e31e4e"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/cobalt-grid/caption-skin.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e604347cf7f5b5e94186c202a1e83d1ea3d512ee",
+      "size": 8952,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e604347cf7f5b5e94186c202a1e83d1ea3d512ee"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/cobalt-grid/frame-showcase.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9449880f1a7b21ff30976dcdbd1d8a385cf3386",
+      "size": 47020,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d9449880f1a7b21ff30976dcdbd1d8a385cf3386"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/code-editorial",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb98e5da426bbe1b6bd2c0b3e3e8b5ca439cd0ca",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/fb98e5da426bbe1b6bd2c0b3e3e8b5ca439cd0ca"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/code-editorial/FRAME.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa15b65eab5c50e8b4c861b525f7365f9f6c925f",
+      "size": 20600,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/aa15b65eab5c50e8b4c861b525f7365f9f6c925f"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/code-editorial/caption-skin.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18c7a33421fddcd27fe4b789e2d4d6754fb52f04",
+      "size": 8469,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/18c7a33421fddcd27fe4b789e2d4d6754fb52f04"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/code-editorial/fonts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0ca69aec11290e245575de39660910e7a1f4113d",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/0ca69aec11290e245575de39660910e7a1f4113d"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/code-editorial/fonts/EBGaramond-400.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffed311d3ecff2090519c97c2e7149ccd96305b2",
+      "size": 21704,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ffed311d3ecff2090519c97c2e7149ccd96305b2"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/code-editorial/fonts/EBGaramond-700.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85d520902feaa6f8646f036bf1dbe6b901106e8f",
+      "size": 23076,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/85d520902feaa6f8646f036bf1dbe6b901106e8f"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/code-editorial/fonts/Inter-400.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f15b025d666269fb07daf0263e54231481e4289c",
+      "size": 23664,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/f15b025d666269fb07daf0263e54231481e4289c"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/code-editorial/fonts/Inter-700.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a68fb101cd9224aa7bb6ca80356b5132c40c6f3f",
+      "size": 24356,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/a68fb101cd9224aa7bb6ca80356b5132c40c6f3f"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/code-editorial/fonts/JetBrainsMono-400.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "585887339efd032b6b715466ae72d86e306bec79",
+      "size": 21168,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/585887339efd032b6b715466ae72d86e306bec79"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/code-editorial/fonts/JetBrainsMono-700.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a4e333fc9316f9989e16af6788bf1fc788c7084",
+      "size": 21908,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/3a4e333fc9316f9989e16af6788bf1fc788c7084"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/code-editorial/fonts/OFL-eb-garamond.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da3ca89595df81b16855b86a4d0d370f34a908fa",
+      "size": 4519,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/da3ca89595df81b16855b86a4d0d370f34a908fa"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/code-editorial/fonts/OFL-inter.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40589daa9de8bc96606292ea0be712ff0f0626eb",
+      "size": 4477,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/40589daa9de8bc96606292ea0be712ff0f0626eb"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/code-editorial/fonts/OFL-jetbrains-mono.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f7ed671137e7a27c646ead86f45d5cb4875f459",
+      "size": 4524,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/8f7ed671137e7a27c646ead86f45d5cb4875f459"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/code-editorial/frame-showcase.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0a70eab89b1e20dc131153f04f0424d44b2acc1",
+      "size": 43711,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e0a70eab89b1e20dc131153f04f0424d44b2acc1"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/coral",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cc9bd520cd156c744860c3bf442919b2e901f7e6",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/cc9bd520cd156c744860c3bf442919b2e901f7e6"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/coral/FRAME.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c73b04acba1d4b86e5285daa90273b5e346a3c9",
+      "size": 18950,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/0c73b04acba1d4b86e5285daa90273b5e346a3c9"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/coral/caption-skin.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41f2a59603e4a7949230ed270cf38d47aede492c",
+      "size": 8457,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/41f2a59603e4a7949230ed270cf38d47aede492c"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/coral/frame-showcase.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae87659f3b61426694e9e522f6573b28b1d6c4e7",
+      "size": 36472,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ae87659f3b61426694e9e522f6573b28b1d6c4e7"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/creative-mode",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d3a43dbbbb5b751f358d2c11af980b662cb3dad",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/9d3a43dbbbb5b751f358d2c11af980b662cb3dad"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/creative-mode/FRAME.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e00e6fed67b6a1a1f366119714d548238427d752",
+      "size": 19605,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e00e6fed67b6a1a1f366119714d548238427d752"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/creative-mode/caption-skin.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "231e39bf048db4c6049e76b2a007abdfaddf6ff0",
+      "size": 8516,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/231e39bf048db4c6049e76b2a007abdfaddf6ff0"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/creative-mode/frame-showcase.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e540e40a39733abced1ea3d249f692c0eca32832",
+      "size": 38750,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e540e40a39733abced1ea3d249f692c0eca32832"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/daisy-days",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "67ad4645d78623108a80118e29ac82a758eaf113",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/67ad4645d78623108a80118e29ac82a758eaf113"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/daisy-days/FRAME.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed3ebf49e0a0f78cb5ac543e5c175d8da4c07541",
+      "size": 17445,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ed3ebf49e0a0f78cb5ac543e5c175d8da4c07541"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/daisy-days/caption-skin.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6431baaa6cd6129f22085436cc9d7889abee6d99",
+      "size": 8643,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/6431baaa6cd6129f22085436cc9d7889abee6d99"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/daisy-days/frame-showcase.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c577bdbab3a1f023139349f3a63f2e5ff875b274",
+      "size": 42293,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/c577bdbab3a1f023139349f3a63f2e5ff875b274"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/editorial-forest",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "07adf9433dd8fdffcdb2d6c6e45d8c8a69ada940",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/07adf9433dd8fdffcdb2d6c6e45d8c8a69ada940"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/editorial-forest/FRAME.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83e2594f6301b54d98569ad478417d6fbb0d95ed",
+      "size": 17019,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/83e2594f6301b54d98569ad478417d6fbb0d95ed"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/editorial-forest/caption-skin.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3d28986797c7643674ba93e120f8b104fc29d80",
+      "size": 8483,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/b3d28986797c7643674ba93e120f8b104fc29d80"
+    },
+    {
+      "path": "hyperframes-creative/frame-presets/editorial-forest/frame-showcase.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5c08718fef48120a17ee7d7858e3bfe592c63e7",
+      "size": 36847,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/c5c08718fef48120a17ee7d7858e3bfe592c63e7"
+    },
+    {
+      "path": "hyperframes-creative/palettes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "56a80d6877b31ea7952481d35e752f75d030c75b",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/56a80d6877b31ea7952481d35e752f75d030c75b"
+    },
+    {
+      "path": "hyperframes-creative/palettes/bold-energetic.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e60e2d76a481c0f1f3853374532411426b261f9e",
+      "size": 417,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e60e2d76a481c0f1f3853374532411426b261f9e"
+    },
+    {
+      "path": "hyperframes-creative/palettes/clean-corporate.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4b79c939d0517c3235cccf9dadc4cc59ef5b8c8",
+      "size": 410,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/a4b79c939d0517c3235cccf9dadc4cc59ef5b8c8"
+    },
+    {
+      "path": "hyperframes-creative/palettes/dark-premium.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84f81d5622d8f3fd18b97e072a45e171356008ae",
+      "size": 389,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/84f81d5622d8f3fd18b97e072a45e171356008ae"
+    },
+    {
+      "path": "hyperframes-creative/palettes/jewel-rich.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbd5542b2a01ba16e5601d20d4115bc91d146201",
+      "size": 394,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/fbd5542b2a01ba16e5601d20d4115bc91d146201"
+    },
+    {
+      "path": "hyperframes-creative/palettes/monochrome.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e26d247379de3a2133af87294f5e3d7304a86c1e",
+      "size": 454,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e26d247379de3a2133af87294f5e3d7304a86c1e"
+    },
+    {
+      "path": "hyperframes-creative/palettes/nature-earth.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc3cb9d63b0320310852659b99d38de62e811288",
+      "size": 399,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/cc3cb9d63b0320310852659b99d38de62e811288"
+    },
+    {
+      "path": "hyperframes-creative/palettes/neon-electric.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94c3e86e8de695ad49c1108c96ea3113095de368",
+      "size": 380,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/94c3e86e8de695ad49c1108c96ea3113095de368"
+    },
+    {
+      "path": "hyperframes-creative/palettes/pastel-soft.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4e99c5383955b41932e776152f38be5179ce27b",
+      "size": 392,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/f4e99c5383955b41932e776152f38be5179ce27b"
+    },
+    {
+      "path": "hyperframes-creative/palettes/warm-editorial.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b1907aac544928b0fd82d82a2bdd21960be6830",
+      "size": 411,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/2b1907aac544928b0fd82d82a2bdd21960be6830"
+    },
+    {
+      "path": "hyperframes-creative/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2d82c2643092e9985e136aa9fad0f9eb593ec75e",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/2d82c2643092e9985e136aa9fad0f9eb593ec75e"
+    },
+    {
+      "path": "hyperframes-creative/references/audio-reactive.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69549bbebac1a16b5696c58e8b715949e7e675d1",
+      "size": 3062,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/69549bbebac1a16b5696c58e8b715949e7e675d1"
+    },
+    {
+      "path": "hyperframes-creative/references/beat-direction.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1d436a5b9b371452e2186c9489cf1c7ee78616c",
+      "size": 13640,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/b1d436a5b9b371452e2186c9489cf1c7ee78616c"
+    },
+    {
+      "path": "hyperframes-creative/references/composition-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2ddb391c06f492897dc49e8762f7235b9634418",
+      "size": 5685,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e2ddb391c06f492897dc49e8762f7235b9634418"
+    },
+    {
+      "path": "hyperframes-creative/references/data-in-motion.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0578cd155a7bbc1c3af7e31d1a6ce7f6416e86f3",
+      "size": 1274,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/0578cd155a7bbc1c3af7e31d1a6ce7f6416e86f3"
+    },
+    {
+      "path": "hyperframes-creative/references/design-adherence.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "130d469df25aed5f057c81e507b22226417da43b",
+      "size": 1423,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/130d469df25aed5f057c81e507b22226417da43b"
+    },
+    {
+      "path": "hyperframes-creative/references/design-picker.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0a9019226c9885fb6a385a93c94f51bbcd6b9c8",
+      "size": 12221,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/b0a9019226c9885fb6a385a93c94f51bbcd6b9c8"
+    },
+    {
+      "path": "hyperframes-creative/references/design-spec.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "696f91d95fac415a6afdc1fd7a5e8df5cd21fe8b",
+      "size": 10498,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/696f91d95fac415a6afdc1fd7a5e8df5cd21fe8b"
+    },
+    {
+      "path": "hyperframes-creative/references/house-style.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e39459f222ecc7a6035207812c1eef5f4499788e",
+      "size": 5080,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e39459f222ecc7a6035207812c1eef5f4499788e"
+    },
+    {
+      "path": "hyperframes-creative/references/motion-principles.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44a4604a6ed49a6fb3d9ab883d8a48a056676093",
+      "size": 9335,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/44a4604a6ed49a6fb3d9ab883d8a48a056676093"
+    },
+    {
+      "path": "hyperframes-creative/references/narration.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c28fff2ee65ec0620db9033a62834c6aa580384e",
+      "size": 3482,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/c28fff2ee65ec0620db9033a62834c6aa580384e"
+    },
+    {
+      "path": "hyperframes-creative/references/prompt-expansion.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef6450d46c289e1027250a87e857835f9b68c75f",
+      "size": 5707,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ef6450d46c289e1027250a87e857835f9b68c75f"
+    },
+    {
+      "path": "hyperframes-creative/references/story-spine.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2a2a66edd57ed19a318b369c601c3681878eb14",
+      "size": 4045,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/a2a2a66edd57ed19a318b369c601c3681878eb14"
+    },
+    {
+      "path": "hyperframes-creative/references/typography.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e5713d632efef682329b98bfdfb9f94910aa464",
+      "size": 14486,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/2e5713d632efef682329b98bfdfb9f94910aa464"
+    },
+    {
+      "path": "hyperframes-creative/references/video-composition.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb2a19320a30e10a9801b93e2053f30dde737aa6",
+      "size": 4298,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/fb2a19320a30e10a9801b93e2053f30dde737aa6"
+    },
+    {
+      "path": "hyperframes-creative/references/visual-styles.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "621ff9e6bfd4f0fd4b2e8c0e2a121939082bf3ea",
+      "size": 11967,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/621ff9e6bfd4f0fd4b2e8c0e2a121939082bf3ea"
+    },
+    {
+      "path": "hyperframes-creative/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "50114476757f62fd25ec8528d4daae38503ac03c",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/50114476757f62fd25ec8528d4daae38503ac03c"
+    },
+    {
+      "path": "hyperframes-creative/scripts/contrast-report.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "429243ee6679a812b7d0928792d4014087e88740",
+      "size": 21349,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/429243ee6679a812b7d0928792d4014087e88740"
+    },
+    {
+      "path": "hyperframes-creative/scripts/extract-audio-data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b76ad9959354ec4a6382fcfc434f379f811f5bf6",
+      "size": 7214,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/b76ad9959354ec4a6382fcfc434f379f811f5bf6"
+    },
+    {
+      "path": "hyperframes-creative/scripts/package-loader.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce1846a12d43dc01c7c9b9d4b19a62723b960242",
+      "size": 13549,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ce1846a12d43dc01c7c9b9d4b19a62723b960242"
+    },
+    {
+      "path": "hyperframes-creative/scripts/package-loader.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b36a3ceb37d00bc2e07c7cc50714945a1d583a5",
+      "size": 2575,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/7b36a3ceb37d00bc2e07c7cc50714945a1d583a5"
+    },
+    {
+      "path": "hyperframes-creative/templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6d388fde44ad57564f0e89a6200286c44178e1e2",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/6d388fde44ad57564f0e89a6200286c44178e1e2"
+    },
+    {
+      "path": "hyperframes-creative/templates/design-picker.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cb6f0878dc1b1e7296664b193c080a91babc335",
+      "size": 44098,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/6cb6f0878dc1b1e7296664b193c080a91babc335"
+    },
+    {
+      "path": "hyperframes-keyframes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7388a32ad3c69ce46e2ffca4beb462139e1e885c",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/7388a32ad3c69ce46e2ffca4beb462139e1e885c"
+    },
+    {
+      "path": "hyperframes-keyframes/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce7697e8bf546dc656bc60338c10eef86963df10",
+      "size": 15901,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ce7697e8bf546dc656bc60338c10eef86963df10"
+    },
+    {
+      "path": "hyperframes-keyframes/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b67bab076c7516ab4ffff736d6cf63ad626a2acf",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/b67bab076c7516ab4ffff736d6cf63ad626a2acf"
+    },
+    {
+      "path": "hyperframes-keyframes/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cb053d51e335257ba2bab26d0049d82849bda32",
+      "size": 220,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/2cb053d51e335257ba2bab26d0049d82849bda32"
+    },
+    {
+      "path": "hyperframes-keyframes/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6ebd6fd4fea45a47ed37e38a6059374938cf77d1",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/6ebd6fd4fea45a47ed37e38a6059374938cf77d1"
+    },
+    {
+      "path": "hyperframes-keyframes/references/keyframe-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5770721d018d7106376766d43614d318f9c7f191",
+      "size": 6692,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/5770721d018d7106376766d43614d318f9c7f191"
+    },
+    {
+      "path": "hyperframes-registry",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7440883a4d978487c4e64370d3ad50080882d7be",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/7440883a4d978487c4e64370d3ad50080882d7be"
+    },
+    {
+      "path": "hyperframes-registry/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42a54d918a89484891627b776a3cacea7da56c02",
+      "size": 9211,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/42a54d918a89484891627b776a3cacea7da56c02"
+    },
+    {
+      "path": "hyperframes-registry/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7e7b6ab8ca19bea80ee91ba5b7c8cfd6e54a121a",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/7e7b6ab8ca19bea80ee91ba5b7c8cfd6e54a121a"
+    },
+    {
+      "path": "hyperframes-registry/examples/add-block.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95bee6ff87928db0f6b3d39008e4f0913600ea79",
+      "size": 1232,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/95bee6ff87928db0f6b3d39008e4f0913600ea79"
+    },
+    {
+      "path": "hyperframes-registry/examples/add-component.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1371289ddfa21b27ec461947686c840f02e3d956",
+      "size": 1473,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/1371289ddfa21b27ec461947686c840f02e3d956"
+    },
+    {
+      "path": "hyperframes-registry/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cad4a75917c3afa42eb7dfe34b919bbda41ed024",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/cad4a75917c3afa42eb7dfe34b919bbda41ed024"
+    },
+    {
+      "path": "hyperframes-registry/references/component-quality-bar.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c34ec97847059002b7a115b937ab6dfa67495dd3",
+      "size": 16390,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/c34ec97847059002b7a115b937ab6dfa67495dd3"
+    },
+    {
+      "path": "hyperframes-registry/references/contributing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10a00191fc7a5aecd0f1b114a08e480136242b53",
+      "size": 6402,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/10a00191fc7a5aecd0f1b114a08e480136242b53"
+    },
+    {
+      "path": "hyperframes-registry/references/demo-html-pattern.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e53838c10b91dbf5fb196c95cde64bc385d2bc7",
+      "size": 1884,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/3e53838c10b91dbf5fb196c95cde64bc385d2bc7"
+    },
+    {
+      "path": "hyperframes-registry/references/discovery.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "550a9a7cf878045ca56ae77e02f087610c9e8c05",
+      "size": 18225,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/550a9a7cf878045ca56ae77e02f087610c9e8c05"
+    },
+    {
+      "path": "hyperframes-registry/references/install-locations.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65e3d34e57f1e509f82476992c8d72c05a7106ee",
+      "size": 1519,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/65e3d34e57f1e509f82476992c8d72c05a7106ee"
+    },
+    {
+      "path": "hyperframes-registry/references/placeholder-material.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6648aafc463a378dd851c36d6cabd8804b476e4",
+      "size": 9006,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d6648aafc463a378dd851c36d6cabd8804b476e4"
+    },
+    {
+      "path": "hyperframes-registry/references/templates.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8834c959e2d1d02d30e44e0c72d5960619a31c3a",
+      "size": 11451,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/8834c959e2d1d02d30e44e0c72d5960619a31c3a"
+    },
+    {
+      "path": "hyperframes-registry/references/wiring-blocks.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3f4474cfa7af80e157c44c51dd6cb0ce6d1d076",
+      "size": 2641,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d3f4474cfa7af80e157c44c51dd6cb0ce6d1d076"
+    },
+    {
+      "path": "hyperframes-registry/references/wiring-components.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9521a2174a37734efb3de8370224e21647a5655c",
+      "size": 1723,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/9521a2174a37734efb3de8370224e21647a5655c"
+    },
+    {
+      "path": "hyperframes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7142bea6c179e84bdf44597e0d5fafd8fee91747",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/7142bea6c179e84bdf44597e0d5fafd8fee91747"
+    },
+    {
+      "path": "hyperframes/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d67beb8ead5576d153449321e5fd1e160aafa5bf",
+      "size": 15666,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d67beb8ead5576d153449321e5fd1e160aafa5bf"
+    },
+    {
+      "path": "hyperframes/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e2b5a13c86053f05ae6b1a53c763bcf718df3a66",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/e2b5a13c86053f05ae6b1a53c763bcf718df3a66"
+    },
+    {
+      "path": "hyperframes/references/capability-menu.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a07d7c9c10246e28912021c2f072fd22e58ef0ad",
+      "size": 15616,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/a07d7c9c10246e28912021c2f072fd22e58ef0ad"
+    },
+    {
+      "path": "hyperframes/references/intent-interview.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fafbe8c8b2d5e8b775310267c901fe2e80d3b8d0",
+      "size": 14171,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/fafbe8c8b2d5e8b775310267c901fe2e80d3b8d0"
+    },
+    {
+      "path": "hyperframes/references/pitch-round.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cffa19199fe9d97d9d776051221ab17298a8e51",
+      "size": 5550,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/5cffa19199fe9d97d9d776051221ab17298a8e51"
+    },
+    {
+      "path": "hyperframes/references/route-briefs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68cfac034e6339ba780f48bf02b47d81de31bb81",
+      "size": 584,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/68cfac034e6339ba780f48bf02b47d81de31bb81"
+    },
+    {
+      "path": "hyperframes/references/routes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "98b6eba72455e58ab32ef49cb23f9c9886fe97a2",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/98b6eba72455e58ab32ef49cb23f9c9886fe97a2"
+    },
+    {
+      "path": "hyperframes/references/routes/embedded-captions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcca9efbf924c3b82622e9bd0dd601ed8bcfbd69",
+      "size": 739,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/dcca9efbf924c3b82622e9bd0dd601ed8bcfbd69"
+    },
+    {
+      "path": "hyperframes/references/routes/faceless-explainer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b75b6ed311a316fad9b99bb934d1fd2f61b2a6f0",
+      "size": 1020,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/b75b6ed311a316fad9b99bb934d1fd2f61b2a6f0"
+    },
+    {
+      "path": "hyperframes/references/routes/general-video.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3e7c2d2b871e04f870143edff7f25f73ca7c89e",
+      "size": 1374,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d3e7c2d2b871e04f870143edff7f25f73ca7c89e"
+    },
+    {
+      "path": "hyperframes/references/routes/motion-graphics.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41e3216cd703715a090be3fe88f1ad5f851be18d",
+      "size": 859,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/41e3216cd703715a090be3fe88f1ad5f851be18d"
+    },
+    {
+      "path": "hyperframes/references/routes/music-to-video.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "205418299ab4241fe964d9cea1423f847e55a19e",
+      "size": 1114,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/205418299ab4241fe964d9cea1423f847e55a19e"
+    },
+    {
+      "path": "hyperframes/references/routes/pr-to-video.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd93c7f9005de39b4863cd4e29ced9864db18c6e",
+      "size": 2057,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/bd93c7f9005de39b4863cd4e29ced9864db18c6e"
+    },
+    {
+      "path": "hyperframes/references/routes/product-launch-video.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9c2cd3ebea0da2b35a2ee2b661fe557743c6d70",
+      "size": 2006,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e9c2cd3ebea0da2b35a2ee2b661fe557743c6d70"
+    },
+    {
+      "path": "hyperframes/references/routes/remotion-to-hyperframes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "257e042f485852ad2917ae134b1b460e1a3fefd7",
+      "size": 545,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/257e042f485852ad2917ae134b1b460e1a3fefd7"
+    },
+    {
+      "path": "hyperframes/references/routes/slideshow.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bb4ee971365ee98edbb2b7685c9ae37f754ea4b",
+      "size": 1081,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/5bb4ee971365ee98edbb2b7685c9ae37f754ea4b"
+    },
+    {
+      "path": "hyperframes/references/routes/talking-head-recut.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42ec6e65b3af1aabaf70cdc539ed6a8e6ee69a25",
+      "size": 765,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/42ec6e65b3af1aabaf70cdc539ed6a8e6ee69a25"
+    },
+    {
+      "path": "hyperframes/references/skill-lifecycle.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf5c79d05ee880cde8c86a4b199b642151eec88e",
+      "size": 1901,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/cf5c79d05ee880cde8c86a4b199b642151eec88e"
+    },
+    {
+      "path": "hyperframes/references/workflow-catalog.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "934de53086041e3bfea4048f632157bde7fdd363",
+      "size": 458,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/934de53086041e3bfea4048f632157bde7fdd363"
+    },
+    {
+      "path": "media-router",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3a4f3bd514a61f9d885f957482370efabfee8386",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/3a4f3bd514a61f9d885f957482370efabfee8386"
+    },
+    {
+      "path": "media-router/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "519e37d511928429b11e2fe7a3d1d3d00a122f9b",
+      "size": 13826,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/519e37d511928429b11e2fe7a3d1d3d00a122f9b"
+    },
+    {
+      "path": "media-use",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cfa7fd5a826e0533bfa80fa1777110f5176367ec",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/cfa7fd5a826e0533bfa80fa1777110f5176367ec"
+    },
+    {
+      "path": "media-use/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17df1e2dbcfacf1e381b6153b10eac6002151231",
+      "size": 17,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/17df1e2dbcfacf1e381b6153b10eac6002151231"
+    },
+    {
+      "path": "media-use/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5655ccb439e6195c575c00442839a47c68ce0f79",
+      "size": 7982,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/5655ccb439e6195c575c00442839a47c68ce0f79"
+    },
+    {
+      "path": "media-use/audio",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8adf2bab2638747fefa385f4346dce0b1d923182",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/8adf2bab2638747fefa385f4346dce0b1d923182"
+    },
+    {
+      "path": "media-use/audio/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "123075b22504a5bbbfc8b404c719bc376f0d1114",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/123075b22504a5bbbfc8b404c719bc376f0d1114"
+    },
+    {
+      "path": "media-use/audio/assets/sfx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "98f5f66216e92a62aadc4cf80b3cfd9d0a7e3a72",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/98f5f66216e92a62aadc4cf80b3cfd9d0a7e3a72"
+    },
+    {
+      "path": "media-use/audio/assets/sfx/CREDITS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "750d6e83934164d6cb38f6cc96269104dc4695b4",
+      "size": 1183,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/750d6e83934164d6cb38f6cc96269104dc4695b4"
+    },
+    {
+      "path": "media-use/audio/assets/sfx/chime.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12da953a356a49458d03e09185336d81f4b92f81",
+      "size": 27309,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/12da953a356a49458d03e09185336d81f4b92f81"
+    },
+    {
+      "path": "media-use/audio/assets/sfx/click-soft.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2706b1d2ea64721d1888d15fee2fcc98f0609570",
+      "size": 11702,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/2706b1d2ea64721d1888d15fee2fcc98f0609570"
+    },
+    {
+      "path": "media-use/audio/assets/sfx/click.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2706b1d2ea64721d1888d15fee2fcc98f0609570",
+      "size": 11702,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/2706b1d2ea64721d1888d15fee2fcc98f0609570"
+    },
+    {
+      "path": "media-use/audio/assets/sfx/error.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b4487ff46c03a883ded41b2ad0bb2830b2dbde6",
+      "size": 51827,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/6b4487ff46c03a883ded41b2ad0bb2830b2dbde6"
+    },
+    {
+      "path": "media-use/audio/assets/sfx/glitch-1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "124f4501948aafd03ae655bf11570bfbe47fa704",
+      "size": 84427,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/124f4501948aafd03ae655bf11570bfbe47fa704"
+    },
+    {
+      "path": "media-use/audio/assets/sfx/glitch-2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "580b6fdc4f665660b2c74872a0bcdccf826222be",
+      "size": 112128,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/580b6fdc4f665660b2c74872a0bcdccf826222be"
+    },
+    {
+      "path": "media-use/audio/assets/sfx/glitch-3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a8adc2442314cf79e6e1fb25598d0149afbd421",
+      "size": 99072,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/5a8adc2442314cf79e6e1fb25598d0149afbd421"
+    },
+    {
+      "path": "media-use/audio/assets/sfx/impact-bass-1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecfe0c48a672e77c98afac6810fd4c446dde94b0",
+      "size": 67709,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ecfe0c48a672e77c98afac6810fd4c446dde94b0"
+    },
+    {
+      "path": "media-use/audio/assets/sfx/impact-bass-2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ae448b58a5011e4aaeeab3cbcaf0e4a0d59cd86",
+      "size": 82944,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/4ae448b58a5011e4aaeeab3cbcaf0e4a0d59cd86"
+    },
+    {
+      "path": "media-use/audio/assets/sfx/key-press.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d669006e01071d57b3ee7c8ada064a2bf6b7dddc",
+      "size": 3909,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d669006e01071d57b3ee7c8ada064a2bf6b7dddc"
+    },
+    {
+      "path": "media-use/audio/assets/sfx/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7db0ad7ca58f8ebcebb813a253c47b039ef2b9ec",
+      "size": 3721,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/7db0ad7ca58f8ebcebb813a253c47b039ef2b9ec"
+    },
+    {
+      "path": "media-use/audio/assets/sfx/notification.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3f0d1fa22dde07ae601b20cbafb9cc1274dafeb",
+      "size": 78576,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d3f0d1fa22dde07ae601b20cbafb9cc1274dafeb"
+    },
+    {
+      "path": "media-use/audio/assets/sfx/ping.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99808c8b6399ffa82a074ffeb0f180ec9afd3920",
+      "size": 26400,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/99808c8b6399ffa82a074ffeb0f180ec9afd3920"
+    },
+    {
+      "path": "media-use/audio/assets/sfx/pop.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3ed16fef09641bbd7c0d53f508c71d6af863efb",
+      "size": 23040,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e3ed16fef09641bbd7c0d53f508c71d6af863efb"
+    },
+    {
+      "path": "media-use/audio/assets/sfx/riser.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cea32c08dc8524cd592d6779165157115cb6dc2",
+      "size": 321024,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/0cea32c08dc8524cd592d6779165157115cb6dc2"
+    },
+    {
+      "path": "media-use/audio/assets/sfx/sparkle.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dae37802ff423cfb82a259a60812a83e5397a520",
+      "size": 57678,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/dae37802ff423cfb82a259a60812a83e5397a520"
+    },
+    {
+      "path": "media-use/audio/assets/sfx/typing.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff69cc04200bb1af6e0785a801ca4d77281b4fce",
+      "size": 26852,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ff69cc04200bb1af6e0785a801ca4d77281b4fce"
+    },
+    {
+      "path": "media-use/audio/assets/sfx/whoosh-cinematic.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93b721800780ac4fe5e1847bb58dc60248db2402",
+      "size": 177408,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/93b721800780ac4fe5e1847bb58dc60248db2402"
+    },
+    {
+      "path": "media-use/audio/assets/sfx/whoosh-short.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e23e513d273009fbf48e8bcd44f65953e38bc3b0",
+      "size": 18390,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e23e513d273009fbf48e8bcd44f65953e38bc3b0"
+    },
+    {
+      "path": "media-use/audio/assets/sfx/whoosh.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e23e513d273009fbf48e8bcd44f65953e38bc3b0",
+      "size": 18390,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e23e513d273009fbf48e8bcd44f65953e38bc3b0"
+    },
+    {
+      "path": "media-use/audio/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cd643edb47c3fb7f480d56ebcb2ab671f853c6aa",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/cd643edb47c3fb7f480d56ebcb2ab671f853c6aa"
+    },
+    {
+      "path": "media-use/audio/references/bgm.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c43da908abe463e42d9ba211edbea2b874bf5c7",
+      "size": 7958,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/9c43da908abe463e42d9ba211edbea2b874bf5c7"
+    },
+    {
+      "path": "media-use/audio/references/captions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "61b8327f96ed05af0cca41ad903c5f109968951f",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/61b8327f96ed05af0cca41ad903c5f109968951f"
+    },
+    {
+      "path": "media-use/audio/references/captions/authoring.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65687f680336861388464657a685d816b6beda7e",
+      "size": 9045,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/65687f680336861388464657a685d816b6beda7e"
+    },
+    {
+      "path": "media-use/audio/references/captions/motion.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d39be28dce42613ae2a7520e32e256f95350007a",
+      "size": 5656,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d39be28dce42613ae2a7520e32e256f95350007a"
+    },
+    {
+      "path": "media-use/audio/references/captions/transcript-handling.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a87d6410f73db41b880bd329b0539d5ad30834c",
+      "size": 5439,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/3a87d6410f73db41b880bd329b0539d5ad30834c"
+    },
+    {
+      "path": "media-use/audio/references/remove-background.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eff9fd551f7fa2e19858ea4010d1e71e514cd9a9",
+      "size": 8465,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/eff9fd551f7fa2e19858ea4010d1e71e514cd9a9"
+    },
+    {
+      "path": "media-use/audio/references/requirements.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c5793464c9c5e43e23259b9ce8708b451580662",
+      "size": 4347,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/8c5793464c9c5e43e23259b9ce8708b451580662"
+    },
+    {
+      "path": "media-use/audio/references/sfx.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6df3268cc354dbbb127b9eb47c2e867b38fb061d",
+      "size": 3503,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/6df3268cc354dbbb127b9eb47c2e867b38fb061d"
+    },
+    {
+      "path": "media-use/audio/references/transcribe.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06df2ce445bc7eb13fc4e0b42321cf405d9c6db4",
+      "size": 2783,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/06df2ce445bc7eb13fc4e0b42321cf405d9c6db4"
+    },
+    {
+      "path": "media-use/audio/references/tts-to-captions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e11262cae282e7ed57f78f08f6b5ab817609fa35",
+      "size": 1248,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e11262cae282e7ed57f78f08f6b5ab817609fa35"
+    },
+    {
+      "path": "media-use/audio/references/tts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9fbd43349676b0408c834fe429d0d6af612911c",
+      "size": 8783,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d9fbd43349676b0408c834fe429d0d6af612911c"
+    },
+    {
+      "path": "media-use/audio/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4225ec77108ec63251d1602f0be78740ca93981a",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/4225ec77108ec63251d1602f0be78740ca93981a"
+    },
+    {
+      "path": "media-use/audio/scripts/audio.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc005eeff99cd4f738c7bc777b653639d12b36f7",
+      "size": 12826,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/bc005eeff99cd4f738c7bc777b653639d12b36f7"
+    },
+    {
+      "path": "media-use/audio/scripts/audio.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b229e40cc3ba11192b16661e169c50e02601e598",
+      "size": 1900,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/b229e40cc3ba11192b16661e169c50e02601e598"
+    },
+    {
+      "path": "media-use/audio/scripts/heygen-tts.mjs",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3b6dcbf4a84c798689e02c0068fb799dc011ab7b",
+      "size": 4277,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/3b6dcbf4a84c798689e02c0068fb799dc011ab7b"
+    },
+    {
+      "path": "media-use/audio/scripts/lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a1c6cb1ce4be937a44ae7d4d91ec7f253074ab42",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/a1c6cb1ce4be937a44ae7d4d91ec7f253074ab42"
+    },
+    {
+      "path": "media-use/audio/scripts/lib/bgm.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c91d005f2a6969186fcfd38e98ea16e80a195f8",
+      "size": 11524,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/4c91d005f2a6969186fcfd38e98ea16e80a195f8"
+    },
+    {
+      "path": "media-use/audio/scripts/lib/bgm.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46967605c7de378bcafec853b5b459ff39b239c1",
+      "size": 1226,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/46967605c7de378bcafec853b5b459ff39b239c1"
+    },
+    {
+      "path": "media-use/audio/scripts/lib/concurrency.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4988b619202f15a6002be7475bc80408f8b0c0f2",
+      "size": 527,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/4988b619202f15a6002be7475bc80408f8b0c0f2"
+    },
+    {
+      "path": "media-use/audio/scripts/lib/concurrency.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d033860b86823c7473cd096fcbbe8b9f3d5e6ce7",
+      "size": 1654,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d033860b86823c7473cd096fcbbe8b9f3d5e6ce7"
+    },
+    {
+      "path": "media-use/audio/scripts/lib/heygen.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed784ffd4057e935a8fbfb02f1ba7e0d4d13f99b",
+      "size": 7076,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ed784ffd4057e935a8fbfb02f1ba7e0d4d13f99b"
+    },
+    {
+      "path": "media-use/audio/scripts/lib/heygen.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22542f3552072db8134fe0cc2816de6ddb48df55",
+      "size": 3559,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/22542f3552072db8134fe0cc2816de6ddb48df55"
+    },
+    {
+      "path": "media-use/audio/scripts/lib/python.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a11c0151ce34b916fb29af4cc2771bb82e6166a4",
+      "size": 2574,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/a11c0151ce34b916fb29af4cc2771bb82e6166a4"
+    },
+    {
+      "path": "media-use/audio/scripts/lib/python.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4598d02e03a6e6c3007b6403f92e085bdffce80a",
+      "size": 2642,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/4598d02e03a6e6c3007b6403f92e085bdffce80a"
+    },
+    {
+      "path": "media-use/audio/scripts/lib/sfx.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f72baf34ee789f4f3d89083d282265cce930a3dc",
+      "size": 5435,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/f72baf34ee789f4f3d89083d282265cce930a3dc"
+    },
+    {
+      "path": "media-use/audio/scripts/lib/sfx.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c89d58748f7bb52b37a377f71e45931f33223e1",
+      "size": 2847,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/3c89d58748f7bb52b37a377f71e45931f33223e1"
+    },
+    {
+      "path": "media-use/audio/scripts/lib/tts.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bb004e138963802d830ae83ab14ae0d93642728",
+      "size": 16516,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/8bb004e138963802d830ae83ab14ae0d93642728"
+    },
+    {
+      "path": "media-use/audio/scripts/lib/tts.spawn.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8e6b49a9bf8ab9af47db9d24f14a9fb7c79dcea",
+      "size": 5249,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/b8e6b49a9bf8ab9af47db9d24f14a9fb7c79dcea"
+    },
+    {
+      "path": "media-use/audio/scripts/lib/tts.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4f651908d96bcfbe245ba479f6687524ec6c966",
+      "size": 6115,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/a4f651908d96bcfbe245ba479f6687524ec6c966"
+    },
+    {
+      "path": "media-use/audio/scripts/lyria-recipe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fdf7d3df13346a1dc1ee06ef1b87a3439bf0507",
+      "size": 5023,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/5fdf7d3df13346a1dc1ee06ef1b87a3439bf0507"
+    },
+    {
+      "path": "media-use/audio/scripts/wait-bgm.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa9cc19361444b0c95e5dcfb507f0c7105eae53e",
+      "size": 5486,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/aa9cc19361444b0c95e5dcfb507f0c7105eae53e"
+    },
+    {
+      "path": "media-use/luts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "54d44c5acb32ab6176dd96ea40eee141fe49197b",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/54d44c5acb32ab6176dd96ea40eee141fe49197b"
+    },
+    {
+      "path": "media-use/luts/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc3ed9ae55b6909732ca8f06cf8c89dc99da2bc6",
+      "size": 1087,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/dc3ed9ae55b6909732ca8f06cf8c89dc99da2bc6"
+    },
+    {
+      "path": "media-use/luts/index.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f6725c4a7c80c4b368a01196f57c0dcdc3a44c1",
+      "size": 1997,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/9f6725c4a7c80c4b368a01196f57c0dcdc3a44c1"
+    },
+    {
+      "path": "media-use/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "491c208fce57fa1d5df3b970b2dda84ef0a80639",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/491c208fce57fa1d5df3b970b2dda84ef0a80639"
+    },
+    {
+      "path": "media-use/references/audio.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "504d6303323ce9a4d5d685a57028c11d0b0c9e97",
+      "size": 1743,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/504d6303323ce9a4d5d685a57028c11d0b0c9e97"
+    },
+    {
+      "path": "media-use/references/grading.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2292eef785993fc087a23a2eb3c9ab4b17866847",
+      "size": 6748,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/2292eef785993fc087a23a2eb3c9ab4b17866847"
+    },
+    {
+      "path": "media-use/references/media-treatment-recipes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37903ab58fbec08f7851253babd28087152edd04",
+      "size": 35871,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/37903ab58fbec08f7851253babd28087152edd04"
+    },
+    {
+      "path": "media-use/references/media-treatments.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6651b2804931bfdf153842d8cf25f22155c98537",
+      "size": 13920,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/6651b2804931bfdf153842d8cf25f22155c98537"
+    },
+    {
+      "path": "media-use/references/memory.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26bd366ccd9ab75feb016aafe71d7c5540d06251",
+      "size": 3338,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/26bd366ccd9ab75feb016aafe71d7c5540d06251"
+    },
+    {
+      "path": "media-use/references/meta.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "776d1ed5d591df64245c717fddcbebc626b10652",
+      "size": 6785,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/776d1ed5d591df64245c717fddcbebc626b10652"
+    },
+    {
+      "path": "media-use/references/operations.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95b242a7cb587fa8d550c493467358c75564d26b",
+      "size": 14460,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/95b242a7cb587fa8d550c493467358c75564d26b"
+    },
+    {
+      "path": "media-use/references/resolve.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61c13cb32e4158a77848363539e5a136a954aa4c",
+      "size": 9025,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/61c13cb32e4158a77848363539e5a136a954aa4c"
+    },
+    {
+      "path": "media-use/references/setup-providers.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef5329e726f6aa39fbe45d6c1052b23aa85dc627",
+      "size": 7278,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ef5329e726f6aa39fbe45d6c1052b23aa85dc627"
+    },
+    {
+      "path": "media-use/references/telemetry-dashboard.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0aac2de532581919f83447245a18f32bda995ef",
+      "size": 4200,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e0aac2de532581919f83447245a18f32bda995ef"
+    },
+    {
+      "path": "media-use/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "79ea2530b8f8911eafe31a0550329bdc8ad67365",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/79ea2530b8f8911eafe31a0550329bdc8ad67365"
+    },
+    {
+      "path": "media-use/scripts/audio-duck.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fd1f342d33b6ad2f7f2eb567bc52776b919fae3",
+      "size": 4027,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/4fd1f342d33b6ad2f7f2eb567bc52776b919fae3"
+    },
+    {
+      "path": "media-use/scripts/dither.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e4bfef6ff2eee1fcf2b2b0c489edc37f9f4b138",
+      "size": 9969,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/7e4bfef6ff2eee1fcf2b2b0c489edc37f9f4b138"
+    },
+    {
+      "path": "media-use/scripts/dither.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e2d61f270e063734e64a6f2ba5ac62c58cae896",
+      "size": 4723,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/1e2d61f270e063734e64a6f2ba5ac62c58cae896"
+    },
+    {
+      "path": "media-use/scripts/eval.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7184c6fc1538ab41864dd94a54dc40f52ce22f1d",
+      "size": 14891,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/7184c6fc1538ab41864dd94a54dc40f52ce22f1d"
+    },
+    {
+      "path": "media-use/scripts/lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6442cfa17f911417e64fffe7f92a99a11f04adb0",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/6442cfa17f911417e64fffe7f92a99a11f04adb0"
+    },
+    {
+      "path": "media-use/scripts/lib/adopt.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b140ed02c7c501738a6dfc4662213afd8a71603f",
+      "size": 4418,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/b140ed02c7c501738a6dfc4662213afd8a71603f"
+    },
+    {
+      "path": "media-use/scripts/lib/adopt.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a961ae1776473fe149d1a08d05cc0c300b09fa7e",
+      "size": 2741,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/a961ae1776473fe149d1a08d05cc0c300b09fa7e"
+    },
+    {
+      "path": "media-use/scripts/lib/bgm-provider.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "462354d098b7e48517d37255b8ad565569c866f0",
+      "size": 650,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/462354d098b7e48517d37255b8ad565569c866f0"
+    },
+    {
+      "path": "media-use/scripts/lib/brand-provider.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e05caf1e3e2d61b6efd9a5a1a00e6bc0f17799e9",
+      "size": 1626,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e05caf1e3e2d61b6efd9a5a1a00e6bc0f17799e9"
+    },
+    {
+      "path": "media-use/scripts/lib/bundled-sfx-provider.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7011b45fcd4ad0bcde9593982dd261d61633300d",
+      "size": 3574,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/7011b45fcd4ad0bcde9593982dd261d61633300d"
+    },
+    {
+      "path": "media-use/scripts/lib/bundled-sfx-provider.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "869fe896f32df46559b0b37c0c35e6d92beb03e1",
+      "size": 3137,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/869fe896f32df46559b0b37c0c35e6d92beb03e1"
+    },
+    {
+      "path": "media-use/scripts/lib/cache.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7c7d6f714629e0ee0c589ab778dffcc300c3e1d",
+      "size": 4867,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/c7c7d6f714629e0ee0c589ab778dffcc300c3e1d"
+    },
+    {
+      "path": "media-use/scripts/lib/candidates.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8ecff05591e20a26ab213e0e6ae0f6f87d5eb1c",
+      "size": 4063,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/c8ecff05591e20a26ab213e0e6ae0f6f87d5eb1c"
+    },
+    {
+      "path": "media-use/scripts/lib/candidates.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "972577b3c00f2439c3a68171f13267813ba3cf33",
+      "size": 5992,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/972577b3c00f2439c3a68171f13267813ba3cf33"
+    },
+    {
+      "path": "media-use/scripts/lib/codex-provider.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4e96b7501587e2d5bf557c697e233967fc20709",
+      "size": 6700,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/c4e96b7501587e2d5bf557c697e233967fc20709"
+    },
+    {
+      "path": "media-use/scripts/lib/codex-provider.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3a54815b591b735cf6836dc6e553f0a686a0a04",
+      "size": 1377,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e3a54815b591b735cf6836dc6e553f0a686a0a04"
+    },
+    {
+      "path": "media-use/scripts/lib/coverage.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed4ffbde93f1a80dbf2d477842f60d939b35e639",
+      "size": 5698,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ed4ffbde93f1a80dbf2d477842f60d939b35e639"
+    },
+    {
+      "path": "media-use/scripts/lib/cube-build.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92b8f2012ba0c5dcf8eb552ac0c980e8a632ca57",
+      "size": 5836,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/92b8f2012ba0c5dcf8eb552ac0c980e8a632ca57"
+    },
+    {
+      "path": "media-use/scripts/lib/cube-build.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7824d7a2cfb334d1c1f2188ef2a522d1a97f8874",
+      "size": 2716,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/7824d7a2cfb334d1c1f2188ef2a522d1a97f8874"
+    },
+    {
+      "path": "media-use/scripts/lib/cube-validate.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aef33ac03b1b8009eb3cd947272e820da3ff2d3",
+      "size": 6017,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/4aef33ac03b1b8009eb3cd947272e820da3ff2d3"
+    },
+    {
+      "path": "media-use/scripts/lib/cube-validate.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2465bfbcdeeb850adf03ff526ee084506ec145c1",
+      "size": 3274,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/2465bfbcdeeb850adf03ff526ee084506ec145c1"
+    },
+    {
+      "path": "media-use/scripts/lib/cutlist.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07d0d34159c187791025a16c35a4127743ae4b2c",
+      "size": 6095,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/07d0d34159c187791025a16c35a4127743ae4b2c"
+    },
+    {
+      "path": "media-use/scripts/lib/cutlist.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72e6f2b0df007a3c875bcac64c646979fb861906",
+      "size": 4058,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/72e6f2b0df007a3c875bcac64c646979fb861906"
+    },
+    {
+      "path": "media-use/scripts/lib/duck.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5330e8e358d1ca933b69348dd3ab5c99467f1a7a",
+      "size": 3080,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/5330e8e358d1ca933b69348dd3ab5c99467f1a7a"
+    },
+    {
+      "path": "media-use/scripts/lib/duck.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7609d6ce51611db691a156b77b2f1a4be7b13ea2",
+      "size": 3467,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/7609d6ce51611db691a156b77b2f1a4be7b13ea2"
+    },
+    {
+      "path": "media-use/scripts/lib/error-diffusion.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e59a9c5ab600ba4b32dec45ff2d229778004da64",
+      "size": 6631,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e59a9c5ab600ba4b32dec45ff2d229778004da64"
+    },
+    {
+      "path": "media-use/scripts/lib/error-diffusion.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1569158b97b6c06a3f1955dde84e3cec8a307e1",
+      "size": 3474,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/b1569158b97b6c06a3f1955dde84e3cec8a307e1"
+    },
+    {
+      "path": "media-use/scripts/lib/freeze.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2527f6626d705534c522af123d61e070977f12c2",
+      "size": 3040,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/2527f6626d705534c522af123d61e070977f12c2"
+    },
+    {
+      "path": "media-use/scripts/lib/freeze.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c71eb76a0852994419ea09d2c5344fb96e3fab6b",
+      "size": 1896,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/c71eb76a0852994419ea09d2c5344fb96e3fab6b"
+    },
+    {
+      "path": "media-use/scripts/lib/grade-analyzer.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f419d5b3b95a6f46c7c3f6adca64605a3113226e",
+      "size": 8760,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/f419d5b3b95a6f46c7c3f6adca64605a3113226e"
+    },
+    {
+      "path": "media-use/scripts/lib/grade-analyzer.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a649029d6fc87821949e6ffee72f7d3355e33e6",
+      "size": 7902,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/0a649029d6fc87821949e6ffee72f7d3355e33e6"
+    },
+    {
+      "path": "media-use/scripts/lib/heygen-cli.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbf40c7ca35a47c210381f95a8891b03babb0520",
+      "size": 7482,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/bbf40c7ca35a47c210381f95a8891b03babb0520"
+    },
+    {
+      "path": "media-use/scripts/lib/heygen-cli.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56594ac0d0e83e976bf0dc80eae65caebd6ad7a5",
+      "size": 10264,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/56594ac0d0e83e976bf0dc80eae65caebd6ad7a5"
+    },
+    {
+      "path": "media-use/scripts/lib/heygen-search.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e52254c25a7cc0a0516ff7007e2b32c5a0501656",
+      "size": 1800,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e52254c25a7cc0a0516ff7007e2b32c5a0501656"
+    },
+    {
+      "path": "media-use/scripts/lib/heygen-search.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc7f4b42af153da0182ea24ce8a5eedc1412ad69",
+      "size": 1890,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/dc7f4b42af153da0182ea24ce8a5eedc1412ad69"
+    },
+    {
+      "path": "media-use/scripts/lib/heygen-video-provider.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "799ac0442e9f4dafb1a80ca2e35b2e3856341850",
+      "size": 3735,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/799ac0442e9f4dafb1a80ca2e35b2e3856341850"
+    },
+    {
+      "path": "media-use/scripts/lib/heygen-video-provider.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d258d4c9ebdce60ac9a7c2488cc87c136510a18e",
+      "size": 12259,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d258d4c9ebdce60ac9a7c2488cc87c136510a18e"
+    },
+    {
+      "path": "media-use/scripts/lib/image-provider.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69b26397e78cd84e49c15662e30460e0d16b5085",
+      "size": 1421,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/69b26397e78cd84e49c15662e30460e0d16b5085"
+    },
+    {
+      "path": "media-use/scripts/lib/index-gen.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65b019a92e9cdd88e3ca97f27986ea170dea9236",
+      "size": 1920,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/65b019a92e9cdd88e3ca97f27986ea170dea9236"
+    },
+    {
+      "path": "media-use/scripts/lib/local-models.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28b8715bebf1291b0955604de562f227c7f9623d",
+      "size": 15938,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/28b8715bebf1291b0955604de562f227c7f9623d"
+    },
+    {
+      "path": "media-use/scripts/lib/local-models.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1e8d0204f79f014b989677054d2e437e525ea13",
+      "size": 8251,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/f1e8d0204f79f014b989677054d2e437e525ea13"
+    },
+    {
+      "path": "media-use/scripts/lib/local-run.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1692917f2c9af7e71e0ab654343ed04c2c6c0768",
+      "size": 3051,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/1692917f2c9af7e71e0ab654343ed04c2c6c0768"
+    },
+    {
+      "path": "media-use/scripts/lib/local-run.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9dbab29e8c0e2b715aa7f151388f0f8c4333149",
+      "size": 3772,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d9dbab29e8c0e2b715aa7f151388f0f8c4333149"
+    },
+    {
+      "path": "media-use/scripts/lib/logo-provider.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4028af94f688321a8ed1f7773d2b25e8c8f3226",
+      "size": 7196,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d4028af94f688321a8ed1f7773d2b25e8c8f3226"
+    },
+    {
+      "path": "media-use/scripts/lib/logo-provider.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5863d409b9d7dbdd47313b72835446ca54898104",
+      "size": 5864,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/5863d409b9d7dbdd47313b72835446ca54898104"
+    },
+    {
+      "path": "media-use/scripts/lib/ltx-video-provider.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78aef41ac9fad47f25d4a5e62a26eb7f9b789895",
+      "size": 3222,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/78aef41ac9fad47f25d4a5e62a26eb7f9b789895"
+    },
+    {
+      "path": "media-use/scripts/lib/ltx-video-provider.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ad43f77ad4a5809b9135ce2b249fa07dc62c07f",
+      "size": 9980,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/2ad43f77ad4a5809b9135ce2b249fa07dc62c07f"
+    },
+    {
+      "path": "media-use/scripts/lib/lut-preset-provider.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51c600b38c44fe01b850b30968f6cacb936999c5",
+      "size": 8665,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/51c600b38c44fe01b850b30968f6cacb936999c5"
+    },
+    {
+      "path": "media-use/scripts/lib/lut-preset-provider.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d4cd9f8b1fe0292b6f41cf43f3a3e83666570ce",
+      "size": 6415,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/1d4cd9f8b1fe0292b6f41cf43f3a3e83666570ce"
+    },
+    {
+      "path": "media-use/scripts/lib/manifest.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bd2f7b3daced59418f88188b5981b7b812314a7",
+      "size": 7146,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/0bd2f7b3daced59418f88188b5981b7b812314a7"
+    },
+    {
+      "path": "media-use/scripts/lib/manifest.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08e078ff27a005485251c6ed741948598c0faebb",
+      "size": 11919,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/08e078ff27a005485251c6ed741948598c0faebb"
+    },
+    {
+      "path": "media-use/scripts/lib/match.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9e8859a986a468ff0036e3c69b3981ad7c4513c",
+      "size": 1481,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/b9e8859a986a468ff0036e3c69b3981ad7c4513c"
+    },
+    {
+      "path": "media-use/scripts/lib/mflux-provider.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af5511ad85e12195461b70ebff024a270aec3d3f",
+      "size": 4852,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/af5511ad85e12195461b70ebff024a270aec3d3f"
+    },
+    {
+      "path": "media-use/scripts/lib/mflux-provider.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ca51904bc310fb2d5b6335f1e6567f25ed8be51",
+      "size": 5868,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/0ca51904bc310fb2d5b6335f1e6567f25ed8be51"
+    },
+    {
+      "path": "media-use/scripts/lib/misses.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "585bb963849d2375b7e9e6db9060b87854edbc1f",
+      "size": 1237,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/585bb963849d2375b7e9e6db9060b87854edbc1f"
+    },
+    {
+      "path": "media-use/scripts/lib/misses.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9b25856622fc76e5c6299e081d5889f6b820aae",
+      "size": 2605,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d9b25856622fc76e5c6299e081d5889f6b820aae"
+    },
+    {
+      "path": "media-use/scripts/lib/npx-sync.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ada152d05ada89b3a5af67dbe59bfc1af8a5fce",
+      "size": 1326,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/8ada152d05ada89b3a5af67dbe59bfc1af8a5fce"
+    },
+    {
+      "path": "media-use/scripts/lib/npx-sync.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83244e642a0ed2d74256ec159c1d947f2e0d5a07",
+      "size": 2042,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/83244e642a0ed2d74256ec159c1d947f2e0d5a07"
+    },
+    {
+      "path": "media-use/scripts/lib/parakeet-words.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04df79c7d4b1da6c6da51248fd817e1029c2bee7",
+      "size": 1149,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/04df79c7d4b1da6c6da51248fd817e1029c2bee7"
+    },
+    {
+      "path": "media-use/scripts/lib/parakeet-words.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f74e78481fca10640c2b47e6350d14203e4720eb",
+      "size": 1424,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/f74e78481fca10640c2b47e6350d14203e4720eb"
+    },
+    {
+      "path": "media-use/scripts/lib/prefs-store.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bc3f7345f1be8a772d001281de873347a1a4421",
+      "size": 6604,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/6bc3f7345f1be8a772d001281de873347a1a4421"
+    },
+    {
+      "path": "media-use/scripts/lib/prefs-store.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0bc5ca814f18b994bd0de8eab86dee6a78184a7",
+      "size": 7413,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e0bc5ca814f18b994bd0de8eab86dee6a78184a7"
+    },
+    {
+      "path": "media-use/scripts/lib/probe.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7e0a72224301e24da917098a3f9e5c418492cca",
+      "size": 1363,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/f7e0a72224301e24da917098a3f9e5c418492cca"
+    },
+    {
+      "path": "media-use/scripts/lib/probe.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4d896cc382bfec860a93d65c06d71fe28aa6019",
+      "size": 1603,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d4d896cc382bfec860a93d65c06d71fe28aa6019"
+    },
+    {
+      "path": "media-use/scripts/lib/providers.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6220e88ee9fe0e2ced1f9bf12d97fc06bae79a41",
+      "size": 327,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/6220e88ee9fe0e2ced1f9bf12d97fc06bae79a41"
+    },
+    {
+      "path": "media-use/scripts/lib/recipe-store.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e11ec96a31b073e07a3daea55e7b50cc32192276",
+      "size": 13020,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e11ec96a31b073e07a3daea55e7b50cc32192276"
+    },
+    {
+      "path": "media-use/scripts/lib/recipe-store.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "954291293d2b6f5c9aba157eccf770ed0dd25454",
+      "size": 12823,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/954291293d2b6f5c9aba157eccf770ed0dd25454"
+    },
+    {
+      "path": "media-use/scripts/lib/registry.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8faa91920946fcccd2cf55e60b56f821f517a31d",
+      "size": 9695,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/8faa91920946fcccd2cf55e60b56f821f517a31d"
+    },
+    {
+      "path": "media-use/scripts/lib/registry.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08f30351c3819037c0e51a1ca7584f01f10a2e4b",
+      "size": 9872,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/08f30351c3819037c0e51a1ca7584f01f10a2e4b"
+    },
+    {
+      "path": "media-use/scripts/lib/search.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b545b4852d925f8a01334a7f90277fb1d241c895",
+      "size": 906,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/b545b4852d925f8a01334a7f90277fb1d241c895"
+    },
+    {
+      "path": "media-use/scripts/lib/search.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d68a6882121f4cd2079b11a8ee67f496e896540",
+      "size": 1220,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/8d68a6882121f4cd2079b11a8ee67f496e896540"
+    },
+    {
+      "path": "media-use/scripts/lib/sfx-provider.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24c9e5398fdaf3fddff2595df2d37a4f1b2f1e65",
+      "size": 700,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/24c9e5398fdaf3fddff2595df2d37a4f1b2f1e65"
+    },
+    {
+      "path": "media-use/scripts/lib/specs.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d1cef24ff40bc5ad78ba9c38609025567a2b1e4",
+      "size": 5497,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/3d1cef24ff40bc5ad78ba9c38609025567a2b1e4"
+    },
+    {
+      "path": "media-use/scripts/lib/specs.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff692092ad06f680744d475a3f1f09df77609a4c",
+      "size": 5688,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ff692092ad06f680744d475a3f1f09df77609a4c"
+    },
+    {
+      "path": "media-use/scripts/lib/stats.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39611971cce29a91617e3857313df88a74a39119",
+      "size": 3810,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/39611971cce29a91617e3857313df88a74a39119"
+    },
+    {
+      "path": "media-use/scripts/lib/stats.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff0b6b466e8f4c5caf6ad62dd46b66429886a621",
+      "size": 5512,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ff0b6b466e8f4c5caf6ad62dd46b66429886a621"
+    },
+    {
+      "path": "media-use/scripts/lib/telemetry.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43603d762973983c43015d7a97b37b7ee38c2e8d",
+      "size": 8474,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/43603d762973983c43015d7a97b37b7ee38c2e8d"
+    },
+    {
+      "path": "media-use/scripts/lib/telemetry.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a66d60f78e0037df5eb8236176f624a325f3037",
+      "size": 13365,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/1a66d60f78e0037df5eb8236176f624a325f3037"
+    },
+    {
+      "path": "media-use/scripts/lib/tts-local-provider.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2058780f1b98e8f8f72cd8fe06faff3cd6c8b17",
+      "size": 3838,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/b2058780f1b98e8f8f72cd8fe06faff3cd6c8b17"
+    },
+    {
+      "path": "media-use/scripts/lib/tts-local-provider.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11ec193b78c6533583105e89bd57426b807cd499",
+      "size": 2680,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/11ec193b78c6533583105e89bd57426b807cd499"
+    },
+    {
+      "path": "media-use/scripts/lib/usage.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "806f146ba04d8b4d783dee46820265d3347d74f0",
+      "size": 1860,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/806f146ba04d8b4d783dee46820265d3347d74f0"
+    },
+    {
+      "path": "media-use/scripts/lib/usage.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "271e70762779a75a2fa7887907eb070ddaa47b2e",
+      "size": 1706,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/271e70762779a75a2fa7887907eb070ddaa47b2e"
+    },
+    {
+      "path": "media-use/scripts/lib/voice-provider.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c80ae6e22b36bc4c87c48b4f6b5b7bcab619e0e",
+      "size": 1761,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/2c80ae6e22b36bc4c87c48b4f6b5b7bcab619e0e"
+    },
+    {
+      "path": "media-use/scripts/lib/voice-provider.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f24bc468f09b6f21c12515e9f260bf564e847146",
+      "size": 1937,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/f24bc468f09b6f21c12515e9f260bf564e847146"
+    },
+    {
+      "path": "media-use/scripts/lib/words.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "114cf766ceacbdbbe163f0baf64b6f4788677262",
+      "size": 764,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/114cf766ceacbdbbe163f0baf64b6f4788677262"
+    },
+    {
+      "path": "media-use/scripts/prefs.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f13583de8b2e3e1ff0e558852cd1e25e72f14b3",
+      "size": 2412,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/5f13583de8b2e3e1ff0e558852cd1e25e72f14b3"
+    },
+    {
+      "path": "media-use/scripts/recipe.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae26c8c79ec6c84567645d67e2aa8fd0febba38c",
+      "size": 4045,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ae26c8c79ec6c84567645d67e2aa8fd0febba38c"
+    },
+    {
+      "path": "media-use/scripts/resolve.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e6c36f0210900fa90225f5c1fdba87e1c119821",
+      "size": 44226,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/3e6c36f0210900fa90225f5c1fdba87e1c119821"
+    },
+    {
+      "path": "media-use/scripts/resolve.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "028270b08e310fbc299fb9bed408c8a7153fa4fd",
+      "size": 36690,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/028270b08e310fbc299fb9bed408c8a7153fa4fd"
+    },
+    {
+      "path": "media-use/scripts/transcribe.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e702606966d1a66d7c13db267e47df4a142f6b9b",
+      "size": 6664,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e702606966d1a66d7c13db267e47df4a142f6b9b"
+    },
+    {
+      "path": "media-use/scripts/transcript-cut.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d76bd022fb98f009428c27e9510fa081a427d951",
+      "size": 7264,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/d76bd022fb98f009428c27e9510fa081a427d951"
+    },
+    {
+      "path": "product-launch-video",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "92bed3e05359716c17d47c27af8b690db3ef0c27",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/92bed3e05359716c17d47c27af8b690db3ef0c27"
+    },
+    {
+      "path": "product-launch-video/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ec40596c8652c5d7e960d0da4869713dab3715f",
+      "size": 31984,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/8ec40596c8652c5d7e960d0da4869713dab3715f"
+    },
+    {
+      "path": "product-launch-video/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "666d42dd129cf46b482814270a8af0938b23da07",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/666d42dd129cf46b482814270a8af0938b23da07"
+    },
+    {
+      "path": "product-launch-video/references/cut-catalog.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "822949ff26da8fce4dabbb298cdb881dd1882b17",
+      "size": 13246,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/822949ff26da8fce4dabbb298cdb881dd1882b17"
+    },
+    {
+      "path": "product-launch-video/references/motion-language.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4980413f37b693c5f4cf745d51de32b0e95220b5",
+      "size": 15636,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/4980413f37b693c5f4cf745d51de32b0e95220b5"
+    },
+    {
+      "path": "product-launch-video/references/story-design.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f7dbfc815193a91c4427fcf5ee3387a23493cc5",
+      "size": 33011,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/7f7dbfc815193a91c4427fcf5ee3387a23493cc5"
+    },
+    {
+      "path": "product-launch-video/references/visual-design.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "040681358987743c06484948ebdd9168c6b6501a",
+      "size": 16488,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/040681358987743c06484948ebdd9168c6b6501a"
+    },
+    {
+      "path": "product-launch-video/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1b81e6fc18243eeb77b4b65a7279b98dbd9a1794",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/1b81e6fc18243eeb77b4b65a7279b98dbd9a1794"
+    },
+    {
+      "path": "product-launch-video/scripts/assemble-index.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3be06afcdf9ca22c7804fbccb62e7e42febc86da",
+      "size": 32199,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/3be06afcdf9ca22c7804fbccb62e7e42febc86da"
+    },
+    {
+      "path": "product-launch-video/scripts/assemble-index.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd60c871158c26369d0cc9b8316ecc1d3f064477",
+      "size": 2932,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/bd60c871158c26369d0cc9b8316ecc1d3f064477"
+    },
+    {
+      "path": "product-launch-video/scripts/audio.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed8526782c314b144d6dd6981e2096b071bafdec",
+      "size": 13096,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ed8526782c314b144d6dd6981e2096b071bafdec"
+    },
+    {
+      "path": "product-launch-video/scripts/audio.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47f548d666110591cb1c80120f33b82c5884bc1c",
+      "size": 9798,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/47f548d666110591cb1c80120f33b82c5884bc1c"
+    },
+    {
+      "path": "product-launch-video/scripts/build-frame.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f3bf0144ff15266de4a736e1ecca12715a3ce30",
+      "size": 26470,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/7f3bf0144ff15266de4a736e1ecca12715a3ce30"
+    },
+    {
+      "path": "product-launch-video/scripts/captions.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e04affe6bea9831d9029faee37f5e145678dc5b",
+      "size": 25082,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/7e04affe6bea9831d9029faee37f5e145678dc5b"
+    },
+    {
+      "path": "product-launch-video/scripts/captions.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "097623bd0d56eb973fb0c5843a48c0676c1f17b7",
+      "size": 9335,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/097623bd0d56eb973fb0c5843a48c0676c1f17b7"
+    },
+    {
+      "path": "product-launch-video/scripts/capture-skill-guardrails.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c477d24af811537e7324dca03feb1dd671d60ea",
+      "size": 1728,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/1c477d24af811537e7324dca03feb1dd671d60ea"
+    },
+    {
+      "path": "product-launch-video/scripts/frame-packets.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63dfddfdc8ccf4554fe15e0f7da6b511f31d0510",
+      "size": 1114,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/63dfddfdc8ccf4554fe15e0f7da6b511f31d0510"
+    },
+    {
+      "path": "product-launch-video/scripts/frame-packets.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f45ef85fb91dfff91a2a27e6176ecab096c938b",
+      "size": 7072,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/6f45ef85fb91dfff91a2a27e6176ecab096c938b"
+    },
+    {
+      "path": "product-launch-video/scripts/lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a0fa9e9dc941b9bbcd033e6298133ee72486139b",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/a0fa9e9dc941b9bbcd033e6298133ee72486139b"
+    },
+    {
+      "path": "product-launch-video/scripts/lib/assets.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3515bf7c7463d3f1eddef711e6c900d1219763c0",
+      "size": 2214,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/3515bf7c7463d3f1eddef711e6c900d1219763c0"
+    },
+    {
+      "path": "product-launch-video/scripts/lib/dimensions.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c91f01caa88807a22190395d1b659e047a8e7dff",
+      "size": 2288,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/c91f01caa88807a22190395d1b659e047a8e7dff"
+    },
+    {
+      "path": "product-launch-video/scripts/lib/pad-frame-duration.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91471151fc044b926ff7d58c08a6f8d04289b95b",
+      "size": 1628,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/91471151fc044b926ff7d58c08a6f8d04289b95b"
+    },
+    {
+      "path": "product-launch-video/scripts/lib/pad-frame-duration.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bb395c2b95322bd2282c2af62f3e94f7cf58c3e",
+      "size": 2970,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/5bb395c2b95322bd2282c2af62f3e94f7cf58c3e"
+    },
+    {
+      "path": "product-launch-video/scripts/lib/storyboard.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c821dcbaabe717e6ac7b7aa8502d8057e2c95d4",
+      "size": 8249,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/7c821dcbaabe717e6ac7b7aa8502d8057e2c95d4"
+    },
+    {
+      "path": "product-launch-video/scripts/lib/tokens.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed5beb7506b2cc03e231abdad575609cbb0049ce",
+      "size": 10164,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ed5beb7506b2cc03e231abdad575609cbb0049ce"
+    },
+    {
+      "path": "product-launch-video/scripts/lib/tokens.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0023aa29352993b50a32fb870ad540da8f666a6",
+      "size": 2289,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/f0023aa29352993b50a32fb870ad540da8f666a6"
+    },
+    {
+      "path": "product-launch-video/scripts/lib/transition-registry.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0451793a65447f76fd05dd0a726f0d47f33198b",
+      "size": 1588,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/a0451793a65447f76fd05dd0a726f0d47f33198b"
+    },
+    {
+      "path": "product-launch-video/scripts/lib/transitions.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab1c4b9d781d404612db49a445b25219a4d57c90",
+      "size": 3905,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ab1c4b9d781d404612db49a445b25219a4d57c90"
+    },
+    {
+      "path": "product-launch-video/scripts/media-contract.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55ddaaa07b1fefb8b5424fd8ae31b2a38359ba14",
+      "size": 10663,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/55ddaaa07b1fefb8b5424fd8ae31b2a38359ba14"
+    },
+    {
+      "path": "product-launch-video/scripts/stage-assets.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ccf22ea7f6d06b55b3b4a8cd9e73a7e1414bc80",
+      "size": 1672,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/5ccf22ea7f6d06b55b3b4a8cd9e73a7e1414bc80"
+    },
+    {
+      "path": "product-launch-video/scripts/stage-assets.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6aca45a7adfc5602f96522163a9887627940cad9",
+      "size": 2347,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/6aca45a7adfc5602f96522163a9887627940cad9"
+    },
+    {
+      "path": "product-launch-video/scripts/transitions.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "372c0b4d81c6c3dd6723dd1849f958d433e07508",
+      "size": 15726,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/372c0b4d81c6c3dd6723dd1849f958d433e07508"
+    },
+    {
+      "path": "product-launch-video/sub-agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4a05c45c1685c33a7b4821382050fe608b8789f8",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/4a05c45c1685c33a7b4821382050fe608b8789f8"
+    },
+    {
+      "path": "product-launch-video/sub-agents/frame-worker.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd5a34d7ada047b1a03ef5dc698f81ac08cc635b",
+      "size": 3546,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/fd5a34d7ada047b1a03ef5dc698f81ac08cc635b"
+    },
+    {
+      "path": "talking-head-recut",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3b510042dc362da75e2789dee08ceb1d41f3b283",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/3b510042dc362da75e2789dee08ceb1d41f3b283"
+    },
+    {
+      "path": "talking-head-recut/NOTICE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38712c90e33710ffbb70dae7f91f130115430155",
+      "size": 1826,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/38712c90e33710ffbb70dae7f91f130115430155"
+    },
+    {
+      "path": "talking-head-recut/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0d5f92eefa0142fbd11203c6920a0080ad000af",
+      "size": 65330,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/f0d5f92eefa0142fbd11203c6920a0080ad000af"
+    },
+    {
+      "path": "talking-head-recut/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ef51d09ba8680e590ac4c14ae7f365dfe23239a3",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/ef51d09ba8680e590ac4c14ae7f365dfe23239a3"
+    },
+    {
+      "path": "talking-head-recut/assets/fonts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d269ba55826027b95a0b5d442ead81cc83e9081a",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/d269ba55826027b95a0b5d442ead81cc83e9081a"
+    },
+    {
+      "path": "talking-head-recut/assets/fonts/Caveat-400-latin.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a3423426fccb5d10e0a1cb1ba523e33b95c51bf",
+      "size": 74932,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/5a3423426fccb5d10e0a1cb1ba523e33b95c51bf"
+    },
+    {
+      "path": "talking-head-recut/assets/fonts/Caveat-700-latin.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a3423426fccb5d10e0a1cb1ba523e33b95c51bf",
+      "size": 74932,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/5a3423426fccb5d10e0a1cb1ba523e33b95c51bf"
+    },
+    {
+      "path": "talking-head-recut/assets/fonts/Inter-400-latin.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33002f12853a3d37d7b7eba39623fae3bca94a3b",
+      "size": 23692,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/33002f12853a3d37d7b7eba39623fae3bca94a3b"
+    },
+    {
+      "path": "talking-head-recut/assets/fonts/Inter-700-latin.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12b51d7709cff88edbe49b94412d240b90126ee3",
+      "size": 24352,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/12b51d7709cff88edbe49b94412d240b90126ee3"
+    },
+    {
+      "path": "talking-head-recut/assets/fonts/LXGWWenKaiTC-400-latin.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a69197264f760a3b604bd5dc36200a7406e32b3",
+      "size": 19380,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/7a69197264f760a3b604bd5dc36200a7406e32b3"
+    },
+    {
+      "path": "talking-head-recut/assets/fonts/Virgil.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb222253f5e018cab62d6a05ad407faa1fdd408a",
+      "size": 61248,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/cb222253f5e018cab62d6a05ad407faa1fdd408a"
+    },
+    {
+      "path": "talking-head-recut/assets/vendor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c6d4ae1414db373cb9c2c6860c87fcf986556ba2",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/c6d4ae1414db373cb9c2c6860c87fcf986556ba2"
+    },
+    {
+      "path": "talking-head-recut/assets/vendor/gsap.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72c17a8309d252ac398de583319b4276d023317e",
+      "size": 72925,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/72c17a8309d252ac398de583319b4276d023317e"
+    },
+    {
+      "path": "talking-head-recut/media-contract.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55d6ded371145de0ae9115e6dfb382b7d6eaa3a1",
+      "size": 1350,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/55d6ded371145de0ae9115e6dfb382b7d6eaa3a1"
+    },
+    {
+      "path": "talking-head-recut/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "97aed0e28a7bb4d29411468af007e97f8191fe7f",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/97aed0e28a7bb4d29411468af007e97f8191fe7f"
+    },
+    {
+      "path": "talking-head-recut/references/DESIGN_INDEX.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "393bbd1430d473311653c49a5efc0a173167e48d",
+      "size": 10171,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/393bbd1430d473311653c49a5efc0a173167e48d"
+    },
+    {
+      "path": "talking-head-recut/references/frames",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c343bb19d2e4fb38c74dcfd683d60d4bc63e1ba3",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/c343bb19d2e4fb38c74dcfd683d60d4bc63e1ba3"
+    },
+    {
+      "path": "talking-head-recut/references/frames/clean.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b87f3c9e1f1a0cdd83de2cb07d71625edcd96713",
+      "size": 2626,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/b87f3c9e1f1a0cdd83de2cb07d71625edcd96713"
+    },
+    {
+      "path": "talking-head-recut/references/frames/hairline.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db98a1142c1b46afb9ab4f35886a13a0f256f9ad",
+      "size": 5884,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/db98a1142c1b46afb9ab4f35886a13a0f256f9ad"
+    },
+    {
+      "path": "talking-head-recut/references/frames/polaroid.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "582c0475f0793164b6d2d3cd2bb481f85c40616a",
+      "size": 5349,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/582c0475f0793164b6d2d3cd2bb481f85c40616a"
+    },
+    {
+      "path": "talking-head-recut/references/layouts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0bb63ed5e497d42a2dabea067f426e17ad942e05",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/0bb63ed5e497d42a2dabea067f426e17ad942e05"
+    },
+    {
+      "path": "talking-head-recut/references/layouts/overlay.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a5f0b24a49d69b5965fc73da0a36190165aadbc",
+      "size": 5463,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/6a5f0b24a49d69b5965fc73da0a36190165aadbc"
+    },
+    {
+      "path": "talking-head-recut/references/layouts/pip.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee1a30be4531605927bbf09871f94062d340fe03",
+      "size": 4650,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/ee1a30be4531605927bbf09871f94062d340fe03"
+    },
+    {
+      "path": "talking-head-recut/references/layouts/split.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a93719bf8251ab14a545fb36fff6d6fcf7a538ee",
+      "size": 3805,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/a93719bf8251ab14a545fb36fff6d6fcf7a538ee"
+    },
+    {
+      "path": "talking-head-recut/references/layouts/stack.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06e8b2316bd37a4ff241f6cb2cb5350f371b356e",
+      "size": 3458,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/06e8b2316bd37a4ff241f6cb2cb5350f371b356e"
+    },
+    {
+      "path": "talking-head-recut/references/styles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7889bc3c1f4d63c9d9d7ae23f0965229e03a769f",
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/trees/7889bc3c1f4d63c9d9d7ae23f0965229e03a769f"
+    },
+    {
+      "path": "talking-head-recut/references/styles/academic.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71f91a0b384391114484154566e747004e12a176",
+      "size": 6043,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/71f91a0b384391114484154566e747004e12a176"
+    },
+    {
+      "path": "talking-head-recut/references/styles/audit.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13c090c58d9170d66a7a9a265dff5f4c654cf7c3",
+      "size": 6182,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/13c090c58d9170d66a7a9a265dff5f4c654cf7c3"
+    },
+    {
+      "path": "talking-head-recut/references/styles/editorial.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8652e88a36d46b11318c4f02f0b93f036698147d",
+      "size": 6586,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/8652e88a36d46b11318c4f02f0b93f036698147d"
+    },
+    {
+      "path": "talking-head-recut/references/styles/geom.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b498b08be883ad07b4b639dd7835f65aff91fb51",
+      "size": 5776,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/b498b08be883ad07b4b639dd7835f65aff91fb51"
+    },
+    {
+      "path": "talking-head-recut/references/styles/minimal.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25375498fe824a6cd9f722e3a591b4f1e9f6f784",
+      "size": 4142,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/25375498fe824a6cd9f722e3a591b4f1e9f6f784"
+    },
+    {
+      "path": "talking-head-recut/references/styles/spotlight.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e00702550135ee2a56d166889033dd2007c9c8a",
+      "size": 4941,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/4e00702550135ee2a56d166889033dd2007c9c8a"
+    },
+    {
+      "path": "talking-head-recut/references/styles/swiss.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8dd89a035a38e87fa8d68e641bf3cf750536899",
+      "size": 6053,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e8dd89a035a38e87fa8d68e641bf3cf750536899"
+    },
+    {
+      "path": "talking-head-recut/references/styles/terminal.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5b9f6130f294c2f4b692281541b700b70871764",
+      "size": 6957,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/e5b9f6130f294c2f4b692281541b700b70871764"
+    },
+    {
+      "path": "talking-head-recut/references/styles/whiteboard.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90d6fb44c16d47db004fa47620bc5e344456a8db",
+      "size": 5829,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/90d6fb44c16d47db004fa47620bc5e344456a8db"
+    },
+    {
+      "path": "talking-head-recut/references/styles/xhs.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd2deb5703363779e6ee22fbf4eb865f5468a40b",
+      "size": 7210,
+      "url": "https://api.github.com/repos/Jakeschincariol/video-production-skills/git/blobs/dd2deb5703363779e6ee22fbf4eb865f5468a40b"
+    }
+  ],
+  "truncated": false
+}

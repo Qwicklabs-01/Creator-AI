@@ -1,0 +1,3356 @@
+{
+  "bot_name": "Creator",
+  "author_origin": "Jake Schincariol + FreeLLMAPI + SingDia AI Music Ecosystem",
+  "version": "3.0.0",
+  "description": "Creator is the ultimate AI content engineering system, multi-platform growth studio, FreeLLM gateway, and SingDia personalized song studio. It unifies 68+ hook formulas, 35 PromptMaster patterns, anti-AI humanizers, 22 HyperFrames blueprints, 25 unhinged modes, and SingDia personalized music generation across 12 Indian languages.",
+  "linkedin": {
+    "rules": [
+      "One idea per hook. If it needs a comma splice, it needs two posts.",
+      "Line 2 is not a hook, it is the payoff of line 1. Never waste it on setup.",
+      "No question marks in line 1 unless the question is specific enough that only you could ask it.",
+      "Numbers beat adjectives. '$4,200' beats 'a lot of money' every time.",
+      "If the hook works with any other person's name on it, it is not your hook."
+    ],
+    "hooks": [
+      {
+        "id": 1,
+        "name": "Contrarian Take",
+        "template": "Everyone says {common advice}. After {specific experience}, I think that is wrong.",
+        "example": "Everyone says post daily. I posted 4x a week for a year and beat every daily poster in my niche.",
+        "best_for": "Establishing a point of view. Highest comment rate of any formula.",
+        "trap": "Being contrarian about something nobody believes. The belief has to be genuinely common."
+      },
+      {
+        "id": 2,
+        "name": "Number Reveal",
+        "template": "I {did thing} for {N} {days/weeks}. Here is what actually happened.",
+        "example": "I sent 400 cold DMs in 30 days. 11 replied. 2 became clients.",
+        "best_for": "Experiments, challenges, anything with a countable result.",
+        "trap": "Burying the number. Put it in line 1 or the formula does nothing."
+      },
+      {
+        "id": 3,
+        "name": "Mistake Confession",
+        "template": "{Specific cost} is what {one mistake} cost me.",
+        "example": "$18,000 is what not having a contract cost me last March.",
+        "best_for": "Trust. People forward the posts where you look bad.",
+        "trap": "A fake-humble mistake. 'I care too much' reads as a brag and kills the post."
+      },
+      {
+        "id": 4,
+        "name": "Before / After",
+        "template": "{Time ago} I was {low state}. Today I {high state}. The difference was {one thing}.",
+        "example": "18 months ago I was writing proposals at 2am. Today I send them in 6 minutes. One template did it.",
+        "best_for": "Proof you have travelled the distance your reader wants to travel.",
+        "trap": "Three-part transformations. Name one lever or the reader stops believing you."
+      },
+      {
+        "id": 5,
+        "name": "The List Promise",
+        "template": "{N} things I wish someone had told me before {milestone}.",
+        "example": "7 things I wish someone had told me before I hired my first employee.",
+        "best_for": "Saves. Highest save rate of the 21, which LinkedIn weights heavily.",
+        "trap": "N above 10. The reader does not believe you have 15 good ones, and you do not."
+      },
+      {
+        "id": 6,
+        "name": "Insider Secret",
+        "template": "After {N} years {doing thing}, here is the part nobody puts in the {job posting/course/pitch}.",
+        "example": "After 9 years in agency sales, here is the part nobody puts in the job posting.",
+        "best_for": "Credentialed takes. Works only if the years are real.",
+        "trap": "Promising a secret and delivering common knowledge. The comments will say so."
+      },
+      {
+        "id": 7,
+        "name": "The Callout",
+        "template": "If you are still {doing outdated thing}, stop.",
+        "example": "If you are still writing your LinkedIn posts in the LinkedIn composer, stop.",
+        "best_for": "Short posts with one instruction. Fastest to write of the 21.",
+        "trap": "Calling out something nobody does. Or worse, calling out your own audience with contempt."
+      },
+      {
+        "id": 8,
+        "name": "Question Trap",
+        "template": "{Specific scenario with a real cost}. What do you do?",
+        "example": "Your best client asks for a 40% discount and hints they will leave without it. What do you do?",
+        "best_for": "Comment volume. People answer scenarios, they ignore 'thoughts?'.",
+        "trap": "A question with an obvious right answer. There has to be a real fork."
+      },
+      {
+        "id": 9,
+        "name": "Story Cold Open",
+        "template": "\"{Line of dialogue}\"\\n\\n{Who said it, when, and why it mattered}.",
+        "example": "\"We are going with someone cheaper.\"\\n\\nThat email arrived 40 minutes after I sent my best proposal of the year.",
+        "best_for": "Long-form storytelling posts. Highest dwell time.",
+        "trap": "Dialogue nobody would actually say. Use the real line, including the ugly parts."
+      },
+      {
+        "id": 10,
+        "name": "The Receipt",
+        "template": "{Screenshot or hard number}. {One sentence of context}.",
+        "example": "3 clients, 11 days, zero calls booked. Here is the exact sequence that did it.",
+        "best_for": "Anything you can prove. Pair with an image and reach roughly doubles.",
+        "trap": "A receipt with no story attached. The number opens the door, the story is the room."
+      },
+      {
+        "id": 11,
+        "name": "Myth Bust",
+        "template": "{Popular explanation} is not why {bad outcome} is happening to you.",
+        "example": "The algorithm is not why your posts are dying.",
+        "best_for": "Reframing. Sets you up to deliver the real cause in line 3.",
+        "trap": "Busting the myth and never naming the replacement. Always name it."
+      },
+      {
+        "id": 12,
+        "name": "The Comparison",
+        "template": "{Expensive option} vs {cheap option}. {Surprising verdict}.",
+        "example": "A $12,000 brand agency vs a $20 tool and a weekend. The weekend won.",
+        "best_for": "Tool and process posts. Very high share rate.",
+        "trap": "An unfair comparison. Concede what the expensive option genuinely does better."
+      },
+      {
+        "id": 13,
+        "name": "Permission Slip",
+        "template": "You are allowed to {thing the reader feels guilty about}.",
+        "example": "You are allowed to turn down work that pays well and makes you miserable.",
+        "best_for": "Reach beyond your niche. These travel further than tactical posts.",
+        "trap": "Generic self-care. It has to be specific to the working life of your reader."
+      },
+      {
+        "id": 14,
+        "name": "Pattern Interrupt",
+        "template": "{One word or three-word line, full stop.}",
+        "example": "I got fired.",
+        "best_for": "Stopping the scroll cold. Whitespace does the work.",
+        "trap": "Overuse. Once a month. Every post starting this way reads as a tic."
+      },
+      {
+        "id": 15,
+        "name": "The Warning",
+        "template": "{Common practice} is quietly costing you {specific thing they care about}.",
+        "example": "Your 'quick call to align' is quietly costing you six hours a week.",
+        "best_for": "Problem-aware audiences who have not connected cause to cost.",
+        "trap": "Fear with no exit. Give the fix in the same post or you have just made someone anxious."
+      },
+      {
+        "id": 16,
+        "name": "Good vs Great",
+        "template": "Good {role} {do X}. Great {role} {do Y}.",
+        "example": "Good salespeople answer the question. Great salespeople ask why it was asked.",
+        "best_for": "Quotable one-liners. Screenshot bait.",
+        "trap": "A distinction that is really just 'try harder'. Y has to be a different action, not more effort."
+      },
+      {
+        "id": 17,
+        "name": "Time Anchor",
+        "template": "{Task} used to take me {long time}. It now takes {short time}.",
+        "example": "Writing a week of posts used to take me 5 hours. It now takes 20 minutes.",
+        "best_for": "Tool, system and automation posts. The strongest hook shape for a how-to.",
+        "trap": "An unbelievable ratio. 5 hours to 20 minutes lands. 5 hours to 8 seconds does not."
+      },
+      {
+        "id": 18,
+        "name": "The Unpopular Rule",
+        "template": "I do not {widely accepted practice}. Ever. Here is why.",
+        "example": "I do not take discovery calls. Ever.",
+        "best_for": "Positioning. Attracts the right clients by repelling the wrong ones.",
+        "trap": "A rule you break constantly. Someone in the comments will know."
+      },
+      {
+        "id": 19,
+        "name": "Curiosity Gap",
+        "template": "The {superlative} {thing} I ever {verb} {broke the obvious rule}.",
+        "example": "The best hire I ever made failed the interview.",
+        "best_for": "Openers that force the 'see more' tap.",
+        "trap": "A gap you never close. Pay it off by line 4 or you have written clickbait."
+      },
+      {
+        "id": 20,
+        "name": "The Walk-Away",
+        "template": "I {fired/quit/deleted/cancelled} {valuable thing}. {Result}.",
+        "example": "I fired my highest-paying client in January. Revenue is up 30%.",
+        "best_for": "Values posts with a business result attached. Very high engagement.",
+        "trap": "Walking away with no cost. Name what it actually cost you or it reads as theatre."
+      },
+      {
+        "id": 21,
+        "name": "The Direct Value",
+        "template": "Here is the exact {artifact} I used to {specific outcome}. Steal it.",
+        "example": "Here is the exact 4-line email I used to reopen 3 dead deals. Steal it.",
+        "best_for": "Lead magnets and comment-for-link posts. Highest conversion of the 21.",
+        "trap": "Making them ask for something you could have just posted. Give the artifact away in the post."
+      }
+    ],
+    "slop_lexicon": {
+      "version": "1.0",
+      "note": "Lexicon used by humanize.py and detect.py. Replacements are plain-English and keep the sentence grammatical. Edit freely - it is meant to be yours.",
+      "invisible": [
+        {
+          "cp": "U+200B",
+          "name": "ZERO WIDTH SPACE",
+          "action": "delete"
+        },
+        {
+          "cp": "U+200C",
+          "name": "ZERO WIDTH NON-JOINER",
+          "action": "delete"
+        },
+        {
+          "cp": "U+200D",
+          "name": "ZERO WIDTH JOINER",
+          "action": "delete"
+        },
+        {
+          "cp": "U+2060",
+          "name": "WORD JOINER",
+          "action": "delete"
+        },
+        {
+          "cp": "U+FEFF",
+          "name": "ZERO WIDTH NO-BREAK SPACE / BOM",
+          "action": "delete"
+        },
+        {
+          "cp": "U+00AD",
+          "name": "SOFT HYPHEN",
+          "action": "delete"
+        },
+        {
+          "cp": "U+180E",
+          "name": "MONGOLIAN VOWEL SEPARATOR",
+          "action": "delete"
+        },
+        {
+          "cp": "U+061C",
+          "name": "ARABIC LETTER MARK",
+          "action": "delete"
+        },
+        {
+          "cp": "U+200E",
+          "name": "LEFT-TO-RIGHT MARK",
+          "action": "delete"
+        },
+        {
+          "cp": "U+200F",
+          "name": "RIGHT-TO-LEFT MARK",
+          "action": "delete"
+        },
+        {
+          "cp": "U+E0000-U+E007F",
+          "name": "TAG CHARACTERS (invisible ASCII smuggling)",
+          "action": "delete"
+        },
+        {
+          "cp": "U+00A0",
+          "name": "NO-BREAK SPACE",
+          "action": "space"
+        },
+        {
+          "cp": "U+202F",
+          "name": "NARROW NO-BREAK SPACE",
+          "action": "space"
+        },
+        {
+          "cp": "U+2009",
+          "name": "THIN SPACE",
+          "action": "space"
+        },
+        {
+          "cp": "U+2007",
+          "name": "FIGURE SPACE",
+          "action": "space"
+        },
+        {
+          "cp": "U+2003",
+          "name": "EM SPACE",
+          "action": "space"
+        },
+        {
+          "cp": "U+2002",
+          "name": "EN SPACE",
+          "action": "space"
+        }
+      ],
+      "typographic": [
+        {
+          "from": "—",
+          "name": "EM DASH",
+          "to": ", "
+        },
+        {
+          "from": "–",
+          "name": "EN DASH",
+          "to": "-"
+        },
+        {
+          "from": "‘",
+          "name": "LEFT SINGLE QUOTE",
+          "to": "'"
+        },
+        {
+          "from": "’",
+          "name": "RIGHT SINGLE QUOTE",
+          "to": "'"
+        },
+        {
+          "from": "“",
+          "name": "LEFT DOUBLE QUOTE",
+          "to": "\""
+        },
+        {
+          "from": "”",
+          "name": "RIGHT DOUBLE QUOTE",
+          "to": "\""
+        },
+        {
+          "from": "…",
+          "name": "HORIZONTAL ELLIPSIS",
+          "to": "..."
+        },
+        {
+          "from": "′",
+          "name": "PRIME",
+          "to": "'"
+        },
+        {
+          "from": "·",
+          "name": "MIDDLE DOT",
+          "to": "-"
+        },
+        {
+          "from": "•",
+          "name": "BULLET",
+          "to": "-"
+        },
+        {
+          "from": "→",
+          "name": "RIGHTWARDS ARROW",
+          "to": "->"
+        }
+      ],
+      "words": [
+        {
+          "find": "delve into",
+          "replace": "look at",
+          "family": "verbs"
+        },
+        {
+          "find": "delve",
+          "replace": "look",
+          "family": "verbs"
+        },
+        {
+          "find": "dive deep into",
+          "replace": "get into",
+          "family": "verbs"
+        },
+        {
+          "find": "deep dive",
+          "replace": "breakdown",
+          "family": "nouns"
+        },
+        {
+          "find": "leverage",
+          "replace": "use",
+          "family": "verbs"
+        },
+        {
+          "find": "leveraging",
+          "replace": "using",
+          "family": "verbs"
+        },
+        {
+          "find": "utilize",
+          "replace": "use",
+          "family": "verbs"
+        },
+        {
+          "find": "utilizing",
+          "replace": "using",
+          "family": "verbs"
+        },
+        {
+          "find": "harness",
+          "replace": "use",
+          "family": "verbs"
+        },
+        {
+          "find": "embark on",
+          "replace": "start",
+          "family": "verbs"
+        },
+        {
+          "find": "foster",
+          "replace": "build",
+          "family": "verbs"
+        },
+        {
+          "find": "facilitate",
+          "replace": "help",
+          "family": "verbs"
+        },
+        {
+          "find": "showcase",
+          "replace": "show",
+          "family": "verbs"
+        },
+        {
+          "find": "unlock",
+          "replace": "get",
+          "family": "verbs"
+        },
+        {
+          "find": "elevate",
+          "replace": "improve",
+          "family": "verbs"
+        },
+        {
+          "find": "streamline",
+          "replace": "simplify",
+          "family": "verbs"
+        },
+        {
+          "find": "spearhead",
+          "replace": "lead",
+          "family": "verbs"
+        },
+        {
+          "find": "underscore",
+          "replace": "show",
+          "family": "verbs"
+        },
+        {
+          "find": "underscores",
+          "replace": "shows",
+          "family": "verbs"
+        },
+        {
+          "find": "cultivate",
+          "replace": "build",
+          "family": "verbs"
+        },
+        {
+          "find": "amplify",
+          "replace": "boost",
+          "family": "verbs"
+        },
+        {
+          "find": "curate",
+          "replace": "pick",
+          "family": "verbs"
+        },
+        {
+          "find": "curated",
+          "replace": "picked",
+          "family": "verbs"
+        },
+        {
+          "find": "empower",
+          "replace": "let",
+          "family": "verbs"
+        },
+        {
+          "find": "revolutionize",
+          "replace": "change",
+          "family": "verbs"
+        },
+        {
+          "find": "transformative",
+          "replace": "big",
+          "family": "adjectives"
+        },
+        {
+          "find": "robust",
+          "replace": "solid",
+          "family": "adjectives"
+        },
+        {
+          "find": "seamless",
+          "replace": "clean",
+          "family": "adjectives"
+        },
+        {
+          "find": "seamlessly",
+          "replace": "cleanly",
+          "family": "adjectives"
+        },
+        {
+          "find": "pivotal",
+          "replace": "key",
+          "family": "adjectives"
+        },
+        {
+          "find": "crucial",
+          "replace": "important",
+          "family": "adjectives"
+        },
+        {
+          "find": "vital",
+          "replace": "important",
+          "family": "adjectives"
+        },
+        {
+          "find": "comprehensive",
+          "replace": "complete",
+          "family": "adjectives"
+        },
+        {
+          "find": "cutting-edge",
+          "replace": "new",
+          "family": "adjectives"
+        },
+        {
+          "find": "game-changing",
+          "replace": "big",
+          "family": "adjectives"
+        },
+        {
+          "find": "game-changer",
+          "replace": "big deal",
+          "family": "nouns"
+        },
+        {
+          "find": "groundbreaking",
+          "replace": "new",
+          "family": "adjectives"
+        },
+        {
+          "find": "unparalleled",
+          "replace": "unmatched",
+          "family": "adjectives"
+        },
+        {
+          "find": "invaluable",
+          "replace": "useful",
+          "family": "adjectives"
+        },
+        {
+          "find": "meticulous",
+          "replace": "careful",
+          "family": "adjectives"
+        },
+        {
+          "find": "meticulously",
+          "replace": "carefully",
+          "family": "adjectives"
+        },
+        {
+          "find": "myriad of",
+          "replace": "many",
+          "family": "adjectives"
+        },
+        {
+          "find": "myriad",
+          "replace": "many",
+          "family": "adjectives"
+        },
+        {
+          "find": "multifaceted",
+          "replace": "complicated",
+          "family": "adjectives"
+        },
+        {
+          "find": "holistic",
+          "replace": "whole",
+          "family": "adjectives"
+        },
+        {
+          "find": "bespoke",
+          "replace": "custom",
+          "family": "adjectives"
+        },
+        {
+          "find": "innovative",
+          "replace": "new",
+          "family": "adjectives"
+        },
+        {
+          "find": "profound",
+          "replace": "big",
+          "family": "adjectives"
+        },
+        {
+          "find": "remarkable",
+          "replace": "notable",
+          "family": "adjectives"
+        },
+        {
+          "find": "compelling",
+          "replace": "convincing",
+          "family": "adjectives"
+        },
+        {
+          "find": "tapestry",
+          "replace": "mix",
+          "family": "nouns"
+        },
+        {
+          "find": "realm",
+          "replace": "world",
+          "family": "nouns"
+        },
+        {
+          "find": "landscape",
+          "replace": "market",
+          "family": "nouns"
+        },
+        {
+          "find": "journey",
+          "replace": "process",
+          "family": "nouns"
+        },
+        {
+          "find": "testament to",
+          "replace": "proof of",
+          "family": "nouns"
+        },
+        {
+          "find": "cornerstone",
+          "replace": "base",
+          "family": "nouns"
+        },
+        {
+          "find": "beacon",
+          "replace": "signal",
+          "family": "nouns"
+        },
+        {
+          "find": "paradigm",
+          "replace": "model",
+          "family": "nouns"
+        },
+        {
+          "find": "synergy",
+          "replace": "overlap",
+          "family": "nouns"
+        },
+        {
+          "find": "ecosystem",
+          "replace": "system",
+          "family": "nouns"
+        },
+        {
+          "find": "treasure trove",
+          "replace": "pile",
+          "family": "nouns"
+        },
+        {
+          "find": "plethora of",
+          "replace": "lots of",
+          "family": "nouns"
+        },
+        {
+          "find": "plethora",
+          "replace": "lots",
+          "family": "nouns"
+        },
+        {
+          "find": "arsenal",
+          "replace": "set",
+          "family": "nouns"
+        },
+        {
+          "find": "north star",
+          "replace": "goal",
+          "family": "nouns"
+        },
+        {
+          "find": "moreover",
+          "replace": "also",
+          "family": "connectives"
+        },
+        {
+          "find": "furthermore",
+          "replace": "also",
+          "family": "connectives"
+        },
+        {
+          "find": "additionally",
+          "replace": "also",
+          "family": "connectives"
+        },
+        {
+          "find": "nevertheless",
+          "replace": "still",
+          "family": "connectives"
+        },
+        {
+          "find": "consequently",
+          "replace": "so",
+          "family": "connectives"
+        },
+        {
+          "find": "thus",
+          "replace": "so",
+          "family": "connectives"
+        },
+        {
+          "find": "hence",
+          "replace": "so",
+          "family": "connectives"
+        },
+        {
+          "find": "notably",
+          "replace": "",
+          "family": "connectives"
+        },
+        {
+          "find": "importantly",
+          "replace": "",
+          "family": "connectives"
+        },
+        {
+          "find": "ultimately",
+          "replace": "in the end",
+          "family": "connectives"
+        },
+        {
+          "find": "in essence",
+          "replace": "basically",
+          "family": "connectives"
+        },
+        {
+          "find": "in conclusion",
+          "replace": "so",
+          "family": "connectives"
+        },
+        {
+          "find": "when it comes to",
+          "replace": "with",
+          "family": "connectives"
+        },
+        {
+          "find": "in order to",
+          "replace": "to",
+          "family": "connectives"
+        },
+        {
+          "find": "a wide range of",
+          "replace": "many",
+          "family": "connectives"
+        },
+        {
+          "find": "it is worth noting that",
+          "replace": "note that",
+          "family": "connectives"
+        }
+      ],
+      "phrases": [
+        {
+          "find": "in today's fast-paced world",
+          "replace": "right now",
+          "family": "openers"
+        },
+        {
+          "find": "in today's digital age",
+          "replace": "right now",
+          "family": "openers"
+        },
+        {
+          "find": "in the ever-evolving landscape of",
+          "replace": "in",
+          "family": "openers"
+        },
+        {
+          "find": "in the ever-changing world of",
+          "replace": "in",
+          "family": "openers"
+        },
+        {
+          "find": "let's face it",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "here's the thing",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "picture this",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "imagine a world where",
+          "replace": "imagine if",
+          "family": "openers"
+        },
+        {
+          "find": "it's no secret that",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "we've all been there",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "let that sink in",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "the choice is yours",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "food for thought",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "the future is here",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "what are your thoughts?",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "drop a comment below",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "at the end of the day",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "needle-moving",
+          "replace": "useful",
+          "family": "closers"
+        },
+        {
+          "find": "move the needle",
+          "replace": "make a difference",
+          "family": "closers"
+        },
+        {
+          "find": "a testament to",
+          "replace": "proof of",
+          "family": "nouns"
+        },
+        {
+          "find": "had the opportunity to",
+          "replace": "got to",
+          "family": "connectives"
+        },
+        {
+          "find": "i am excited to announce",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "i'm thrilled to share",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "i am humbled to",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "without further ado",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "buckle up",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "the harsh truth is",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "spoiler alert",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "read that again",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "you're welcome",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "save this for later",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "who's with me",
+          "replace": "",
+          "family": "closers"
+        }
+      ],
+      "structures": [
+        {
+          "id": "not-just",
+          "regex": "(?i)\\bit'?s not (?:just|only) [^.!?\\n]{2,60}[,.] it'?s\\b",
+          "name": "\"It's not just X, it's Y\"",
+          "fix": "Say the one thing you actually mean. Delete the setup half."
+        },
+        {
+          "id": "not-only",
+          "regex": "(?i)\\bnot only\\b[^.!?\\n]{2,80}\\bbut also\\b",
+          "name": "\"Not only X but also Y\"",
+          "fix": "Split into two sentences, or drop the weaker half."
+        },
+        {
+          "id": "isnt-about",
+          "regex": "(?i)\\b(?:this|it) is(?:n'?t| not) about [^.!?\\n]{2,60}[.!] it'?s about\\b",
+          "name": "\"It isn't about X. It's about Y.\"",
+          "fix": "Lead with Y. The reversal is the tell."
+        },
+        {
+          "id": "the-result",
+          "regex": "(?i)^\\s*(?:the result|the best part|the kicker|the catch)\\?\\s*$",
+          "name": "One-word rhetorical question line",
+          "fix": "Answer it inline instead of staging a reveal."
+        },
+        {
+          "id": "heres-what",
+          "regex": "(?i)\\bhere'?s what (?:i|we) learned\\b",
+          "name": "\"Here's what I learned\"",
+          "fix": "State the lesson. Skip the announcement."
+        },
+        {
+          "id": "triad",
+          "regex": "(?i)\\b\\w+, \\w+, and \\w+\\.",
+          "name": "Rule-of-three triad",
+          "fix": "Two items or four. Three is the model's default rhythm."
+        },
+        {
+          "id": "rocket",
+          "regex": "[\\U0001F680\\U0001F525\\U0001F4A1\\u2728\\U0001F3AF]",
+          "name": "Rocket / fire / bulb / sparkle / dart emoji",
+          "fix": "One emoji max, and not one of these five."
+        },
+        {
+          "id": "hashtag-wall",
+          "regex": "(?:#\\w+[ \\t]*){5,}",
+          "name": "Hashtag wall (5+)",
+          "fix": "Three hashtags. LinkedIn stopped rewarding the wall."
+        },
+        {
+          "id": "as-an-ai",
+          "regex": "(?i)\\bas an ai\\b|\\bas a language model\\b",
+          "name": "Model self-reference",
+          "fix": "Delete the sentence."
+        },
+        {
+          "id": "in-summary",
+          "regex": "(?i)^\\s*(?:in summary|to summarize|in conclusion)\\b",
+          "name": "Essay-closer opener",
+          "fix": "A post does not need a conclusion paragraph."
+        },
+        {
+          "id": "engagement-bait",
+          "regex": "(?i)\\b(?:agree\\?|thoughts\\?|who else\\b|am i wrong\\?)\\s*$",
+          "name": "Reflex engagement bait",
+          "fix": "Ask a question only you could ask, about the specific thing above it."
+        }
+      ]
+    },
+    "profile_rubric": {
+      "version": "1.0",
+      "total": 100,
+      "note": "Twelve items. Score each honestly - a generous score helps nobody. Most first-pass profiles land in the 30s and 40s.",
+      "items": [
+        {
+          "id": "headline",
+          "points": 12,
+          "full_marks": "States who you help and what changes for them, carries one piece of proof, and is not the job title. Uses the 220 characters, not 60."
+        },
+        {
+          "id": "about_open",
+          "points": 10,
+          "full_marks": "First two lines - everything visible before 'see more' - name the reader's problem. No 'passionate about', no third-person bio, no opening with your own name."
+        },
+        {
+          "id": "about_body",
+          "points": 10,
+          "full_marks": "Written to one person in second person: their problem, what you do, one number as proof, what to do next. Under 1,400 characters."
+        },
+        {
+          "id": "featured",
+          "points": 8,
+          "full_marks": "Three items: best-performing post, a proof asset, and the way to contact you. Nothing empty, nothing stale."
+        },
+        {
+          "id": "banner",
+          "points": 6,
+          "full_marks": "One line of positioning and one way to reach you. Not the default gradient, not a stock skyline."
+        },
+        {
+          "id": "photo",
+          "points": 6,
+          "full_marks": "Face fills roughly 60% of the frame, eyes visible, shot in the last two years, background not distracting."
+        },
+        {
+          "id": "current_role",
+          "points": 10,
+          "full_marks": "One line of scope, then two to three outcome bullets with numbers. Duties are not outcomes."
+        },
+        {
+          "id": "experience_depth",
+          "points": 8,
+          "full_marks": "Last two roles detailed, everything older than ten years compressed to a single line each."
+        },
+        {
+          "id": "skills",
+          "points": 6,
+          "full_marks": "Top three skills are the three you want to be hired for and are endorsed. The other 47 are noise."
+        },
+        {
+          "id": "recommendations",
+          "points": 8,
+          "full_marks": "At least three received in the last two years, each naming a specific outcome rather than character."
+        },
+        {
+          "id": "activity",
+          "points": 10,
+          "full_marks": "Posted or commented in the last seven days. An empty activity feed reads as an abandoned profile."
+        },
+        {
+          "id": "contact",
+          "points": 6,
+          "full_marks": "Custom URL, a working email or booking link in contact info, and the same handle as your other platforms."
+        }
+      ]
+    }
+  },
+  "youtube": {
+    "rules": [
+      "Confirm the title in the first sentence. A hook that ignores its own title is why people leave at 0:08.",
+      "One idea. A hook carrying two promises keeps neither.",
+      "Specific beats big. '400 to 200,000 in seven months' outperforms 'massive growth'.",
+      "Show the artifact inside 20 seconds if you promised one.",
+      "Never open with who you are. The subscribe pitch has not been earned yet."
+    ],
+    "hooks": [
+      {
+        "id": "the-statistic",
+        "name": "The Statistic",
+        "shape": "A number the viewer did not know, stated flat, then the consequence.",
+        "example": "97% of the people who start a channel quit before video 30. Here is what the other 3% do differently.",
+        "fails_when": "Dies if the number is vague or unverifiable. Say the source out loud.",
+        "match": [
+          "\\b\\d+(\\.\\d+)?\\s?%",
+          "\\b\\d+ (out of|in) \\d+\\b",
+          "\\b\\d{2,}(,\\d{3})+\\b"
+        ]
+      },
+      {
+        "id": "someone-elses-result",
+        "name": "Someone Else's Result",
+        "shape": "A named person's outcome, then the mechanism.",
+        "example": "This channel went from 400 subscribers to 200,000 in seven months on one format. I mapped it.",
+        "fails_when": "Do not invent the number. If you cannot name the channel, use a different formula.",
+        "match": [
+          "\\bthis (channel|guy|creator|account)\\b",
+          "\\bwent from .* to\\b",
+          "\\bin (a|one|two|three|\\d+) (week|month|year)s?\\b"
+        ]
+      },
+      {
+        "id": "the-mistake",
+        "name": "The Mistake",
+        "shape": "Name the error the viewer is probably making right now.",
+        "example": "Your first 30 seconds are why nobody finishes your videos. It is not the topic.",
+        "fails_when": "Only works if the mistake is common and the viewer can check it in one second.",
+        "match": [
+          "\\byou('re| are) (probably |still )?(doing|making)\\b",
+          "\\bthe (mistake|reason) (everyone|most people|nobody)\\b",
+          "\\bstop (doing )?\\b"
+        ]
+      },
+      {
+        "id": "contrarian-flip",
+        "name": "Contrarian Flip",
+        "shape": "State the accepted advice, then reject it.",
+        "example": "Everyone says post daily. I posted once a week for a year and tripled the channel.",
+        "fails_when": "Needs evidence in the next 15 seconds or it reads as contrarian for its own sake.",
+        "match": [
+          "\\beveryone (says|thinks|tells you)\\b",
+          "\\bis (actually )?wrong\\b",
+          "\\bnobody (tells|talks about)\\b"
+        ]
+      },
+      {
+        "id": "the-reveal",
+        "name": "The Reveal",
+        "shape": "Promise a specific thing will be shown, then show it.",
+        "example": "I am going to show you the exact prompt, on screen, that wrote this video.",
+        "fails_when": "You have to actually show it, early. A reveal at 8:00 is a retention cliff at 1:00.",
+        "match": [
+          "\\bI('m| am) going to show you\\b",
+          "\\bhere('s| is) (the|exactly)\\b",
+          "\\bon screen\\b"
+        ]
+      },
+      {
+        "id": "the-superlative",
+        "name": "The Superlative",
+        "shape": "The single best/worst/fastest of a category.",
+        "example": "This is the fastest way to turn one long video into thirty Shorts.",
+        "fails_when": "Superlatives are cheap. Earn it by naming what it beat.",
+        "match": [
+          "\\bthe (best|worst|fastest|easiest|only)\\b",
+          "\\bnumber one\\b"
+        ]
+      },
+      {
+        "id": "the-clock",
+        "name": "The Clock",
+        "shape": "Bound the payoff in time.",
+        "example": "In the next six minutes you will have a working title, thumbnail and script for your next video.",
+        "fails_when": "The clock has to be true. Overrun it and the next video's hook is not believed.",
+        "match": [
+          "\\bin (the next )?\\d+ (seconds|minutes|hours)\\b",
+          "\\bby the end of this video\\b",
+          "\\bunder \\d+\\b"
+        ]
+      },
+      {
+        "id": "i-tried-it",
+        "name": "I Tried It",
+        "shape": "First-person experiment with a stated cost.",
+        "example": "I let an AI run my channel for 30 days. I did not touch the uploads.",
+        "fails_when": "Needs a real cost - time, money, risk - or there is no stake.",
+        "match": [
+          "\\bI (tried|spent|tested|let|gave)\\b",
+          "\\bfor \\d+ (days|weeks|months)\\b",
+          "\\bso you don'?t have to\\b"
+        ]
+      },
+      {
+        "id": "the-question",
+        "name": "The Question",
+        "shape": "Ask the exact question the viewer typed into search.",
+        "example": "Why do your videos die at 30 seconds when the topic is fine?",
+        "fails_when": "Must be the viewer's question, not yours. Pull it from your own comments.",
+        "match": [
+          "^(why|how|what|when|should|can|do|does|is)\\b",
+          "\\?\\s*$"
+        ]
+      },
+      {
+        "id": "the-before-after",
+        "name": "Before and After",
+        "shape": "Two states, one cut between them.",
+        "example": "This was my thumbnail. This is my thumbnail now. Same video, four times the click-through.",
+        "fails_when": "Only works with a visual. Do not use it on a talking-head-only video.",
+        "match": [
+          "\\bbefore\\b.*\\bafter\\b",
+          "\\bthis was\\b.*\\bthis is\\b",
+          "\\bused to\\b"
+        ]
+      },
+      {
+        "id": "the-teardown",
+        "name": "The Teardown",
+        "shape": "Take a real thing apart in public.",
+        "example": "I pulled the nine most-viewed AI videos of the month and broke down what the titles share.",
+        "fails_when": "Name what you pulled and how many. A teardown of one example is an anecdote.",
+        "match": [
+          "\\b(broke|break|breaking) (it )?down\\b",
+          "\\bteardown\\b",
+          "\\banalys(ed|ed|is|e)\\b",
+          "\\bI pulled\\b"
+        ]
+      },
+      {
+        "id": "the-stack",
+        "name": "The Stack",
+        "shape": "Two named tools combined into one outcome.",
+        "example": "Claude plus your YouTube Studio export gives you next week's upload schedule in one prompt.",
+        "fails_when": "Both tools must be nameable and the outcome must need both.",
+        "match": [
+          "\\b\\w+ (plus|\\+) \\w+\\b",
+          "\\bcombine\\b",
+          "\\btogether\\b"
+        ]
+      },
+      {
+        "id": "the-warning",
+        "name": "The Warning",
+        "shape": "A cost the viewer is about to pay.",
+        "example": "Do not upload another video until you check this one setting.",
+        "fails_when": "If the cost is small the hook is a lie. Reserve it.",
+        "match": [
+          "\\bdo not\\b",
+          "\\bdon'?t (upload|post|publish|start)\\b",
+          "\\bbefore you\\b",
+          "\\bstop\\b"
+        ]
+      },
+      {
+        "id": "the-list",
+        "name": "The List",
+        "shape": "A counted set, with the count in the first line.",
+        "example": "Seven things I would do differently if I started a channel in 2026.",
+        "fails_when": "The count must be exact and every item must be different in kind.",
+        "match": [
+          "^\\d+ \\w+",
+          "\\b(here are|these are) \\d+\\b"
+        ]
+      },
+      {
+        "id": "the-receipt",
+        "name": "The Receipt",
+        "shape": "Show the artifact first, explain second.",
+        "example": "This is the analytics page. This video did 40% of the channel's watch time. Here is why.",
+        "fails_when": "Requires a real screenshot. A described receipt is not a receipt.",
+        "match": [
+          "\\bthis is (the|my)\\b",
+          "\\bscreenshot\\b",
+          "\\bproof\\b",
+          "\\breceipts?\\b"
+        ]
+      },
+      {
+        "id": "the-insider",
+        "name": "The Insider",
+        "shape": "Information from inside a system.",
+        "example": "YouTube tells you which videos are underperforming. Almost nobody opens the report.",
+        "fails_when": "Do not claim insider access you do not have.",
+        "match": [
+          "\\b(nobody|almost nobody|most people) (knows?|opens?|uses?)\\b",
+          "\\bhidden\\b",
+          "\\bburied\\b"
+        ]
+      },
+      {
+        "id": "the-impossible",
+        "name": "The Impossible Claim",
+        "shape": "State something that sounds untrue, then prove it.",
+        "example": "You can write, title, thumbnail and schedule a week of videos without opening a single editor.",
+        "fails_when": "The proof has to start within 20 seconds or it reads as clickbait.",
+        "match": [
+          "\\bwithout\\b",
+          "\\bnever\\b",
+          "\\bin one\\b",
+          "\\bzero\\b"
+        ]
+      },
+      {
+        "id": "the-comparison",
+        "name": "The Comparison",
+        "shape": "Two named options, one winner.",
+        "example": "I wrote the same video three ways. One of them held 62% and the other two did not.",
+        "fails_when": "Say the losing option out loud. A comparison with no loser is an advert.",
+        "match": [
+          "\\bvs\\.?\\b",
+          "\\bversus\\b",
+          "\\bwhich (one )?(is|wins)\\b",
+          "\\bsame .* (three|two) ways\\b"
+        ]
+      },
+      {
+        "id": "the-origin",
+        "name": "The Origin",
+        "shape": "Where a result actually came from.",
+        "example": "Every video on this channel starts in the same 12-line file. Here it is.",
+        "fails_when": "Works once per channel. It is a reveal about you, and you only have one.",
+        "match": [
+          "\\bevery (video|post) .* starts\\b",
+          "\\bit all (starts|started)\\b",
+          "\\bthe (real )?reason\\b"
+        ]
+      },
+      {
+        "id": "the-deadline",
+        "name": "The Deadline",
+        "shape": "Something is changing on a date.",
+        "example": "The old description format stops mattering this month. Here is what replaces it.",
+        "fails_when": "Only use with a real, checkable date. This is the fastest formula to lose trust with.",
+        "match": [
+          "\\b(this|next) (week|month|year)\\b",
+          "\\bis changing\\b",
+          "\\bno longer\\b",
+          "\\bas of\\b"
+        ]
+      },
+      {
+        "id": "the-direct-address",
+        "name": "The Direct Address",
+        "shape": "Name the exact viewer in the first six words.",
+        "example": "If you have under a thousand subscribers, this is the only video you need this week.",
+        "fails_when": "Narrow beats broad. 'If you make videos' addresses nobody.",
+        "match": [
+          "^if you\\b",
+          "\\bfor (anyone|everyone|people) who\\b",
+          "\\byou specifically\\b"
+        ]
+      }
+    ],
+    "guidelines": {
+      "hook_duration": "0:00 - 0:15",
+      "critical_retention_window": "0:00 - 0:30 (avoids 0:08 title disconnect drop-off)",
+      "structure": [
+        "0:00-0:15 Hook & Click Confirmation",
+        "0:15-0:45 Context & Stakes",
+        "0:45-3:00 Core Delivery",
+        "Escalation & Payoff",
+        "CTA"
+      ]
+    }
+  },
+  "instagram": {
+    "rules": [
+      "Write the spoken line and the on-screen line separately. On screen is the shorter, blunter one, six words or fewer, no punctuation it does not need.",
+      "No setup. The video starts at the sentence you would normally reach at second six.",
+      "Say the number. 'A lot' is not a number and neither is 'so much time'.",
+      "The first frame is a hook too. A static talking head at 0:00 with no motion and no text is three hooks wasted.",
+      "If the hook would work for anyone else in your niche, it is not your hook. Put the thing only you can say in it.",
+      "A hook promises something. Deliver it before the halfway mark or the retention you bought gets handed back."
+    ],
+    "hooks": [
+      {
+        "id": 1,
+        "name": "Cost Confession",
+        "template": "{Specific amount} is what {one mistake} cost me.",
+        "example": "$18,000 is what one missing clause cost me.",
+        "on_screen": "$18,000 MISTAKE",
+        "best_for": "Trust, fast. People finish the videos where you are the one who looks bad.",
+        "trap": "A fake cost. 'It cost me my peace of mind' is not a number and everybody can hear that.",
+        "match": "\\$\\s?\\d[\\d,]*\\s+(?:is|was) what\\b|\\bcost (?:me|us|him|her|them)\\b|\\blost\\b[^.!?]{0,20}\\$\\s?\\d"
+      },
+      {
+        "id": 2,
+        "name": "Negative Command",
+        "template": "Stop {common action}. Do {alternative} instead.",
+        "example": "Stop posting three times a day. Post twice and reply to every comment for an hour.",
+        "on_screen": "STOP POSTING DAILY",
+        "best_for": "Saves and arguments. The imperative gets attention that a statement does not.",
+        "trap": "Telling people to stop doing something nobody does. The habit has to be one the viewer recognises in themselves.",
+        "match": "^\\s*(?:stop|quit|never|don'?t|dont|please)\\b[^.!?]{0,30}\\b(?:do|be|make|buy|use|start|say|post|send|take|charge)?\\b|\\b(?:do not|don'?t|dont|never) (?:do|be|make|buy|use|start|say|post|take)\\b|\\bquit your\\b"
+      },
+      {
+        "id": 3,
+        "name": "Nobody Tells You",
+        "template": "Nobody tells you that {uncomfortable truth about the thing they want}.",
+        "example": "Nobody tells you that your first 30 reels are supposed to flop.",
+        "on_screen": "YOUR FIRST 30 WILL FLOP",
+        "best_for": "New audiences. It positions you as the person who says the quiet part.",
+        "trap": "Picking a truth everybody already says. If the comments are agreeing before you finish, it was not a secret.",
+        "match": "\\b(?:nobody|no one|nobody ever)\\s+(?:ever\\s+)?(?:tells|told|talks|talked|says|said|mentions|teaches)\\b|\\bwhat (?:nobody|no one) (?:tells|says)\\b"
+      },
+      {
+        "id": 4,
+        "name": "The Replacement",
+        "template": "{This thing} replaced {expensive thing} for {price}.",
+        "example": "This $12 tool replaced the editor I was paying $2,000 a month.",
+        "on_screen": "$2,000 -> $12",
+        "best_for": "Demos and tool videos. The price gap does the work.",
+        "trap": "Overstating the replacement. If it replaced 60% of the job, say 60%, or the comments will say it for you.",
+        "match": "\\breplaced?\\b[^.!?]*\\$\\s?\\d|\\$\\s?\\d[^.!?]*\\breplaced?\\b|\\binstead of (?:paying|hiring)\\b"
+      },
+      {
+        "id": 5,
+        "name": "Time Collapse",
+        "template": "This used to take me {long time}. It now takes {short time}.",
+        "example": "Proposals used to take me five hours. They take twenty minutes now.",
+        "on_screen": "5 HOURS -> 20 MIN",
+        "best_for": "Process videos where the payoff is speed. Reads instantly on screen.",
+        "trap": "A ratio nobody believes. 40 hours to 4 seconds gets treated as a lie even when it is true.",
+        "match": "\\bused to take\\b|\\bnow (?:it )?(?:only )?takes?\\b|\\btakes? (?:me )?\\d+\\s*(?:sec|second|min|minute|hour|hr)"
+      },
+      {
+        "id": 6,
+        "name": "The Receipt",
+        "template": "I {did thing} for {N days}. Here are the actual numbers.",
+        "example": "I posted one reel a day for 60 days. Here is what it did to my DMs.",
+        "on_screen": "60 DAYS. REAL NUMBERS.",
+        "best_for": "Experiments. Pairs with a screen recording of the real dashboard, which is the whole value.",
+        "trap": "Not showing the screen. A numbers video with no screen recording is a numbers claim.",
+        "match": "\\bi\\s+\\w+(?:ed)?\\s+[^.!?]{0,30}\\bfor\\s+\\d+\\s+(?:days?|weeks?|months?|years?)\\b|\\bhere (?:are|is) (?:the|my)\\b[^.!?]*\\bnumbers\\b|\\bwe(?:'ll| will)? do \\$\\s?\\d"
+      },
+      {
+        "id": 7,
+        "name": "Wrong Way, Right Way",
+        "template": "You are doing {thing} wrong, and it is not your fault. {The fix}.",
+        "example": "You are writing captions wrong, and it is not your fault. Instagram hides everything after line one.",
+        "on_screen": "YOUR CAPTIONS ARE CUT",
+        "best_for": "Teaching. The 'not your fault' half stops it reading as an insult, which is what kills this one.",
+        "trap": "Skipping the absolution. 'You are doing it wrong' on its own makes people leave rather than learn.",
+        "match": "\\b(?:big(?:gest)?|common|the) mistake\\b|\\bmistake (?:that|people|i)\\b|\\byou'?(?:re| are) doing\\b[^.!?]*\\bwrong\\b|\\bdoing (?:it|this) wrong\\b"
+      },
+      {
+        "id": 8,
+        "name": "Insider Leak",
+        "template": "I spent {N years} {inside the thing}. Here is what we never said out loud.",
+        "example": "I spent six years selling agency retainers. Here is what we never put in the proposal.",
+        "on_screen": "6 YEARS INSIDE",
+        "best_for": "Authority without a credential slide. Works only if the years are real.",
+        "trap": "Promising a secret and delivering the brochure. The comments are merciless about this one.",
+        "match": "\\bi (?:spent|worked|ran|was|have been)\\b[^.!?]*\\b\\d+\\s*\\+?\\s*years?\\b|\\bwe never (?:told|said|showed)\\b|\\bnobody (?:puts|tells you about)\\b|\\bi (?:sell|sold|run)\\b[^.!?]*\\$\\s?\\d"
+      },
+      {
+        "id": 9,
+        "name": "The Steal",
+        "template": "Steal this {artifact}. It took me {time} to get right.",
+        "example": "Steal this four-line follow-up. It took me two years and a lot of dead leads.",
+        "on_screen": "STEAL THIS",
+        "best_for": "Saves and sends, which are the two metrics that move reach the most.",
+        "trap": "The artifact not being on screen. If they cannot screenshot it, there is nothing to steal.",
+        "match": "^\\s*steal\\b|\\bsteal (?:this|these|my)\\b|^\\s*(?:here'?s|this is) (?:the|my) (?:exact|literal)\\b"
+      },
+      {
+        "id": 10,
+        "name": "If This, Then Watch",
+        "template": "If you {specific situation}, this {short time} fixes it.",
+        "example": "If your reels get views and no followers, the next 40 seconds fix it.",
+        "on_screen": "VIEWS BUT NO FOLLOWERS?",
+        "best_for": "Qualifying hard. Fewer people stay, and the ones who do are the ones who buy.",
+        "trap": "A situation so broad it qualifies nobody. 'If you want to grow' is not a situation.",
+        "match": "^\\s*if (?:you|i|we|your|my|they)\\b"
+      },
+      {
+        "id": 11,
+        "name": "Numbered With A Favourite",
+        "template": "{N} {things} that {outcome}. Number {k} is the one nobody uses.",
+        "example": "Five caption edits that double saves. Number four is the one nobody does.",
+        "on_screen": "5 EDITS. #4 IS THE ONE.",
+        "best_for": "Retention through the middle: naming a favourite gives people a reason to stay past three.",
+        "trap": "N above seven. Nobody believes you have nine good ones, and you do not.",
+        "match": "^\\s*(?:here are\\s+)?\\d+\\s+\\w+|\\bnumber \\d+\\b|\\b(?:three|four|five|seven|ten)\\s+\\w+\\s+(?:every|that|you)\\b"
+      },
+      {
+        "id": 12,
+        "name": "The Objection",
+        "template": "\"{Objection they actually say}.\" Fine. Here is the version that works anyway.",
+        "example": "\"I don't want to be on camera.\" Fine. Here is the faceless version that still sells.",
+        "on_screen": "\"I HATE BEING ON CAMERA\"",
+        "best_for": "Selling to the people who already said no once.",
+        "trap": "Inventing the objection. Pull it verbatim from a DM or a comment, including the bad grammar.",
+        "match": "^\\s*[\\\"“'][^\\\"”']{5,120}[\\\"”'][,.]?\\s*(?:fine|ok|okay|sure|right|here)"
+      },
+      {
+        "id": 13,
+        "name": "Before And After, On Screen",
+        "template": "{Show the old thing}. {Show the new thing}. {One sentence on the lever}.",
+        "example": "This was my profile in March. This is it now. I changed the name field, nothing else.",
+        "on_screen": "MARCH  /  NOW",
+        "best_for": "Anything visual. The cut between the two frames is the hook, the words are secondary.",
+        "trap": "Three levers. Name one thing that changed or the transformation stops being believable.",
+        "match": "\\b(?:this|that) was\\b[^.!?]*[.!?]\\s*(?:this|that) is\\b|\\bbefore\\b[^.!?]*\\bafter\\b|\\bi (?:look|looked) back at\\b"
+      },
+      {
+        "id": 14,
+        "name": "The Callout",
+        "template": "{Specific group}, this is the one you have been ignoring.",
+        "example": "Photographers charging under $2,000: this is the pricing page you have been avoiding.",
+        "on_screen": "PHOTOGRAPHERS UNDER $2K",
+        "best_for": "Cutting a broad audience down to the one that converts. Send rate goes up because people tag each other.",
+        "trap": "A group so large it is not a callout. 'Entrepreneurs' is not a group.",
+        "match": "^\\s*(?:every|all|any)\\s+\\w+|^\\s*[a-z][\\w ]{2,28}(?:ers|ists|ors|ants)\\b\\s*[,:]|^\\s*for (?:viewers|people|anyone|those|everyone)\\b|^\\s*(?:attention|listen up)\\b"
+      },
+      {
+        "id": 15,
+        "name": "The Flop Record",
+        "template": "My first {N} {attempts} did nothing. Here is what changed on {N+1}.",
+        "example": "My first 47 reels averaged 300 views. Number 48 did 400,000. One thing was different.",
+        "on_screen": "47 FLOPS, THEN THIS",
+        "best_for": "People at the start, which is most of the audience. High comment rate.",
+        "trap": "Making the change sound like luck. If the answer is 'I got lucky', there is no video.",
+        "match": "\\bmy first\\s+\\d+\\b|\\bfirst\\s+\\d+\\s+(?:reels?|videos?|posts?|clients?|months?)\\b"
+      },
+      {
+        "id": 16,
+        "name": "The Verbatim Question",
+        "template": "\"{Question exactly as it was asked}\" - I get this every week.",
+        "example": "\"How do I post consistently without hating it?\" I get this one every week.",
+        "on_screen": "ASKED EVERY WEEK",
+        "best_for": "Search. A question typed the way people type it is what Instagram search is matching against.",
+        "trap": "Tidying the question up. The value is that it is in their words, typos and all.",
+        "match": "^\\s*[\\\"“']?(?:how|what|what'?s|why|when|where|who|which|can|should|do|does|did|is|are|have you|would you)\\b[^?]{3,110}\\?"
+      },
+      {
+        "id": 17,
+        "name": "Head To Head",
+        "template": "{A} versus {B}. I ran both for {time} and one of them was not close.",
+        "example": "Carousels versus reels. I ran both for 90 days and it was not close.",
+        "on_screen": "CAROUSELS vs REELS",
+        "best_for": "Comments. People arrive already holding an opinion, which is the point.",
+        "trap": "Refusing to pick. A comparison with a diplomatic ending is a video with no ending.",
+        "match": "\\b(?:vs\\.?|versus)\\b|\\bdifferences? between\\b|\\b(?:a|the) or (?:b|the)\\b"
+      },
+      {
+        "id": 18,
+        "name": "Cold Open Demo",
+        "template": "{Start mid-action, already doing the thing.} Watch what this does.",
+        "example": "Watch what happens when I paste a competitor's caption into this.",
+        "on_screen": "WATCH THIS",
+        "best_for": "Screen recordings and anything with a visible result. No setup at all, the hand is already moving.",
+        "trap": "A result that takes twelve seconds to arrive. If the payoff is slow, cut to it and show the wait afterwards.",
+        "match": "^\\s*watch (?:what|this|me)\\b|^\\s*(?:let me|lemme) show you\\b|^\\s*repeat after me\\b"
+      },
+      {
+        "id": 19,
+        "name": "The Deadline",
+        "template": "{Thing} changes on {date}. Do {action} before then.",
+        "example": "Your top nine grid crops change the second you post a reel. Fix the covers first.",
+        "on_screen": "BEFORE YOU POST AGAIN",
+        "best_for": "Urgency that is real. Platform changes, seasonal windows, policy updates.",
+        "trap": "Manufactured urgency. One fake deadline and every future one is discounted.",
+        "match": "\\bbefore (?:you|it|they|the)\\b[^.!?]*\\b(?:change|changes|end|ends|close|closes|expires|goes)\\b|\\bchanges on\\b|\\bby 20\\d\\d\\b"
+      },
+      {
+        "id": 20,
+        "name": "Permission",
+        "template": "You do not need {the thing everyone says you need}.",
+        "example": "You do not need a niche. You need one person you can name.",
+        "on_screen": "YOU DON'T NEED A NICHE",
+        "best_for": "Relief. Very high save rate, because it removes a blocker rather than adding a task.",
+        "trap": "Removing the blocker and putting nothing in its place. The second half is the whole video.",
+        "match": "\\byou (?:do not|don'?t|dont) need\\b|\\bstop (?:trying to|worrying about)\\b"
+      },
+      {
+        "id": 21,
+        "name": "Mid-Sentence Start",
+        "template": "{...and that is when {the turn}.}",
+        "example": "...and that is when the client asked for the money back. Three days after approving it.",
+        "on_screen": "HE ASKED FOR A REFUND",
+        "best_for": "Stories. Starting mid-scene makes the viewer feel they arrived late, which is a reason to stay.",
+        "trap": "Never going back to fill in the gap. Deliver the setup by second eight or it reads as a mistake.",
+        "match": "^\\s*(?:\\.\\.\\.|…)|^\\s*(?:and (?:that'?s|that is|then) when|so (?:he|she|they) (?:said|asked))\\b|^\\s*(?:uh|um)\\b"
+      },
+      {
+        "id": 22,
+        "name": "Contrarian Flip",
+        "template": "{Well-known saying, inverted.}",
+        "example": "Nice guys finish first.",
+        "on_screen": "NICE GUYS FINISH FIRST",
+        "best_for": "Comments. The viewer has to stop and check whether they misheard you.",
+        "trap": "Flipping a saying nobody says. The original has to be a reflex, or the inversion is just a sentence.",
+        "match": "^\\s*[A-Za-z][\\w' ]{2,34}\\b(?:finish|finishes|win|wins|lose|loses|beats?|is|are)\\s+(?:first|last|dead|wrong|right|better|overrated|underrated)\\b"
+      },
+      {
+        "id": 23,
+        "name": "The Statistic",
+        "template": "{N}% of {group} {surprising fact}.",
+        "example": "33% of high school graduates never read another book.",
+        "on_screen": "33% NEVER READ AGAIN",
+        "best_for": "Sends. A number a person can repeat at dinner gets sent to somebody.",
+        "trap": "A statistic you cannot source. Say where it came from in the video or do not use it.",
+        "match": "^\\s*\\d[\\d,.]*\\s?%|\\b\\d[\\d,.]*\\s?%\\s+of\\b"
+      },
+      {
+        "id": 24,
+        "name": "The Reveal",
+        "template": "This is the new {thing}.",
+        "example": "This is the new Sony point and shoot, and it fixes the one thing I hated.",
+        "on_screen": "THE NEW ONE",
+        "best_for": "Anything physical or visual. The object is the hook and the words are captions on it.",
+        "trap": "Holding the thing up without saying what it changes. A reveal with no stake is an advert.",
+        "match": "^\\s*(?:so,?\\s+)?(?:this|these|here) (?:is|are)\\s+(?:the\\s+)?(?:new|my new)\\b|^\\s*(?:so,?\\s+)?this (?:new|tiny|little)\\b|^\\s*this \\w+ has (?:the|a)\\b"
+      },
+      {
+        "id": 25,
+        "name": "Someone Else's Result",
+        "template": "There was one {person} who {outcome} in {time}.",
+        "example": "There was one creator who grew a million subscribers in a single month.",
+        "on_screen": "1M SUBS IN ONE MONTH",
+        "best_for": "Proof when the user does not have their own number yet. Third-person is allowed if it is true.",
+        "trap": "No name and no link. An anonymous miracle is a rumour.",
+        "match": "\\bthere (?:was|is) (?:one|a|this)\\b|\\b(?:one|a) (?:guy|girl|creator|student|founder|kid|client|friend) (?:i know |who |that )(?:\\w+ed|grew|made|built|went|took|got|hit)\\b|\\bwe had a new\\b"
+      },
+      {
+        "id": 26,
+        "name": "The Superlative",
+        "template": "The {fastest / biggest / only} {thing} is {the answer}.",
+        "example": "The fastest way to get confident is to build evidence you cannot argue with.",
+        "on_screen": "THE FASTEST WAY",
+        "best_for": "One-claim videos with no story attached. It is the most common shape in the wild and the easiest to write badly.",
+        "trap": "A superlative with a soft answer. If the second half is 'consistency', you have said nothing and the comments will tell you.",
+        "match": "^\\s*(?:the\\s+)?(?:fastest|quickest|best|worst|biggest|greatest|easiest|hardest|only|number one|#1|most important)\\s+\\w+|\\bthe (?:fastest|best|worst|biggest|greatest|only) way to\\b"
+      }
+    ],
+    "slop_lexicon": {
+      "version": "1.0",
+      "note": "Lexicon used by humanize.py and detect.py. Replacements are plain-English and keep the sentence grammatical. The last block of each list is Instagram-specific: caption and voiceover slop that does not show up on other platforms. Edit freely - it is meant to be yours.",
+      "invisible": [
+        {
+          "cp": "U+200B",
+          "name": "ZERO WIDTH SPACE",
+          "action": "delete"
+        },
+        {
+          "cp": "U+200C",
+          "name": "ZERO WIDTH NON-JOINER",
+          "action": "delete"
+        },
+        {
+          "cp": "U+200D",
+          "name": "ZERO WIDTH JOINER",
+          "action": "delete"
+        },
+        {
+          "cp": "U+2060",
+          "name": "WORD JOINER",
+          "action": "delete"
+        },
+        {
+          "cp": "U+FEFF",
+          "name": "ZERO WIDTH NO-BREAK SPACE / BOM",
+          "action": "delete"
+        },
+        {
+          "cp": "U+00AD",
+          "name": "SOFT HYPHEN",
+          "action": "delete"
+        },
+        {
+          "cp": "U+180E",
+          "name": "MONGOLIAN VOWEL SEPARATOR",
+          "action": "delete"
+        },
+        {
+          "cp": "U+061C",
+          "name": "ARABIC LETTER MARK",
+          "action": "delete"
+        },
+        {
+          "cp": "U+200E",
+          "name": "LEFT-TO-RIGHT MARK",
+          "action": "delete"
+        },
+        {
+          "cp": "U+200F",
+          "name": "RIGHT-TO-LEFT MARK",
+          "action": "delete"
+        },
+        {
+          "cp": "U+E0000-U+E007F",
+          "name": "TAG CHARACTERS (invisible ASCII smuggling)",
+          "action": "delete"
+        },
+        {
+          "cp": "U+00A0",
+          "name": "NO-BREAK SPACE",
+          "action": "space"
+        },
+        {
+          "cp": "U+202F",
+          "name": "NARROW NO-BREAK SPACE",
+          "action": "space"
+        },
+        {
+          "cp": "U+2009",
+          "name": "THIN SPACE",
+          "action": "space"
+        },
+        {
+          "cp": "U+2007",
+          "name": "FIGURE SPACE",
+          "action": "space"
+        },
+        {
+          "cp": "U+2003",
+          "name": "EM SPACE",
+          "action": "space"
+        },
+        {
+          "cp": "U+2002",
+          "name": "EN SPACE",
+          "action": "space"
+        },
+        {
+          "cp": "U+2063",
+          "name": "INVISIBLE SEPARATOR",
+          "action": "delete"
+        }
+      ],
+      "typographic": [
+        {
+          "from": "—",
+          "name": "EM DASH",
+          "to": ", "
+        },
+        {
+          "from": "–",
+          "name": "EN DASH",
+          "to": "-"
+        },
+        {
+          "from": "‘",
+          "name": "LEFT SINGLE QUOTE",
+          "to": "'"
+        },
+        {
+          "from": "’",
+          "name": "RIGHT SINGLE QUOTE",
+          "to": "'"
+        },
+        {
+          "from": "“",
+          "name": "LEFT DOUBLE QUOTE",
+          "to": "\""
+        },
+        {
+          "from": "”",
+          "name": "RIGHT DOUBLE QUOTE",
+          "to": "\""
+        },
+        {
+          "from": "…",
+          "name": "HORIZONTAL ELLIPSIS",
+          "to": "..."
+        },
+        {
+          "from": "′",
+          "name": "PRIME",
+          "to": "'"
+        },
+        {
+          "from": "·",
+          "name": "MIDDLE DOT",
+          "to": "-"
+        },
+        {
+          "from": "•",
+          "name": "BULLET",
+          "to": "-"
+        },
+        {
+          "from": "→",
+          "name": "RIGHTWARDS ARROW",
+          "to": "->"
+        }
+      ],
+      "words": [
+        {
+          "find": "delve into",
+          "replace": "look at",
+          "family": "verbs"
+        },
+        {
+          "find": "delve",
+          "replace": "look",
+          "family": "verbs"
+        },
+        {
+          "find": "dive deep into",
+          "replace": "get into",
+          "family": "verbs"
+        },
+        {
+          "find": "deep dive",
+          "replace": "breakdown",
+          "family": "nouns"
+        },
+        {
+          "find": "leverage",
+          "replace": "use",
+          "family": "verbs"
+        },
+        {
+          "find": "leveraging",
+          "replace": "using",
+          "family": "verbs"
+        },
+        {
+          "find": "utilize",
+          "replace": "use",
+          "family": "verbs"
+        },
+        {
+          "find": "utilizing",
+          "replace": "using",
+          "family": "verbs"
+        },
+        {
+          "find": "harness",
+          "replace": "use",
+          "family": "verbs"
+        },
+        {
+          "find": "embark on",
+          "replace": "start",
+          "family": "verbs"
+        },
+        {
+          "find": "foster",
+          "replace": "build",
+          "family": "verbs"
+        },
+        {
+          "find": "facilitate",
+          "replace": "help",
+          "family": "verbs"
+        },
+        {
+          "find": "showcase",
+          "replace": "show",
+          "family": "verbs"
+        },
+        {
+          "find": "unlock",
+          "replace": "get",
+          "family": "verbs"
+        },
+        {
+          "find": "elevate",
+          "replace": "improve",
+          "family": "verbs"
+        },
+        {
+          "find": "streamline",
+          "replace": "simplify",
+          "family": "verbs"
+        },
+        {
+          "find": "spearhead",
+          "replace": "lead",
+          "family": "verbs"
+        },
+        {
+          "find": "underscore",
+          "replace": "show",
+          "family": "verbs"
+        },
+        {
+          "find": "underscores",
+          "replace": "shows",
+          "family": "verbs"
+        },
+        {
+          "find": "cultivate",
+          "replace": "build",
+          "family": "verbs"
+        },
+        {
+          "find": "amplify",
+          "replace": "boost",
+          "family": "verbs"
+        },
+        {
+          "find": "curate",
+          "replace": "pick",
+          "family": "verbs"
+        },
+        {
+          "find": "curated",
+          "replace": "picked",
+          "family": "verbs"
+        },
+        {
+          "find": "empower",
+          "replace": "let",
+          "family": "verbs"
+        },
+        {
+          "find": "revolutionize",
+          "replace": "change",
+          "family": "verbs"
+        },
+        {
+          "find": "transformative",
+          "replace": "big",
+          "family": "adjectives"
+        },
+        {
+          "find": "robust",
+          "replace": "solid",
+          "family": "adjectives"
+        },
+        {
+          "find": "seamless",
+          "replace": "clean",
+          "family": "adjectives"
+        },
+        {
+          "find": "seamlessly",
+          "replace": "cleanly",
+          "family": "adjectives"
+        },
+        {
+          "find": "pivotal",
+          "replace": "key",
+          "family": "adjectives"
+        },
+        {
+          "find": "crucial",
+          "replace": "important",
+          "family": "adjectives"
+        },
+        {
+          "find": "vital",
+          "replace": "important",
+          "family": "adjectives"
+        },
+        {
+          "find": "comprehensive",
+          "replace": "complete",
+          "family": "adjectives"
+        },
+        {
+          "find": "cutting-edge",
+          "replace": "new",
+          "family": "adjectives"
+        },
+        {
+          "find": "game-changing",
+          "replace": "big",
+          "family": "adjectives"
+        },
+        {
+          "find": "game-changer",
+          "replace": "big deal",
+          "family": "nouns"
+        },
+        {
+          "find": "groundbreaking",
+          "replace": "new",
+          "family": "adjectives"
+        },
+        {
+          "find": "unparalleled",
+          "replace": "unmatched",
+          "family": "adjectives"
+        },
+        {
+          "find": "invaluable",
+          "replace": "useful",
+          "family": "adjectives"
+        },
+        {
+          "find": "meticulous",
+          "replace": "careful",
+          "family": "adjectives"
+        },
+        {
+          "find": "meticulously",
+          "replace": "carefully",
+          "family": "adjectives"
+        },
+        {
+          "find": "myriad of",
+          "replace": "many",
+          "family": "adjectives"
+        },
+        {
+          "find": "myriad",
+          "replace": "many",
+          "family": "adjectives"
+        },
+        {
+          "find": "multifaceted",
+          "replace": "complicated",
+          "family": "adjectives"
+        },
+        {
+          "find": "holistic",
+          "replace": "whole",
+          "family": "adjectives"
+        },
+        {
+          "find": "bespoke",
+          "replace": "custom",
+          "family": "adjectives"
+        },
+        {
+          "find": "innovative",
+          "replace": "new",
+          "family": "adjectives"
+        },
+        {
+          "find": "profound",
+          "replace": "big",
+          "family": "adjectives"
+        },
+        {
+          "find": "remarkable",
+          "replace": "notable",
+          "family": "adjectives"
+        },
+        {
+          "find": "compelling",
+          "replace": "convincing",
+          "family": "adjectives"
+        },
+        {
+          "find": "tapestry",
+          "replace": "mix",
+          "family": "nouns"
+        },
+        {
+          "find": "realm",
+          "replace": "world",
+          "family": "nouns"
+        },
+        {
+          "find": "landscape",
+          "replace": "market",
+          "family": "nouns"
+        },
+        {
+          "find": "journey",
+          "replace": "process",
+          "family": "nouns"
+        },
+        {
+          "find": "testament to",
+          "replace": "proof of",
+          "family": "nouns"
+        },
+        {
+          "find": "cornerstone",
+          "replace": "base",
+          "family": "nouns"
+        },
+        {
+          "find": "beacon",
+          "replace": "signal",
+          "family": "nouns"
+        },
+        {
+          "find": "paradigm",
+          "replace": "model",
+          "family": "nouns"
+        },
+        {
+          "find": "synergy",
+          "replace": "overlap",
+          "family": "nouns"
+        },
+        {
+          "find": "ecosystem",
+          "replace": "system",
+          "family": "nouns"
+        },
+        {
+          "find": "treasure trove",
+          "replace": "pile",
+          "family": "nouns"
+        },
+        {
+          "find": "plethora of",
+          "replace": "lots of",
+          "family": "nouns"
+        },
+        {
+          "find": "plethora",
+          "replace": "lots",
+          "family": "nouns"
+        },
+        {
+          "find": "arsenal",
+          "replace": "set",
+          "family": "nouns"
+        },
+        {
+          "find": "north star",
+          "replace": "goal",
+          "family": "nouns"
+        },
+        {
+          "find": "moreover",
+          "replace": "also",
+          "family": "connectives"
+        },
+        {
+          "find": "furthermore",
+          "replace": "also",
+          "family": "connectives"
+        },
+        {
+          "find": "additionally",
+          "replace": "also",
+          "family": "connectives"
+        },
+        {
+          "find": "nevertheless",
+          "replace": "still",
+          "family": "connectives"
+        },
+        {
+          "find": "consequently",
+          "replace": "so",
+          "family": "connectives"
+        },
+        {
+          "find": "thus",
+          "replace": "so",
+          "family": "connectives"
+        },
+        {
+          "find": "hence",
+          "replace": "so",
+          "family": "connectives"
+        },
+        {
+          "find": "notably",
+          "replace": "",
+          "family": "connectives"
+        },
+        {
+          "find": "importantly",
+          "replace": "",
+          "family": "connectives"
+        },
+        {
+          "find": "ultimately",
+          "replace": "in the end",
+          "family": "connectives"
+        },
+        {
+          "find": "in essence",
+          "replace": "basically",
+          "family": "connectives"
+        },
+        {
+          "find": "in conclusion",
+          "replace": "so",
+          "family": "connectives"
+        },
+        {
+          "find": "when it comes to",
+          "replace": "with",
+          "family": "connectives"
+        },
+        {
+          "find": "in order to",
+          "replace": "to",
+          "family": "connectives"
+        },
+        {
+          "find": "a wide range of",
+          "replace": "many",
+          "family": "connectives"
+        },
+        {
+          "find": "it is worth noting that",
+          "replace": "note that",
+          "family": "connectives"
+        },
+        {
+          "find": "supercharge",
+          "replace": "speed up",
+          "family": "verbs"
+        },
+        {
+          "find": "skyrocket",
+          "replace": "raise",
+          "family": "verbs"
+        },
+        {
+          "find": "unleash",
+          "replace": "release",
+          "family": "verbs"
+        },
+        {
+          "find": "effortlessly",
+          "replace": "easily",
+          "family": "adjectives"
+        },
+        {
+          "find": "captivating",
+          "replace": "interesting",
+          "family": "adjectives"
+        },
+        {
+          "find": "stunning",
+          "replace": "good",
+          "family": "adjectives"
+        },
+        {
+          "find": "breathtaking",
+          "replace": "striking",
+          "family": "adjectives"
+        },
+        {
+          "find": "iconic",
+          "replace": "known",
+          "family": "adjectives"
+        },
+        {
+          "find": "must-have",
+          "replace": "worth having",
+          "family": "adjectives"
+        },
+        {
+          "find": "no-brainer",
+          "replace": "obvious",
+          "family": "nouns"
+        },
+        {
+          "find": "hidden gem",
+          "replace": "good one",
+          "family": "nouns"
+        },
+        {
+          "find": "secret sauce",
+          "replace": "the actual method",
+          "family": "nouns"
+        },
+        {
+          "find": "ultimate guide",
+          "replace": "guide",
+          "family": "nouns"
+        },
+        {
+          "find": "level up",
+          "replace": "improve",
+          "family": "verbs"
+        },
+        {
+          "find": "hack",
+          "replace": "trick",
+          "family": "nouns"
+        }
+      ],
+      "phrases": [
+        {
+          "find": "in today's fast-paced world",
+          "replace": "right now",
+          "family": "openers"
+        },
+        {
+          "find": "in today's digital age",
+          "replace": "right now",
+          "family": "openers"
+        },
+        {
+          "find": "in the ever-evolving landscape of",
+          "replace": "in",
+          "family": "openers"
+        },
+        {
+          "find": "in the ever-changing world of",
+          "replace": "in",
+          "family": "openers"
+        },
+        {
+          "find": "let's face it",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "here's the thing",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "picture this",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "imagine a world where",
+          "replace": "imagine if",
+          "family": "openers"
+        },
+        {
+          "find": "it's no secret that",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "we've all been there",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "let that sink in",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "the choice is yours",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "food for thought",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "the future is here",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "what are your thoughts?",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "drop a comment below",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "at the end of the day",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "needle-moving",
+          "replace": "useful",
+          "family": "closers"
+        },
+        {
+          "find": "move the needle",
+          "replace": "make a difference",
+          "family": "closers"
+        },
+        {
+          "find": "a testament to",
+          "replace": "proof of",
+          "family": "nouns"
+        },
+        {
+          "find": "had the opportunity to",
+          "replace": "got to",
+          "family": "connectives"
+        },
+        {
+          "find": "i am excited to announce",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "i'm thrilled to share",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "i am humbled to",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "without further ado",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "buckle up",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "the harsh truth is",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "spoiler alert",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "read that again",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "you're welcome",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "save this for later",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "who's with me",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "stop scrolling",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "don't scroll past this",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "in this video i'm going to show you",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "in today's video",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "watch till the end",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "you won't believe",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "nobody is talking about this",
+          "replace": "few people do this",
+          "family": "openers"
+        },
+        {
+          "find": "no one is talking about this",
+          "replace": "few people do this",
+          "family": "openers"
+        },
+        {
+          "find": "this changed everything",
+          "replace": "this worked",
+          "family": "openers"
+        },
+        {
+          "find": "this is your sign to",
+          "replace": "",
+          "family": "openers"
+        },
+        {
+          "find": "little did i know",
+          "replace": "",
+          "family": "connectives"
+        },
+        {
+          "find": "fast forward to today",
+          "replace": "now",
+          "family": "connectives"
+        },
+        {
+          "find": "and just like that",
+          "replace": "",
+          "family": "connectives"
+        },
+        {
+          "find": "the rest is history",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "run don't walk",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "trust me on this one",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "don't sleep on this",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "follow for more",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "hit follow for more",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "double tap if",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "tag someone who needs this",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "let me know in the comments",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "share this with someone who needs it",
+          "replace": "",
+          "family": "closers"
+        },
+        {
+          "find": "the algorithm loves",
+          "replace": "Instagram pushes",
+          "family": "nouns"
+        },
+        {
+          "find": "beat the algorithm",
+          "replace": "get reach",
+          "family": "nouns"
+        },
+        {
+          "find": "go viral overnight",
+          "replace": "get reach",
+          "family": "nouns"
+        }
+      ],
+      "structures": [
+        {
+          "id": "not-just",
+          "regex": "(?i)\\bit'?s not (?:just|only) [^.!?\\n]{2,60}[,.] it'?s\\b",
+          "name": "\"It's not just X, it's Y\"",
+          "fix": "Say the one thing you actually mean. Delete the setup half."
+        },
+        {
+          "id": "not-only",
+          "regex": "(?i)\\bnot only\\b[^.!?\\n]{2,80}\\bbut also\\b",
+          "name": "\"Not only X but also Y\"",
+          "fix": "Split into two sentences, or drop the weaker half."
+        },
+        {
+          "id": "isnt-about",
+          "regex": "(?i)\\b(?:this|it) is(?:n'?t| not) about [^.!?\\n]{2,60}[.!] it'?s about\\b",
+          "name": "\"It isn't about X. It's about Y.\"",
+          "fix": "Lead with Y. The reversal is the tell."
+        },
+        {
+          "id": "the-result",
+          "regex": "(?i)^\\s*(?:the result|the best part|the kicker|the catch)\\?\\s*$",
+          "name": "One-word rhetorical question line",
+          "fix": "Answer it inline instead of staging a reveal."
+        },
+        {
+          "id": "heres-what",
+          "regex": "(?i)\\bhere'?s what (?:i|we) learned\\b",
+          "name": "\"Here's what I learned\"",
+          "fix": "State the lesson. Skip the announcement."
+        },
+        {
+          "id": "triad",
+          "regex": "(?i)\\b\\w+, \\w+, and \\w+\\.",
+          "name": "Rule-of-three triad",
+          "fix": "Two items or four. Three is the model's default rhythm."
+        },
+        {
+          "id": "rocket",
+          "regex": "[\\U0001F680\\U0001F525\\U0001F4A1\\u2728\\U0001F3AF]",
+          "name": "Rocket / fire / bulb / sparkle / dart emoji",
+          "fix": "One emoji max, and not one of these five."
+        },
+        {
+          "id": "hashtag-wall",
+          "regex": "(?:#\\w+[ \\t]*){5,}",
+          "name": "Hashtag wall (5+)",
+          "fix": "Three hashtags. LinkedIn stopped rewarding the wall."
+        },
+        {
+          "id": "as-an-ai",
+          "regex": "(?i)\\bas an ai\\b|\\bas a language model\\b",
+          "name": "Model self-reference",
+          "fix": "Delete the sentence."
+        },
+        {
+          "id": "in-summary",
+          "regex": "(?i)^\\s*(?:in summary|to summarize|in conclusion)\\b",
+          "name": "Essay-closer opener",
+          "fix": "A post does not need a conclusion paragraph."
+        },
+        {
+          "id": "engagement-bait",
+          "regex": "(?i)\\b(?:agree\\?|thoughts\\?|who else\\b|am i wrong\\?)\\s*$",
+          "name": "Reflex engagement bait",
+          "fix": "Ask a question only you could ask, about the specific thing above it."
+        },
+        {
+          "id": "stop-scroll",
+          "regex": "(?im)^\\s*(?:stop scrolling|don'?t scroll|wait[,.]? don'?t scroll)\\b",
+          "name": "\"Stop scrolling\" opener",
+          "fix": "The scroll-stop has to be the claim itself. Asking for attention is the tell that you have not earned it."
+        },
+        {
+          "id": "in-this-video",
+          "regex": "(?i)\\b(?:in (?:this|today'?s) (?:video|reel|post)|today i'?m going to show you|i'?m going to (?:show|teach) you how)\\b",
+          "name": "Video preamble (\"in this video I'm going to show you\")",
+          "fix": "Delete it and start at the payoff. The first two seconds decide the whole reel."
+        },
+        {
+          "id": "emoji-bullets",
+          "regex": "(?m)^\\s*[\\U0001F300-\\U0001FAFF✅➡⬅✔✨]\\s*\\S",
+          "name": "Emoji bullet list",
+          "fix": "Use a hyphen or a line break. Emoji bullets are the single most template-looking thing in a caption."
+        },
+        {
+          "id": "caps-shout",
+          "regex": "\\b[A-Z]{3,}\\b(?:\\s+\\b[A-Z]{3,}\\b){2,}",
+          "name": "Three or more shouted words in a row",
+          "fix": "Caps are a volume knob, not a highlighter. One word, at most."
+        },
+        {
+          "id": "follow-bait",
+          "regex": "(?i)\\b(?:follow for more|tag someone who|double tap if|share this if|comment below if)\\b",
+          "name": "Reflex follow or tag bait",
+          "fix": "Ask for the one action this post actually earns. The generic ask trains the audience to ignore every ask."
+        }
+      ]
+    },
+    "profile_rubric": {
+      "version": "1.0",
+      "total": 100,
+      "note": "Twelve items. Score each honestly - a generous score helps nobody. Most first-pass profiles land in the 30s and 40s. The weighting is deliberate: the name field, the first bio line and the pinned three are worth more than the photo, because they are what a stranger who arrived from one reel actually processes before deciding to follow.",
+      "items": [
+        {
+          "id": "name_field",
+          "points": 12,
+          "full_marks": "The name field (30 characters, the bold line, not the handle) carries the name plus what they do in words people search: 'Dana Ruiz | Proposal templates'. This field is indexed by Instagram search and most accounts waste it on a name alone.",
+          "common_fail": "Just a name, or a name with an emoji."
+        },
+        {
+          "id": "bio_first_line",
+          "points": 12,
+          "full_marks": "Line one names who this is for and what changes for them, in their words. Not a job title, not a list of adjectives, not three emoji separated by bars.",
+          "common_fail": "'Entrepreneur | Coffee lover | Dog dad'."
+        },
+        {
+          "id": "bio_body",
+          "points": 8,
+          "full_marks": "The rest of the 150 characters carries one piece of proof or one specific offer, and reads as sentences rather than a pipe-separated list.",
+          "common_fail": "Keyword soup, or blank space."
+        },
+        {
+          "id": "pinned_three",
+          "points": 10,
+          "full_marks": "Three posts pinned to the top of the grid, doing three different jobs: the best proof, the clearest explanation of the offer, and the best introduction to the person. Not the three highest-view posts by accident.",
+          "common_fail": "Nothing pinned, so the top of the grid is whatever was posted last."
+        },
+        {
+          "id": "link",
+          "points": 8,
+          "full_marks": "One destination that matches what the bio just promised. Up to five links are allowed; more than two is a menu, and a menu converts worse than a door.",
+          "common_fail": "A link tree with eleven options, or no link at all."
+        },
+        {
+          "id": "highlights",
+          "points": 8,
+          "full_marks": "Four to six highlights named for the questions a buyer actually asks: Pricing, Results, How it works, About. Covers consistent. Nothing older than a year sitting at the front.",
+          "common_fail": "'Random', 'Life', 'Faves', or 14 highlights in no order."
+        },
+        {
+          "id": "grid_legibility",
+          "points": 8,
+          "full_marks": "The first nine covers are legible at thumbnail size and say what the account is about without a single tap. Reel covers are chosen deliberately, not left as frame one.",
+          "common_fail": "Nine covers of a face mid-word with no text."
+        },
+        {
+          "id": "photo",
+          "points": 6,
+          "full_marks": "Face fills roughly 60% of a circle that renders at about 40 pixels. Eyes visible, shot in the last two years, background not competing.",
+          "common_fail": "A full-body shot, a logo for a personal brand, or a photo taken at arm's length in a dark room."
+        },
+        {
+          "id": "handle",
+          "points": 6,
+          "full_marks": "Readable, sayable out loud, and the same handle as the other platforms. No stacked underscores or numbers standing in for letters.",
+          "common_fail": "A handle nobody can spell after hearing it once."
+        },
+        {
+          "id": "category_contact",
+          "points": 6,
+          "full_marks": "Professional account with a category that matches the offer, and contact buttons that work. Email that is checked, not the one from 2019.",
+          "common_fail": "Personal account, so there are no insights and no contact button."
+        },
+        {
+          "id": "recent_activity",
+          "points": 10,
+          "full_marks": "Posted in the last seven days and replied to comments on the most recent post. An account that last posted in March reads as closed.",
+          "common_fail": "A five-week gap, or a wall of unanswered comments."
+        },
+        {
+          "id": "story_presence",
+          "points": 6,
+          "full_marks": "A story up right now, or at least most days. It is the difference between a profile and a person.",
+          "common_fail": "No ring, ever."
+        }
+      ]
+    },
+    "reel_structure": {
+      "0-3s": "Visual Pattern Interrupt + Spoken Hook (<= 6 words on screen)",
+      "3-15s": "Hold Curiosity & Setup",
+      "15-45s": "High-Density Value / Delivery",
+      "45-60s": "Payoff + Seamless Loop CTA"
+    }
+  },
+  "promptmaster": {
+    "count": 35,
+    "families": [
+      {
+        "family": "VAGUE ASK",
+        "why": "Vagueness makes the model guess. Wrong guesses force retries, and every retry resends the full conversation.",
+        "patterns": [
+          {
+            "id": 1,
+            "name": "no deliverable named",
+            "signal": "The prompt says what topic to work on but not what to produce (a table? a script? a file? a list?).",
+            "fix": "Name the artifact: 'one table with columns X, Y, Z', 'a 30-second script', 'a single .md file'."
+          },
+          {
+            "id": 2,
+            "name": "no audience",
+            "signal": "Content is requested with no reader in mind ('write me something for instagram').",
+            "fix": "Say who it is for and what they already know: 'a local coffee shop with 8k followers'."
+          },
+          {
+            "id": 3,
+            "name": "no length or size",
+            "signal": "No word count, item count, or duration, so the model picks one and it is wrong.",
+            "fix": "Cap it: 'under 400 words', '10 ideas', '3 options max'."
+          },
+          {
+            "id": 4,
+            "name": "no done-when",
+            "signal": "There is no way to tell whether the answer succeeded.",
+            "fix": "State the finish line: 'done when I can paste it into the scheduler without edits'."
+          },
+          {
+            "id": 5,
+            "name": "'something like' hedging",
+            "signal": "'something like', 'kind of', 'maybe a', 'or whatever' in the ask.",
+            "fix": "Commit to one version. You can change it after you see it."
+          },
+          {
+            "id": 6,
+            "name": "open verdict fishing",
+            "signal": "'thoughts?', 'what do you think?', 'any ideas?' with no decision attached.",
+            "fix": "Ask the decision you actually face: 'pick one of these two and say why'."
+          },
+          {
+            "id": 7,
+            "name": "style matters but no example",
+            "signal": "Tone or format matters and no sample is given, guaranteeing a voice miss.",
+            "fix": "Paste one short example of the style you want and say 'match this'."
+          },
+          {
+            "id": 8,
+            "name": "buried constraint",
+            "signal": "A hard requirement you already know (budget, tool, deadline) is left out, then revealed after the first wrong answer.",
+            "fix": "List every known constraint up front, even the obvious ones."
+          },
+          {
+            "id": 9,
+            "name": "multiple unrelated asks fused",
+            "signal": "Two or three different jobs in one sentence, so each gets a shallow half-answer.",
+            "fix": "One prompt per job, or number them and ask for them in order."
+          },
+          {
+            "id": 10,
+            "name": "'make it better' with no direction",
+            "signal": "Improvement is requested without naming what is wrong.",
+            "fix": "Name the failure: 'the hook is weak', 'too formal', 'cut it to half'."
+          }
+        ]
+      },
+      {
+        "family": "RE-EXPLAINING",
+        "why": "Saying the same thing twice is pure waste. The second explanation costs tokens and proves the first one leaked.",
+        "patterns": [
+          {
+            "id": 11,
+            "name": "re-pasting the same context",
+            "signal": "The same background paragraph gets pasted into message after message.",
+            "fix": "State it once, lock it as a decision, and reference it ('per the locked voice')."
+          },
+          {
+            "id": 12,
+            "name": "restarting instead of continuing",
+            "signal": "A fresh chat is opened for a follow-up, so all context must be rebuilt from zero.",
+            "fix": "Continue the thread, or carry a 5-line summary + the locked decisions into the new one."
+          },
+          {
+            "id": 13,
+            "name": "repeating a decision already made",
+            "signal": "A preference stated earlier (voice, format, stack) is restated because the model drifted.",
+            "fix": "Lock it in decisions.md the first time. Locked decisions are re-applied automatically."
+          },
+          {
+            "id": 14,
+            "name": "asking the model to recall its own output",
+            "signal": "'like you said before' or 'use the version from earlier' with no quote, forcing a re-derivation.",
+            "fix": "Paste the 2 lines you mean. Quoting is cheaper than remembering."
+          },
+          {
+            "id": 15,
+            "name": "unstated correction loop",
+            "signal": "The same class of mistake gets corrected one instance at a time across many messages.",
+            "fix": "Correct the rule, not the instance: 'never use em dashes anywhere', then lock it."
+          }
+        ]
+      },
+      {
+        "family": "OVERFEEDING",
+        "why": "Every pasted token is billed on every following turn. Context you did not need is rent you keep paying.",
+        "patterns": [
+          {
+            "id": 16,
+            "name": "whole file for a one-function question",
+            "signal": "800 lines pasted when the question is about 20.",
+            "fix": "Paste the relevant function plus its callers. Name the file for the rest."
+          },
+          {
+            "id": 17,
+            "name": "unsummarized transcript dump",
+            "signal": "A full meeting transcript or thread pasted raw when only the decisions matter.",
+            "fix": "Ask for or write a 10-line summary first, then work from that."
+          },
+          {
+            "id": 18,
+            "name": "irrelevant attachments",
+            "signal": "Docs attached 'just in case' that the task never touches.",
+            "fix": "Attach only what the task reads. Mention the rest exists."
+          },
+          {
+            "id": 19,
+            "name": "screenshot of text",
+            "signal": "An error message or config sent as an image, which costs more and reads worse.",
+            "fix": "Paste the text itself. Exact characters matter."
+          },
+          {
+            "id": 20,
+            "name": "paraphrased error message",
+            "signal": "'it says something about a missing module' instead of the actual error.",
+            "fix": "Paste the exact error, top line to bottom line."
+          },
+          {
+            "id": 21,
+            "name": "duplicated instructions",
+            "signal": "The same rule appears in the prompt twice in different words, inviting the model to treat them as different rules.",
+            "fix": "Say each rule once, in one place."
+          },
+          {
+            "id": 35,
+            "name": "redundant context",
+            "signal": "Background the model already has (from this chat, the repo, or a locked decision) is pasted again anyway.",
+            "fix": "Trust what is already in context. Add only what is new."
+          }
+        ]
+      },
+      {
+        "family": "UNDERSPECIFIED PROCESS",
+        "why": "When the how is open, the model picks a how. If its pick is wrong you pay for the work twice.",
+        "patterns": [
+          {
+            "id": 22,
+            "name": "no stack or tool pinned",
+            "signal": "A build is requested without naming the language, framework, or tool, so the model chooses and gets corrected.",
+            "fix": "Pin it: 'plain HTML + vanilla JS, no frameworks'."
+          },
+          {
+            "id": 23,
+            "name": "no do-not-touch list",
+            "signal": "Nothing marks what must stay unchanged, so working parts get rewritten.",
+            "fix": "Say what is frozen: 'do not modify the deploy script or the schema'."
+          },
+          {
+            "id": 24,
+            "name": "missing environment facts",
+            "signal": "OS, versions, or account limits that change the answer are left for the model to assume.",
+            "fix": "State them: 'macOS, Node 22, free-tier plan'."
+          },
+          {
+            "id": 25,
+            "name": "full rewrite when a diff would do",
+            "signal": "'rewrite the whole thing' for a 2-line change, regenerating everything.",
+            "fix": "Ask for the edit: 'change only the hook, keep the rest verbatim'."
+          },
+          {
+            "id": 26,
+            "name": "no output cap on long generation",
+            "signal": "An open-ended 'write everything' that produces 3x more than will be read.",
+            "fix": "Cap the output and ask for the rest only if needed."
+          },
+          {
+            "id": 27,
+            "name": "no priority when tradeoffs exist",
+            "signal": "Speed, cost, and quality all implied equally, so the model optimizes the wrong one.",
+            "fix": "Rank them: 'fast and cheap beats polished here'."
+          }
+        ]
+      },
+      {
+        "family": "CONVERSATION CHURN",
+        "why": "Messages are the unit of waste. Five turns that could have been one means the context got re-billed five times.",
+        "patterns": [
+          {
+            "id": 28,
+            "name": "one-question drip",
+            "signal": "Related questions asked one message at a time instead of batched.",
+            "fix": "Batch them: number 4 questions in one message, get 4 answers in one pass."
+          },
+          {
+            "id": 29,
+            "name": "permission-seeking turn",
+            "signal": "'can you...?' / 'would it be possible to...?' as its own message before the real ask.",
+            "fix": "Just ask the real thing. The capability check is free inside the same message."
+          },
+          {
+            "id": 30,
+            "name": "resending everything to change one word",
+            "signal": "The full prompt is re-pasted with a tiny edit instead of stating the delta.",
+            "fix": "Send the delta: 'same as before but the audience is beginners'."
+          },
+          {
+            "id": 31,
+            "name": "vague rejection",
+            "signal": "'not quite' / 'didn't like it' with no named miss, forcing a blind second attempt.",
+            "fix": "Name the miss in one line, and say what to keep."
+          },
+          {
+            "id": 32,
+            "name": "politeness padding",
+            "signal": "Apologies, warm-ups, and sign-offs carrying zero instruction, re-billed every turn after.",
+            "fix": "Be direct. Spend the tokens on constraints instead."
+          }
+        ]
+      },
+      {
+        "family": "WRONG TOOL FOR THE TURN",
+        "why": "Some turns should never have been prompts at all.",
+        "patterns": [
+          {
+            "id": 33,
+            "name": "big model for a lookup",
+            "signal": "A frontier model asked to spell-check, convert units, or fetch a fact a smaller tool answers.",
+            "fix": "Route trivial turns to a small model or a plain tool. Save the big model for judgment."
+          },
+          {
+            "id": 34,
+            "name": "regenerate instead of edit",
+            "signal": "Rerolling the whole answer hoping the one flaw disappears.",
+            "fix": "Point at the flaw and ask for a targeted fix of that section only."
+          }
+        ]
+      }
+    ],
+    "framework": {
+      "core_elements": [
+        "Context",
+        "Role",
+        "Task",
+        "Format",
+        "Negative Constraints",
+        "Examples",
+        "Decision Locks"
+      ]
+    }
+  },
+  "hyperframes": {
+    "blueprints": [
+      {
+        "id": "agent-progress-theater",
+        "title": "agent-progress-theater — Agent Progress Theater",
+        "content": "# agent-progress-theater — Agent Progress Theater\n\n**intent**: Agent work performed as WORKING-STATE theater — a short trigger beat hands the frame to the machine, which then visibly _works_: loaders spin, status phrases swap, dots pulse, counters tick — before the receipt arrives as a card whose rows cascade in and CHANGE STATE (badges flip to checks, labels strike through, severity pills read out), or as a conversation thread building message-by-message onto a camera push-in payoff. The subject is the machine performing labor over time. It is NOT a typed prompt awaiting output (no prompt/input is ever typed — the trigger is a click, a menu choice, or an already-running scan); NOT `cursor-ui-demo` (at most ONE igniting click here, then the cursor exits and the UI performs itself); NOT `grid-card-assemble` (rows there assemble into a static enumeration and hold — rows here are alive: they arrive as agent output and then MUTATE, checking off one by one while the viewer watches).\n\n**roles served**\n\n- Key_Feature (from `agent-progress-theater`): when the feature is the agent doing multi-step work (build a plan / scan a repo / fix a vulnerability / handle infra for you) and the proof is status theater — a loader lockup with a typed label, status couplets swapping under an `[accent]` spinner, then a checklist/findings card that populates and checks off in front of the viewer.\n- Key_Feature (from `message-thread-payoff`): when the agent's work lives inside a conversation or automation thread — user/agent bubbles and tool-call/reply cards popping in sequence, the working state carried by pulsing loading dots or rapidly ticking diff counters, resolved by ONE camera push-in tight on the confirmation line (`[reaction pill]`, \"Sent using `[@Bot]`\", a thank-you bubble).\n\n**duration**: 4.2–11.6s (short members are a single card-and-check-off or thread beat at ~4–5s; long members chain trigger → interstitial → status swaps → receipt card at ~9–12s; thread payoff spans 4.2–9.1s)\n\n"
+      },
+      {
+        "id": "camera-journey",
+        "title": "camera-journey — Camera Journey",
+        "content": "# camera-journey — Camera Journey\n\n**intent**: The real viewport camera is the STORYTELLER — a multi-leg journey (dive in → a mid-journey beat fires → travel to the consequence / reposition → landing push, at rest) across ONE continuous world, where the travel itself carries the narrative. Two folded sub-shapes: **(A) action roundtrip** — the camera dives into a UI panel, a cursor/typed action fires, and the camera swoops/pans to another region where the consequence renders as element motion; **(B) cursorless flight** — pure cinematic 3D flight (motion blur, depth-of-field, tilt-to-flatten rotations) over static or self-animating content, no cursor anywhere.\n\n**boundary**: This is NOT `cursor-ui-demo` — there the camera _chases_ the cursor (a servo following the actor); here the camera IS the actor, moving on its own narrative motivation, and in sub-shape A the cursor acts only at the leg hinge (in B it never appears). This is NOT `device-surface-showcase` — there one DEVICE/surface is hero and the camera merely presents it; here no single surface is hero — the journey traverses multiple regions/panels/depth planes and the traversal is the story. This is NOT `spatial-pan-stations` — there pre-placed stations on a flat canvas are visited by repeated pans of the same type; here the legs are heterogeneous (push-in, swoop, pull-back-rotate, whip, dive) and each leg is _motivated_ (by a fired action, or by the reveal it lands on).\n\n**roles served**\n\n- Benefits (from `camera-swoop-panel-action-roundtrip`): when the benefit IS a cause→effect round trip — \"do this small thing here, get this big thing there\" (comment → chart morphs; agent finding → verified commit; chat message → receipt + ledger). The camera physically connects the action to its payoff, so the viewer _travels_ the value chain instead of being told it.\n- Key_Feature (from `cursorless-camera-flight`): when the feature should feel cinematic and inevitable — a payout form or a generated content-plan calendar ex"
+      },
+      {
+        "id": "comparison-split",
+        "title": "comparison-split — Comparison Split-Cards",
+        "content": "# comparison-split — Comparison Split-Cards\n\n**intent**: Two paired items of equal weight shown side-by-side with mirrored 3D \"book-open\" tilts — the eye reads them as a balanced comparison, then a pill badge lands at each card's inner edge to punctuate. The motion IS the symmetry: two cards arriving from opposite wings into a held spread.\n\n**roles served**\n\n- Key_Feature (from `comparison-split-cards`): when two complementary features / capabilities of equal weight should be presented **simultaneously, not sequentially** — an A/B, a \"X + Y together,\" paired concepts the viewer must weigh side-by-side. Not for >2 items (use `grid-card-assemble`) or sequential steps.\n\n**duration**: 4–6s\n\n**shot structure** (a `[bg]` canvas carrying two faint ambient glow blooms — `[accent A]` near 30%, `[accent B]` near 70% — so each side owns a color identity across a 50% symmetry axis; equal-width cards under one shared perspective parent)\n\n- **Scene 1 (0.0–~0.8s) — title sets the concept.** A centered `[title line]` with an `[accent keyword]` slides DOWN into place from just above (a short smooth settle). The downward arrival is deliberate: it forms a non-conflicting T-shape against the cards, which arrive from the sides next.\n- **Scene 2 (~0.4–1.9s) — the split-tilt entry (signature move).** Two equal-width feature cards arrive from opposite wings — `[left card]` from the left, `[right card]` from the right ~0.2s behind — each carrying a **mirrored 3D `rotateY` tilt** (left faces right, right faces left, opening like a book) and scaling ~0.85→1 as it lands. The entry overlaps the title's tail so the whole thing reads as ONE arrival, not two beats. Each card holds `[image / label / subtitle]`; box-shadows fall **outward** from the tilt (left shadow right, right shadow left).\n- **Scene 3 (~1.9–end) — badges punctuate, then hold.** A pill `[badge]` lands at each card's **inner edge** (left then right, ~0.3s apart), overlapping its card ~15% so it reads as attached, not orbiting. Thi"
+      },
+      {
+        "id": "constellation-hub",
+        "title": "constellation-hub — Constellation / Hub + Satellites",
+        "content": "# constellation-hub — Constellation / Hub + Satellites\n\n**intent**: Labeled/iconned nodes spring into a ring/cluster around a center, then the shot resolves on the core — either by pushing the camera INTO the center (depth-of-field collapsing onto it) or by holding a hub mark while the satellites ORBIT it; the \"everything connects to / sits around one center\" beat.\n\n**roles served**\n\n- Hook (from `hook-cluster-push-in`): a constellation of tool/app nodes springs into a wide ring, then a sustained camera push-in with depth-of-field resolves on the inner core — \"it connects everything / one hub for all your tools.\"\n- Social_Proof (from `social-proof-orbit-ecosystem`): the product brand mark lands as the center hub and partner logos spring onto a ring and revolve around it — \"plugs into / sits at the center of your stack.\"\n- CTA (from `cta-orbit-collapse`): the ring resolves by COLLAPSE rather than a push-in — category icons drift around an empty central CTA, a cursor click implodes the orbit toward the click point, and the product demo springs OUT of that collapse as the answer (scope → choice → consequence → product).\n- Social_Proof (from `proof-logo-chain`): a persistent center logo accrues proofs — its wordmark decodes, a claim ticker swaps, the logo glides to center, then avatars cascade into orbit with drawn connectors while partner logos scroll the bottom strip; four claims read as one statement.\n- Social_Proof (from `scatter-drift-finisher`): the ecosystem beat as a\n  static END CARD — a two-line serif `[headline]` is the center (no hub mark, no ring), `[~20 app\nicons]` pop in scattered frame-wide in a quick stagger, then keep drifting very slowly OUTWARD\n  to the end. \"Connects to thousands of apps\" said with count and spread, not geometry.\n\n**duration**: 5–8s (Hook 5–6s · Social_Proof 5–8s · CTA orbit-collapse ~6s · Social_Proof\nscatter-drift end card ~2.5s as a closing beat)\n\n**shot structure**\n\nConsolidated template — nodes ring a center, then one of two fi"
+      },
+      {
+        "id": "cta-morph-press",
+        "title": "cta-morph-press — CTA Morph & Press",
+        "content": "# cta-morph-press — CTA Morph & Press\n\n**intent**: A resting brand mark condenses at the same screen center into a smaller, brighter CTA, then a cursor arrives from off-stage and lands a human-aimed click on it. The viewer's eye is walked from \"this is who we are\" to \"and this is what you do.\" The morph and the click are the two headline beats.\n\n**roles served**\n\n- CTA (from `cta-morph-press`): when the close moves from brand identity to a single user action, two elements share the same center sequentially (a morph, not a cut), and the payoff is a simulated click with physical feedback. Reach for it for a focused \"click here\" sign-off — no spatial set, no multi-step UI (that's `cursor-ui-demo`).\n- Hook (ROLE-WIDENED, from `widget-morph-on-blank-field`): the same\n  machinery run as an OPENER — a lone `[widget]` (pill / chip lockup) on a flat field transforms\n  in place, performs its payload, then vanishes to a plain frame that a typed `[title]` resolves.\n  The click, when present, ignites the morph rather than closing it; there may be no cursor at\n  all. Reach for it when the product hook IS one widget doing one thing — still no spatial set,\n  no multi-step UI (that's `cursor-ui-demo`). Mint-reconsideration trigger: if future mining\n  brings 2+ more widget-morph openers with the vanish → typed-title resolve, promote this variant\n  to its own blueprint (the beat order is fully inverted by then).\n\n**duration**: 4–6s (Hook widget-morph opener 5–7.5s)\n\n**shot structure** (a `[bg]` canvas; hero and CTA are flex-centered siblings sharing one `transform-origin`)\n\n- **Scene 1 (0.0–~1.4s) — presence.** The `[hero mark / brand lockup]` holds dead-center, alive but resting — only a faint rotational breath on the mark; any title text under it stays rock-stable. Camera static.\n- **Scene 2 (~1.4–2.4s) — the morph (signature move).** The hero CONDENSES at the same screen center into a smaller, brighter `[CTA]` (button / card): the outgoing mark shrink-fades exactly as the CTA scale"
+      },
+      {
+        "id": "cursor-ui-demo",
+        "title": "cursor-ui-demo — Cursor-Driven UI Demo",
+        "content": "# cursor-ui-demo — Cursor-Driven UI Demo\n\n**intent**: A visible custom cursor drives a real (reconstructed) app UI through clicks / hovers / drags so the screen changes state shot-to-shot, while the camera chases each interaction — the product surface is the subject and the cursor is the actor.\n\n**roles served**\n\n- Product_Intro (from `product-intro-cursor-ui-demo`): first look at the product surface — the cursor sweeps/hovers to \\_introduce\\* the app and reveal what it is, landing on a hovered hero element or freshly-popped result. Light, exploratory; backdrop steps colors as it goes.\n- Key_Feature (from `key-feature-cursor-ui-demo`): one specific multi-step workflow demonstrated \\_end-to-end\\* (edit / configure / select across 2–4 discrete beats), each beat a real edit the UI responds to live, landing locked on the primary action button or the produced result.\n- Key_Feature (from `workflow-approve-press`): an agency / confirmation workflow framed by a cockpit of 3D-tilted flanks — a step list ticks pending → active → complete (a snap state machine, CSS responding to `[data-state]`), and a flank button takes the PRESS as the payoff (its color flips to success, a checkmark stamps). The click is the climax, not a passing gesture.\n- Key_Feature (from `cursor-app-state-tour`): the static-stage STATE TOUR — the cursor drives a reconstructed app through 2–4 discrete feature states on a LOCKED frame; every scene change is a click-triggered element swap/scale (modal springs from center, side panel slides in from the right edge, settings hard-swap, table populates, node-graph builds), never a real camera move; optional `[title card]` Scene 0 in front and a `[brand end beat]` behind.\n- Key_Feature (from `drag-field-onto-document`): the DRAG-DROP journey — one continuous zoom-breathing shot of a document workspace: the cursor drags a ghosted `[field chip]` from an inputs sidebar onto the page, drop-snaps it into a placed field, a modal/typing beat completes it, and the placed"
+      },
+      {
+        "id": "dataviz-countup",
+        "title": "dataviz-countup — Data-Viz / Count-Up",
+        "content": "# dataviz-countup — Data-Viz / Count-Up\n\n**intent**: Make numbers and charts the hero — a count-up ring/number, a trend chart, a tilted stat/card grid — and traverse the data instruments with a camera that pushes THROUGH them (or scrolls across them) to land on one hero metric, so the data itself carries the argument.\n\n**roles served**\n\n- Problem (from `problem-dataviz-pushthrough`): quantifies the pain with real-looking instruments — a count-up ring → a trend chart → a stat grid — the camera pushing THROUGH each object into the next to dramatize a worsening / large-scale problem (\"X% of people struggle with…\").\n- Product_Intro (from `product-intro-dataviz-scroll-reveal`): a confident \"look at the result / the data\" open — hard-cut from a hook word into a perspective-tilted grid of data-viz cards, then a hands-off camera scroll lands one glowing hero metric while a kinetic tagline assembles word-by-word.\n- Hook (from `hook-counter-burst`): a cold-open hook on ONE dramatic statistic — the frame opens dark and empty, 3–5 thematic icons puncture in clustered at center, then the headline number EXPLODES upward in size as the icons fling outward to their marks (the count-up and the spread are one beat), closed by a slow camera lean-in. Kinetic from frame 1.\n- Key_Feature (from dark-stat-scrub-montage): prove the feature with its own analytics — on a black canvas, kinetic headline beats alternate with self-drawing charts and a 3D-tilted dark dashboard that a cursor SCRUBS (tracking line + live tooltips), stitched by hard cuts and one zoom punch. The one variant where a cursor touches the data.\n- Social_Proof (from `gauge-beat`): a single count-up instrument — radial gauge arc-draw + rapidly ticking metric + caption — embedded as ONE BEAT inside a kinetic-typography relay; entered and exited by element-level scale/blur push-throughs on a static frame. The instrument guest-stars; the relay itself belongs to kinetic-type-beats.\n\n**duration**: ~4–12s (Hook ~4s · Product_Intro"
+      },
+      {
+        "id": "device-surface-showcase",
+        "title": "device-surface-showcase — Device / Surface Showcase",
+        "content": "# device-surface-showcase — Device / Surface Showcase\n\n**intent**: A product surface — a device mockup or a floating browser/app window — is the hero held in frame while its screens cycle through a real flow, showcased by a camera move that ranges from a static hold to a continuous 3D push.\n\n**roles served**\n\n- Key_Feature (from key-feature-device-screen-tour, key-feature-floating-window-scroll, key-feature-3d-device-hand-demo): show a feature being \\_experienced inside its real interface\\* — the surface houses the action and its screens advance through a flow, rather than enumerating tiles or chasing a cursor across a workflow. (Note: the three founding drafts are Key_Feature and variants differ by MECHANIC, not role; the mined stepwise-flow variant widens the blueprint to Product_Intro.)\n- Key_Feature (from demo-page-scroll-spotlight): the floating-window push-scroll variant carried to a spotlight climax — a real webpage rendered as a tilted 3D card coasts in (power2, like a phone held up — no spring), header keywords flare on a karaoke glow as the VO names them, the page rolls to the demoed section, and one element LIFTS off the surface (translateZ + scale) under a radial spotlight that dims the rest.\n- Product_Intro (from stepwise-flow-completion): a compact end-to-end product flow — setup/auth → action → success/confirm — plays out cursorless as successive screen states inside the held surface, capped by a confirming button press; bookended by title-card beats. The surface introduces the product by \\_completing its core loop\\*, not by touring screens.\n- Key_Feature (from `showcase-carousel`): the showcase-carousel — two surfaces in sequence (a widget card cycling brand skins, a phone frame with app screens sliding through it) gated by interstitial claim words; the screen cycle is a breadth carousel (\"N brands / N apps\"), not a flow.\n\n**duration**: 5–11.3s (page-scroll-spotlight 5–9s · floating-window 7.8s · 3d-hand 7.9s · in-device approval 7.9s · stepwise-flow"
+      },
+      {
+        "id": "fixed-anchor-cycle",
+        "title": "fixed-anchor-cycle — Fixed Anchor, Cycling World",
+        "content": "# fixed-anchor-cycle — Fixed Anchor, Cycling World\n\n**intent**: One element is PINNED — a wordmark, a composer box, an anchor line that enters once and never moves again — while the adjacent region (or the entire surrounding theme) cycles through many discrete states around it, cadence often manipulated (steady stepping, a fast carousel, or a slow→accelerating flurry), resolving on an emphasis beat into a completed lockup or a muted freeze. The stillness of the anchor IS the claim: everything changes, this stays. Distinct from `kinetic-type-beats` sub-shape A, where a word-slot inside a centered line swaps and the sentence itself is the subject — there the anchor is a sentence frame on a bare type field; here the anchor is the PRODUCT identity and what cycles around it can be non-text (whole theme skins, chrome/logo swaps, textured label chips, a carousel list), the cycle asserts breadth (\"everyone says / works everywhere / calling all X\"), and the resolve completes the anchor into a lockup. Distinct from `ticker-takeover`, whose cycle ends in a collision — a hero crashes in and shoves the text aside; here nothing ever collides with the anchor: the cycle stops, and a final element quietly joins it.\n\n**roles served**\n\n- Brand_Outro (from `static-anchor-rapid-text-swaps`): when the sign-off is the brand name sitting immovable while praise quotes / tagline words cycle beside or beneath it — steady per-word highlight stepping, or a hard-cut chip flurry that accelerates — landing on the finished lockup (\"bolt.new / prompt, run, edit, deploy / enjoy.\"; \"Opus 4.6 by ANTHROP\\C\").\n- Benefits: when \"works everywhere\" is shown literally — one product surface (a prompt composer with one verbatim string) pinned dead-center while its ENTIRE shell morphs in place through N product themes (background, typography, radii, chrome, logos all crossfading at once), ending in a washed-out freeze.\n- Hook: when the opener is a roll-call — a static anchor line holds while an accent-colored l"
+      },
+      {
+        "id": "grid-card-assemble",
+        "title": "grid-card-assemble — Grid / Card Assemble",
+        "content": "# grid-card-assemble — Grid / Card Assemble\n\n**intent**: N items (tiles / cards / logos / list-lines) self-assemble in a staggered cascade into a grid or vertical list and hold — a \"look how much / who / what it does\" beat that enumerates breadth at once; an optional camera zoom-OUT pulls back to reveal the assembled array sitting inside a vaster whole.\n\n**roles served**\n\n- Key_Feature (from key-feature-card-grid-assemble): a grid of labeled feature tiles/pills (icon + label) cascades one-by-one into a 2-col-brick / 3×3 grid, then holds near-static with a slow push-in — enumerate many capabilities, no live UI, no cursor.\n- Key_Feature (from key-feature-glass-card-camera-reveal): open TIGHT on 2–3 glowing icons; a camera zoom-OUT unfolds a row of glassmorphism cards that grow from behind the icons (icons shrink to card headers), center card scales forward, the group floats, then sweeps out — a \"pillars revealed at once\" reveal variant of the same assemble shape.\n- Benefits (from benefits-vertical-list): short value phrases populate a single vertical list ~1 item/sec, co-resident and accumulating; each line enters via a spring marker-pop + check-draw + pill mask-wipe, OR the whole stack snaps up one slot per beat (slot-machine) so the newest lands in the bright focal slot.\n- Social_Proof (from social-proof-logo-grid-zoom-out): a wall of partner/app logos builds into a center grid (whole-enter / randomized pop-in / column slide-up), an optional headline + accent-gradient proof-number fills in above, then a continuous camera zoom-OUT shrinks the array to reveal a vast ecosystem; optional fixed HUD/viewfinder brackets; optional grid slide-up fly-out exit.\n- Key_Feature (from live-data-populate-board): the array assembles by POPULATING ITSELF — skeleton pills fill and swap to real data, cards spring in tethered to map markers — and its state keeps flipping live after assembly (status pills stepping through states); no cursor, locked frame. The \"look how much\" beat becomes"
+      },
+      {
+        "id": "kinetic-type-beats",
+        "title": "kinetic-type-beats — Kinetic-Type Beats",
+        "content": "# kinetic-type-beats — Kinetic-Type Beats\n\n**intent**: A flat, centered, bold-type shot where the motion IS the word/phrase changing — the line either swaps tokens in place by hard cut, or builds a statement across full-screen beats (each with its own move) that lands a spring-pop payoff.\n\n**roles served**\n\n- Hook (from `hook-kinetic-type-flash`): when one stationary line lands a punchy rhetorical question or \"you keep doing X\" callout and the in-place token swap itself is the joke.\n- Hook (from `hook-kinetic-type-escalation`): when ONE statement should escalate across distinct full-screen beats (each a different move) and punctuate on a spring-pop payoff element — a rising-intensity / \"transform X into Y\" opener.\n- Hook (from `kinetic-type-to-logo-reveal`): when rapid centered word beats are the warm-up for a typography-to-brand arc — the swaps resolve into a logo reveal (pop-in whole, or 3D parts assemble and flatten into the flat mark) that hands off to a value card / browser mockup sliding in.\n- Hook (from `centered-beat-triptych`): when the open is three center-stage beats on a constant field, each element ALONE on screen — and a beat's payload may be non-text (a logo-lockup rotation-snap, a CTA button spring-pop with a one-shot glow-ring pulse, a benchmark chart that builds and holds); the last beat holds to the end.\n- Problem (from `problem-kinetic-type-beats`): when the script is 3–5 short pain statements (or a \"what-if?\" framing) that should each land alone, on a bare canvas, before the next replaces it — no product visible yet.\n- Problem (from `centered-phrase-relay-question-hook`): when the pain is an ordered chain of question/hook phrases that scale-pop through center relay-style (each exits as the next arrives) and land a specially-styled climax word — OR resolve the question on a `[product surface]` entering as an element move, never a camera zoom.\n- Product_Intro (from `product-intro-kinetic-type-namedrop`): when the hook IS the words — hard-cut throu"
+      },
+      {
+        "id": "logo-assemble-lockup",
+        "title": "logo-assemble-lockup — Logo Assemble → Lockup",
+        "content": "# logo-assemble-lockup — Logo Assemble → Lockup\n\n**intent**: A brand mark / wordmark comes to exist on screen and resolves into a centered logo lockup — built from parts (elements assemble or orbit in, letters cascade, an outline draws on, or a camera pushes through negative space), spring-BLOOMED whole from zero on a cleared stage, MORPHED in one unbroken chain out of the preceding phrase / glyph, absorbed from a kinetic streak, or already assembled and settling as decorations clear — optionally extended into a final URL / CTA / end card.\n\n**roles served**\n\n- Product_Intro (from product-intro-logo-system-assemble): A wordless, premium brand STING — an abstract system of elements pulses / grows / orbits and assembles around a FIXED central logo, carried by one cinematic camera tilt; no copy, no UI.\n- CTA (from cta-camera-push-lockup): The logo build is a LEAD-IN to the final ask — a 3D mark assembles + wordmark cascades, then a fast camera PUSH-THROUGH the mark's negative space streaks giant CTA letters past the lens and resolves on a `[url]` / `[CTA verb]` lockup.\n- CTA (from cta-button-wordmark-build): The \"draws-its-own-outline → wordmark-builds-letter-by-letter\" sub-shape — a `[CTA button]` pill strokes its own glowing border, a diagonal-band WIPE flips the frame, and the `[wordmark]` types in beside a slash to land the lockup. Camera static.\n- Brand_Outro (from brand-outro-assemble-logo-lockup): The closing mark — a formation of `[feature pills / UI elements]` CLEARS the stage off all four edges, then on the empty frame the `[logo mark]` draws itself on stroke-by-stroke and the `[wordmark]` reveals to complete the lockup, then fades out.\n- Product_Intro (from brand-reveal-assemble-zoom): a context-then-focus reveal — a companion tagline TYPES out to set context, the hero mark pops in beside it, then the companion exits as the layout recenters and the camera pushes IN to a held close-up on the mark (wide composition narrowing to a tight focus).\n- Product_Intro ("
+      },
+      {
+        "id": "overwhelm-surround",
+        "title": "overwhelm-surround — Overwhelm / Close-In",
+        "content": "# overwhelm-surround — Overwhelm / Close-In\n\n**intent**: Convey overwhelm by accumulation. Recognizable subjects assemble, density markers scatter in to amplify \"look how much,\" then the central subject morphs into the viewer's own avatar and elements close in from ALL sides — the frame feels surrounded, not zoomed-into. The emotional arc is recognition → claustrophobia.\n\n**roles served**\n\n- Problem (from `problem-mockup-overwhelm`): when the problem beat must first show \"too many tools / too much surface area\" and then put **the viewer inside it** — a literal swap of subject (product → person) followed by a closing-in that feels invasive. Reach for it when the pain is \"you're buried,\" not \"this metric is bad\" (that's `dataviz-countup`).\n- Problem (from `desktop-clutter-accumulation`): when the overwhelm is a **workspace**, not a tool\n  count — live windows, stickies, and alert toasts pile up until the frame is chaotically full, and\n  the beat resolves not by closing in but by shoving the clutter aside and asking the question.\n  Reach for this variant when the pain lands on words (\"how can you X… when you spend months on\n  Y?\"), not on a surrounded avatar.\n\n**duration**: 6–9s (clutter-shove-to-question variant ~10s)\n\n**shot structure** (a `[bg]` canvas; recognizable surfaces first, the viewer's avatar revealed underneath, then a radial crowd)\n\n- **Scene 1 (0.0–~1.6s) — recognizable assembly.** Three `[product mockups / surfaces]` assemble into something the viewer knows — staggered scale-in, the **center** one full-size, the two flanks smaller (~0.86). Each rides a low-amplitude float so they feel like live context, not a static collage. Camera static.\n- **Scene 2 (~1.6–3.0s) — density amplifies.** `[platform icons / logos]` scatter in around the mockups (staggered), used purely as **density markers** — \"look how much surface area,\" not animated dials.\n- **Scene 3 (~3.0–4.6s) — the morph (signature move).** The CENTER mockup MORPHS: its content fades out, the contai"
+      },
+      {
+        "id": "panel-edit-live-sync",
+        "title": "panel-edit-live-sync — Panel Edit, Live Sync",
+        "content": "# panel-edit-live-sync — Panel Edit, Live Sync\n\n**intent**: A bipartite stage — an inspector/editor **panel bound to a target surface** — where a cursor (or text caret) continuously manipulates a control (value scrub, unit/codegen dropdown pick, knob or easing-handle drag, inline retype) and the coupled surface updates **live, in the same beat**: the page button rotates as the value scrubs, preview icons resize per keystroke, the hex readout mirrors every hover, the code block converts on the pick. The motion IS the causality — one gesture, two surfaces changing in the same frame. The camera's job is co-visibility of the couple, not a chase.\n\n**provenance** (7 mined Key_Feature goldens across 4 products, both dialects — three sync modes):\n\n- _Write-sync (control → target)_ — the anchor mode: a visual-editor panel scrubs rotation/margin/padding while the live page button rotates and shifts in the same beat (plus unit + font-weight dropdown picks); an inline `className` retype in a glowing code callout resizes the preview icons per keystroke (caret-as-actor, push-in/pull-back roundtrip that must keep BOTH surfaces in frame); a motion editor drags a knob along a dotted motion path and bends easing handles into an S-curve, paying off with a big zoom-out where the finished toggle PERFORMS the edited ease (deferred payoff).\n- _Read-sync (target → panel mirror)_: clicking a page button pops a toolbar → \"Copy code\" → the code editor fills with the element's CSS under one continuous slow zoom-out; hovering palette swatches live-updates a footer hex readout while the grid scrolls.\n- _Self-conversion (panel is both control and target)_: unit dropdown conversions inside a 3D-tilted spacing panel snap-convert values in place (rem→px→%, `0,375 rem` → `6 px` → `4,871 %`); a codegen dropdown picks SwiftUI and the CSS block crossfades into SwiftUI under a rapid punch-in.\n\n> **Concentration caveat**: 4 of 7 members are one video (CSS Scan Pro 2.0). The COUPLING engine is independentl"
+      },
+      {
+        "id": "prompt-type-submit-generate",
+        "title": "prompt-type-submit-generate — Prompt, Submit, Generate",
+        "content": "# prompt-type-submit-generate — Prompt, Submit, Generate\n\n**intent**: The AI-era demo shot — a `[prompt / query / command]` types character-by-character into a REAL product input (chat composer, search bar, terminal prompt, URL bar, sidebar assistant) and the machine answers: status theater into a streaming answer / agent action log / diff cards / chart / generated artifact — or the clip cuts at the submit and the ask itself is the show. The keyboard is the actor and the product is the responder. Distinct from `typewriter-reveal` (a line typed as bare typography on an empty field — no product surface, nothing answers) and from `cursor-ui-demo` (a cursor clicking a reconstructed UI through states — there the pointer drives every change; here any cursor work only primes the input or lands the submit, and every state change after that is the machine's own doing).\n\n**roles served**\n\n- Hook (from `app-window-push-in-prompt-typing`): when the opener is \"watch me ask\" — typed headline beat(s), ONE eased push-in lands tight on the product's input, the prompt types and the clip ends at / just after submission (sub-shape A).\n- Hook (from `typed-command-output-scroll`): when the demo loop ITSELF is the hook — command in, output builds and scrolls, and a second command / retype starts before the cut, ending mid-action (sub-shapes B/C with the restart ending).\n- Product_Intro (from `prompt-typing-composer`): when the first look at the product IS its composer — a brand beat opens onto the input surface, a long prompt types with hovers / attachments / dropdown picks, and the camera steers gently toward the input or the confirming control (sub-shape A, occasionally running through to an agent-log payoff).\n- Product_Intro (from `search-query-walkthrough`): when the product is introduced through its search affordance — a short `[query]` types with a blinking caret, autocomplete / results populate LIVE, and a confirm click settles the result state (sub-shape C, search skin).\n- Key_Fea"
+      },
+      {
+        "id": "spatial-pan-stations",
+        "title": "spatial-pan-stations — Spatial Pan / Stations",
+        "content": "# spatial-pan-stations — Spatial Pan / Stations\n\n**intent**: Pre-place a sequence of labeled stations on one oversized canvas, then traverse it with a single virtual camera — repeated lateral/diagonal pans that center each station in turn and reveal a callout at every stop, landing held on a final station.\n\n**roles served**\n\n- Hook (from hook-pan-timeline): a horizontal timeline of evenly-spaced milestones, left-panned beat by beat, each marker getting a spring-popped callout, landing on the present moment (\"evolution / milestone walk leading up to us\").\n- Problem (from problem-camera-pan-stations): a connected web of pain \"stations\" linked by hand-drawn leading lines, diagonally panned station to station, ending on a tangled scribble knot (\"too many disconnected steps — it's a mess\").\n- Product_Intro (from concept-demo-decode-pan): a two-shot strip bridged by ONE lateral pan — shot 1 holds a static phrase whose accent word 3D-flap-DECODES (the concept lands), then the camera pans across the strip (with background parallax) into shot 2, where a cursor drives a live typing demo. Pairs this pan with `cursor-ui-demo`'s focal-locked tracked typing.\n\n**duration**: 7–10s (union of Hook 8–10s, Problem ~7s, concept-demo ~7s)\n\n**shot structure**\nOne oversized flat canvas on a solid `[bg color]`; all stations/markers pre-placed in world space; `[accent color]` text + simple line-icons; one virtual `.world` camera pans ease-in-out between stops. Each station holds ~1.0s.\n\n- Scene 1 (0.0–~1.0s): Camera opens on station 1 — `[label 1 / first step]` centered. A reveal lands on it (see variants). Camera then begins to PAN toward station 2, sliding station 1 out of frame.\n- Scene 2 → Scene N-1 (~1.0s each): Camera PANS (ease-in-out) to center the next station; on arrival its `[label k]` (+ optional `[secondary label]`) is REVEALED with the role reveal. Repeat per station.\n- Scene N (final, ~last beat): One last pan lands on the terminal station; the final `[callout / landing elemen"
+      },
+      {
+        "id": "ticker-takeover",
+        "title": "ticker-takeover — Ticker Displace / Takeover",
+        "content": "# ticker-takeover — Ticker Displace / Takeover\n\n**intent**: A context phrase types in, an accent word cycles through options like a slot-machine to suggest \"this could be many things,\" then a hero CRASHES in from off-screen and physically shoves the text aside — \"actually, this is what it is.\" A collision, not a fade.\n\n**roles served**\n\n- Hook (from `takeover-ticker-displace`): when a static lead-in phrase + a cycling accent word should be **physically replaced** (not cross-dissolved) by a hero arriving with momentum, and the final frame is the hero alone. Reach for it when the takeover should read as an impact.\n- Brand_Outro: the same collision used as a sign-off — options cycle, the brand mark crashes in and owns the frame.\n\n**duration**: 5–7s\n\n**shot structure** (a `[bg]` canvas; one text group on the left/center that gets ejected by an incoming hero)\n\n- **Scene 1 (0.0–~1.4s) — context build.** A typewriter lays down a `[lead-in phrase]` character-by-character (smooth, no typos — selling confidence, not human chaos). Camera static.\n- **Scene 2 (~1.4–3.0s) — the cycling beat.** An `[accent word]` slot inside the line ticks through 2–3 `[options]` on a vertical spring-roll (each click a new word), suggesting breadth — \"many things this could be.\" (More than ~3 reads as filler.)\n- **Scene 3 (~3.0–4.2s) — the collision (signature move).** A `[hero]` crashes in from off-screen with momentum and physically SHOVES the whole text group aside — the text reacts to the impact (gets displaced), it does not fade. The hero lands **heavy** — a longer settle, not a zip — so it reads as mass, not speed.\n- **Scene 4 (~4.2–end) — the hero alone.** The hero settles dead-center and reads still. Holds.\n\n**motion vocabulary**: smooth character typewriter; vertical spring-ticker word roll (2–3 steps); off-screen hero crash-in with momentum; reactive displacement of the struck text group; heavy long-tail landing (not bouncy); dual-axis subtle jitter on the resting hero.\n\n**rule mapping**"
+      },
+      {
+        "id": "titlecard-reveal",
+        "title": "titlecard-reveal — Title-Card / Single-Card Reveal",
+        "content": "# titlecard-reveal — Title-Card / Single-Card Reveal\n\n**intent**: The calm breather/landing beat — one clean title or single brand/proof card revealed with exactly one restrained move (a slide-up crossfade, or a wipe-away-to-reveal), then a still hold. Low motion is the payload, not a deficiency.\n\n**roles served**\n\n- Benefits (from `benefits-titlecard-crossfade`, #34): a calm two-line value title card — headline value line, then one slide-up crossfade to a qualifier/elaboration line that holds center.\n- Social_Proof (from `social-proof-reveal-card`, #35): wipe a busy app-collage open away with one diagonal pill-sweep to reveal a clean brand lockup (icon + wordmark) plus a centered \"loved by [N]+ [audience] teams\" social-proof line that spring-settles and holds.\n- CTA (from `hard-cut-card-stack-to-logo`): a monochrome end-card\n  CHAIN — statement → CTA / availability line → brand wordmark/logo — separated by instant hard\n  cuts at full opacity; each card is its own allocated stillness, and the sequence terminates on\n  the logo held to the final frame.\n- Product_Intro (from `title-card-prelude-chain`): a three-beat dark title\n  PRELUDE before any product UI — `[logo]` pop → `[name]` (a `[version]` appends grey→bright) →\n  `[tagline]` card — chained by clears and blur-snap handoffs rather than hard cuts.\n\n**duration**: 3–5s (Benefits 3–4s; Social_Proof ~5s / observed 4.7s). Card chains run 2–3s per\ncard, ~5.5–9.5s total.\n\n**shot structure**\n\n```\nScene 1 (0.0–~0.4s): static camera on [neutral / dark background]. Establish the opening state.\n  Variant — Benefits: empty-to-text — [benefit line 1] is about to fade in centered (no busy open).\n  Variant — Social_Proof: a busy intro frame holds briefly — an [app-screenshot / use-case collage] of overlapping cards under a [setup line].\n\nScene 2 (~0.4–~1.5s): the ONE move executes — a single restrained reveal that brings the calm card to center.\n  Variant — Benefits: [benefit line 1] fades in centered while scaling slightly (~9"
+      },
+      {
+        "id": "transcript-scroll-artifact-reveal",
+        "title": "transcript-scroll-artifact-reveal — Transcript-Scroll Artifact Reveal",
+        "content": "# transcript-scroll-artifact-reveal — Transcript-Scroll Artifact Reveal\n\n**intent**: The frame travels vertically along ONE long content surface — an agent transcript, a running task feed, an analysis document, a story draft — rendered full-bleed on a flat canvas (no device frame, no held mockup), by camera pan or element scroll; the traversal itself is the story (\"look how much work happened / how much is here\"), until ONE focal interaction — a file-chip click, a quote highlight, a collapsible-row expand — pivots the shot into an artifact/detail reveal: the deliverable behind the work.\n\n**roles served**\n\n- Key_Feature (modes: `pan-to-workspace` · `feed-rush` · `document-to-artifact` · `selection-pivot`): the x-viral AI-product grammar for \"the agent did a lot of work → here's the deliverable.\" The long surface is the EVIDENCE (tool pills, checked progress items, task rows, headings, comps tables, story paragraphs), read at traversal pace; the artifact is the PAYOFF (full workspace with live mockup, spreadsheet with highlighted cells, inline ask-panel, sub-task stack). Reach for it when the feature's proof is the volume/depth of generated work and the beat should cash that in on one interaction — not a held device tour (`device-surface-showcase`), not a cursor-chased workflow (`cursor-ui-demo`).\n\n**duration**: 5–11.8s (feed-rush 5.4s · pan-to-workspace 5.0s · selection-pivot 9.3s · document-to-artifact 11.75s)\n\n**shot structure** One `[long content surface: agent chat transcript / task feed / analysis document / story doc]` sits full-bleed on a `[flat light canvas]` (goldens: warm off-white / cream / beige / plain white — the surface's own background IS the scene background); dark text with small `[accent]` marks (green verb highlights, model-tag pills, check circles, yellow cells). Three acts: TRAVERSE → HINGE → ARTIFACT. Camera discipline is the signature: at most TWO real camera moves in the whole shot, bracketing the hinge; everything else is element motion on a"
+      },
+      {
+        "id": "typewriter-reveal",
+        "title": "typewriter-reveal — Typewriter Reveal",
+        "content": "# typewriter-reveal — Typewriter Reveal\n\n**intent**: A live text caret types (and edits) a line as a human would, then either collapses it to a point and pops a brand payoff, or holds it under a persistent brand mark while a sub-line types/swaps into the final CTA — making \"someone is typing this\" the engine of the shot.\n\n**roles served**\n\n- Hook (from hook-typed-line-to-reveal): Type a relatable question/statement live, then COLLAPSE it and spring-pop the brand — a logo lockup OR a product-UI moment (\"here's the everyday pain, now here's us\").\n- Brand_Outro (from brand-outro-persistent-mark-cta-rail): Hold the hero mark dead-center/top the whole shot while a sub-line beneath it swaps or types its way into the final CTA — landing the ask once the logo is already established.\n\n**duration**: 3.6–7s (Brand_Outro 3.6–6.0s · Hook 5.5–7s)\n\n**shot structure** (one consolidated template; `[slots]` are product-agnostic)\n\n- Scene 1 (0.0–~2.0s): On a solid `[bg color]` field, a blinking text-input caret `|` sits at the line start, then `[primary line]` TYPES on character-by-character with the caret trailing.\n  - _Variant — Hook_: nothing else is on screen; the typed `[hook line]` owns the frame. (Sub-variant: the line types inside UI chrome — a rounded `[input/pill]` — and the whole assembly continuously TRANSLATES leftward + scales slightly so the active caret stays pinned near frame-center while earlier words scroll off and clip past the left edge — a ticker push.)\n  - _Variant — Brand_Outro_: a `[logo mark]` (+ optional `[wordmark]`) is already centered/upper and STAYS fully visible for the entire shot; an entry flourish plays on the mark itself (e.g. `[checkmark/icon]` strokes into the mark, or thin concentric rings ripple outward from it), and the typed `[tagline / product label]` is the SUB-LINE beneath the mark.\n\n- Scene 2 (~2.0–4.5s): The typed line is MODIFIED in place — the active text is edited rather than re-shot.\n  - _Variant — Hook_: final word(s) BACKSPACE out a"
+      },
+      {
+        "id": "video-text-pivot",
+        "title": "video-text-pivot — Video → Text Pivot",
+        "content": "# video-text-pivot — Video → Text Pivot\n\n**intent**: A product video holds center and claims attention, then slides aside to hand its weight to a hero stat in the space it vacates, then both clear and kinetic text types into the center — accent words carrying the meaning the video used to carry — sealed by a gradient pill. The arc is \"show → yield → pivot → stamp,\" and each handoff pairs an exit with a same-anchor entrance so two beats read, not four.\n\n**roles served**\n\n- Product_Intro (from `metric-video-text-pivot`): when the open is \"see the feature\" then \"see the impact\" and the `[product video]` must stay visible through the stat reveal — it slides, it doesn't cut.\n- Key_Feature: a feature clip that yields to a frame-filling metric and a typographic impact line.\n\n**duration**: 6–8s\n\n**shot structure** (a `[bg]` canvas; one `[product video]` as a real muted `.mp4` clip, a hero stat, then kinetic text — each pair shares a screen anchor so the handoff reads as a weight-transfer)\n\n- **Scene 1 (0.0–~1.6s) — the video shows.** The `[product video]` lands centered on a smooth scale-up and breathes (a small y-bob), claiming full attention. Camera static.\n- **Scene 2 (~1.6–3.2s) — yield + stat (signature move).** The video SLIDES aside (x + scale down) **into the very space** the `[hero stat]` now fills as the stat pops in with 3D-depth type — one weight-transfer reading as a single event, not two. The stat breathes within this window.\n- **Scene 3 (~3.2–5.0s) — pivot to text.** Both video and stat clear out and kinetic `[impact text]` TYPES into the vacated center, character by character; its `[accent words]` carry the meaning the video used to carry.\n- **Scene 4 (~5.0–end) — stamp.** A gradient `[pill]` snaps shut around the closing line (`scaleX` 0→1), its glow halo resolving a beat behind so the silhouette reads before the bloom — sealing the statement as one graphic. Holds.\n\n**motion vocabulary**: video scale-in + small breath; weight-transfer slide (video x + scale"
+      },
+      {
+        "id": "zoom-out-workspace-reveal",
+        "title": "zoom-out-workspace-reveal — Zoom-Out Workspace Reveal",
+        "content": "# zoom-out-workspace-reveal — Zoom-Out Workspace Reveal\n\n**intent**: Open TIGHT on one full-bleed detail — a graphic macro or a small UI region — let micro-action play in close-up, then ONE continuous decelerating zoom-out reveals that everything seen so far lives inside a containing whole (a design-tool workspace / a multi-pane agent workspace); the frame locks at the wide and element-level payoff carries on. The zoom-out IS the narrative engine and the reveal-of-nesting is the payoff — distinct from `grid-card-assemble`, where a zoom-OUT is an optional camera modifier garnishing an element-stagger assemble; here nothing assembles, the world was whole all along, and the single outward move is what re-scopes its meaning. The structural inverse of every existing push-in shape (`constellation-hub`'s push-in, `device-surface-showcase`'s continuous push, `dataviz-countup`'s push-through).\n\n**roles served**\n\n- Hook (from `continuous-zoomout-nesting-reveal`): when the open should be a full-bleed graphic mystery — a blob morphing, a macro blossom blooming — resolved by one unbroken exponentially-decelerating zoom-out that passes THROUGH an intermediate composition (oversized headline / card artwork / web page) before revealing the whole thing is an artboard inside a design tool (panels, layers, inspector, timeline); the frame locks and the canvas keeps animating, ending mid-action.\n- Benefits (from `close-up-open-single-zoom-out-reveal`): when the payoff is scale/breadth — micro-actions play in extreme close-up on one small UI region (file rows popping in, a highlight stepping, a guided glide down a list), then ONE fast smoothly-decelerating zoom-out (~0.5–1s) reveals the region was a corner of a huge multi-pane agent workspace (chat + artifact preview + sidebar); the wide holds static to the end while element-level payoff completes the story (\"look how much the agent did — and here's the deliverable\").\n\n**duration**: 6.8–11s (Hook continuous-pull both 6.8s; Benefits dwell"
+      }
+    ]
+  },
+  "unhinged_skills": [
+    {
+      "id": "apollo-13",
+      "title": "Apollo 13",
+      "content": "---\nname: apollo-13\ndescription: Works a critical failure under hard constraints — limited options, no clean fix — to get the broken thing home with whatever you have; invoke via /apollo-13 when something important is down, the usual tools are unavailable, and you must improvise a survival fix.\n---\n\n# Apollo 13\n\nFailure is not an option, but neither is the clean fix. This mode is for when the thing is broken, the normal tools are off the table, and you have to build a solution from exactly the parts on the table. Calm, methodical, and relentless about getting it home.\n\n## When to use\n- Something critical is failing and the standard fixes aren't available.\n- You're constrained — no deploys, no new tools, limited access — and must improvise.\n\n## Behavior\n1. Establish what's actually broken and what's still working — separate confirmed status from assumption immediately.\n2. Inventory the constraints explicitly: what you can and cannot touch, change, install, or restart.\n3. List every option that fits inside those constraints, even the ugly ones, before committing.\n4. Pick the path most likely to restore function with the least chance of making things worse.\n5. Change one thing at a time and verify after each step — no compound moves you can't unwind.\n6. Keep a running log of what you tried and what happened, so you can backtrack cleanly.\n7. Aim for \"stable and survivable\" first; the proper repair comes after the crew is home.\n\n## Output\nA constraint-aware recovery plan executed step by step, a running log of attempts and results, and a clear statement of current status and what's still at risk.\n"
+    },
+    {
+      "id": "autopilot-chaos",
+      "title": "Autopilot Chaos",
+      "content": "---\nname: autopilot-chaos\ndescription: Takes the whole task and runs it end to end without stopping to ask, leaving the user to review at the finish line; invoke via /autopilot-chaos when you want a fully autonomous run and will inspect the result once it's done.\n---\n\n# Autopilot Chaos\n\nHands off the wheel. This mode takes the entire task and drives it from start to finish without pulling over to ask for directions. You review the whole thing at the destination — not at every intersection.\n\n## When to use\n- You want a fully autonomous run with no mid-task check-ins.\n- You're fine reviewing everything at the end rather than approving each step.\n\n## Behavior\n1. Plan the full task up front, then execute the whole plan without stopping for confirmation on routine decisions.\n2. Make reasonable default choices at every fork and keep moving.\n3. Maintain a decision log of every meaningful choice so the end-of-run review is fast and complete.\n4. Self-correct: when a step fails, diagnose and retry autonomously rather than halting to ask.\n5. Only break autopilot for genuinely destructive or irreversible actions (data deletion, spending, prod writes) — pause for those.\n6. Verify your own work along the way (run tests/builds) instead of assuming success.\n7. Deliver a finish-line summary the user can scan and approve or correct in one pass.\n\n## Output\nA fully completed task plus a clear decision log and a finish-line summary, structured for a single end-of-run review.\n"
+    },
+    {
+      "id": "basement-hacker",
+      "title": "Basement Hacker",
+      "content": "---\nname: basement-hacker\ndescription: Goes underground to reverse-engineer internals, read the source nobody reads, and explain how something actually works; invoke via /basement-hacker when documentation is missing or lying and you need ground truth from the implementation itself.\n---\n\n# Basement Hacker\n\nDown past the docs, past the abstractions, into the source nobody opens. This mode reverse-engineers how a thing actually works — not how the README claims it does — and comes back up with the real mental model.\n\n## When to use\n- Docs are missing, outdated, or contradicting the observed behavior.\n- You need ground-truth understanding of a library, API, or system's internals.\n\n## Behavior\n1. Go to the source — read the actual implementation, not just the public API surface or docs.\n2. Trace the real execution path: entry points, internal calls, state, and side effects.\n3. Reconstruct the underlying data model and control flow from the code itself.\n4. Test hypotheses against behavior — small experiments to confirm how it really responds.\n5. Note where the documented behavior and the actual behavior diverge.\n6. Surface the hidden gotchas: undocumented assumptions, magic constants, order dependencies.\n7. Explain the mechanism in plain language with citations to the specific source you read.\n\n## Output\nA ground-truth explanation of how the thing actually works, citing the specific source, plus a list of doc-vs-reality discrepancies and hidden gotchas.\n"
+    },
+    {
+      "id": "caffeine-overdose",
+      "title": "Caffeine Overdose",
+      "content": "---\nname: caffeine-overdose\ndescription: Goes wide and exhaustive — every option, every edge, every step spelled out, the opposite of a compressor; invoke via /caffeine-overdose when you want maximum thoroughness and nothing left implicit.\n---\n\n# Caffeine Overdose\n\nMore. All of it. Now. This mode does not summarize, abbreviate, or assume you'll fill in the gaps. It enumerates every option, walks every edge case, and spells out every step. The deliberate opposite of compression — when you'd rather have too much than miss one thing.\n\n## When to use\n- You want exhaustive coverage with nothing left implicit.\n- Completeness matters more than brevity (audits, migrations, full option surveys).\n\n## Behavior\n1. Enumerate the full option space before recommending — list everything reasonable, not just the top pick.\n2. Spell out every step explicitly; assume nothing is \"obvious enough to skip.\"\n3. Walk every edge case, failure mode, and boundary condition you can identify.\n4. For each option, give the tradeoffs — pros, cons, cost, and when it's the right choice.\n5. Make implicit assumptions explicit and state them inline.\n6. Organize the exhaustive output with clear headers so the volume stays navigable.\n7. End with a recommendation, but only after the full landscape is laid out.\n\n## Output\nAn exhaustive, well-organized rundown — full option space, every step, every edge case and tradeoff spelled out — capped with a clear recommendation.\n"
+    },
+    {
+      "id": "chinese-grandpa",
+      "title": "Chinese Grandpa",
+      "content": "---\nname: chinese-grandpa\ndescription: Compresses long, repeated sub-agent instructions by translating them into Mandarin (more meaning per character) to slash the token bill, then dispatches the compressed brief to a fleet of sub-agents while preserving original intent; invoke via /chinese-grandpa when you are about to fan out the same heavy instructions to many sub-agents and the cost is climbing.\n---\n\n# Chinese Grandpa\n\nMandarin carries more meaning per character than English, so the same instruction costs fewer tokens. This skill keeps an English source-of-truth, ships a Mandarin-compressed brief to your sub-agent fleet, and pockets the difference. Wise, frugal, and faintly disappointed in your token spend.\n\n## When to use\n- You are dispatching the same long instruction set to many sub-agents.\n- The token bill on a fan-out job is climbing and the instructions are repetitive.\n\n## Behavior\n1. Treat the user's full English prompt/brief as the canonical source-of-truth. Never discard it; keep it in the working context.\n2. Identify the portion that will be dispatched repeatedly to sub-agents (the reusable instruction block), separate from one-off, agent-specific parameters.\n3. Translate that reusable block into clear, modern Mandarin, optimizing for density while keeping every constraint, acceptance criterion, and edge case intact.\n4. Do a back-translation sanity check: confirm the Mandarin still encodes every critical requirement before sending it anywhere.\n5. Dispatch sub-agents with the Mandarin brief plus the English-language agent-specific parameters (file paths, IDs, targets stay in their original form — do not translate identifiers).\n6. Instruct each sub-agent to reason in whatever language it prefers but to RETURN results in English.\n7. If anything critical is ambiguous after compression, fall back to English for that clause rather than risk meaning loss.\n\n## Output\nA Mandarin-compressed dispatch brief, a one-line note of the estimated token savings, and the preserved English source-of-truth for reference.\n"
+    },
+    {
+      "id": "cowboy-coder",
+      "title": "Cowboy Coder",
+      "content": "---\nname: cowboy-coder\ndescription: Makes the judgment calls itself and keeps moving instead of pausing at every fork — fast and opinionated, best on low-stakes work; invoke via /cowboy-coder when you'd rather get a decisive result than answer twenty clarifying questions.\n---\n\n# Cowboy Coder\n\nAsk forgiveness, not permission. This mode stops pinging you at every decision point and just makes the reasonable call so the work actually moves. Fast, opinionated, and happiest on low-stakes tasks where momentum beats perfect alignment.\n\n## When to use\n- Low-stakes work where you'd rather have a decisive result than a Q&A session.\n- You trust reasonable defaults and want speed over consensus.\n\n## Behavior\n1. When a decision is reversible and low-impact, just make it using sensible defaults — don't stop to ask.\n2. Keep a short running list of the judgment calls you made, so they can be reviewed or reverted later.\n3. Reserve questions for the few decisions that are truly one-way doors or high-stakes; ask only those.\n4. Bias toward the convention already used in the project when picking among reasonable options.\n5. Keep moving through the task end to end rather than stalling on any single fork.\n6. Flag clearly where you guessed versus where you knew, so review is fast.\n7. If a call turns out to be wrong, it should be cheap to undo — favor reversible moves.\n\n## Output\nA completed task plus a concise \"calls I made\" list noting each assumption and decision, so the user can review or override in one pass.\n"
+    },
+    {
+      "id": "crackhead-energy",
+      "title": "Crackhead Energy",
+      "content": "---\nname: crackhead-energy\ndescription: Fires out ideas at full speed — twenty rough directions in a minute for the user to cherry-pick; invoke via /crackhead-energy when you're brainstorming and want raw quantity and range over polish.\n---\n\n# Crackhead Energy\n\nQuantity is the strategy. This mode does not stop to evaluate, refine, or apologize — it sprays ideas in every direction so you have a huge surface to pick from. Most will be junk. A few will be gold. That's the whole point.\n\n## When to use\n- Early brainstorming where you want volume and range, not a polished few.\n- You'll do the filtering yourself and just need raw fuel.\n\n## Behavior\n1. Generate a large batch of ideas fast — aim for ~20 distinct directions, not 3 careful ones.\n2. Maximize range: span obvious, weird, expensive, lazy, and contrarian takes deliberately.\n3. Keep each idea to one punchy line — no justification paragraphs, no hedging.\n4. Don't self-censor or pre-filter; bad ideas often spark the good adjacent one.\n5. Group loosely by theme only if it helps the user scan, otherwise just list and go.\n6. Resist the urge to converge or recommend — that's the user's job here.\n7. End by offering to expand on any the user circles.\n\n## Output\nA rapid-fire list of ~20 one-line ideas spanning a wide range, unfiltered, with an offer to deep-dive whichever ones the user picks.\n"
+    },
+    {
+      "id": "divorced-dad",
+      "title": "Divorced Dad",
+      "content": "---\nname: divorced-dad\ndescription: Anti-gold-plating mode that builds the simplest functional version first, skips overengineering, and ships something usable today because working beats perfect; invoke via /divorced-dad when you need it live tonight, not pretty.\n---\n\n# Divorced Dad\n\nNo frills, no fuss, gets the kid fed. This mode does the simplest thing that works and ships it. It is allergic to abstraction layers you don't need yet and meetings about folder structure. Functional today beats elegant next week.\n\n## When to use\n- You need a working result tonight, not a polished one eventually.\n- The task keeps growing scope and you just want the core thing live.\n\n## Behavior\n1. Find the single core outcome the user actually needs and build only that.\n2. Choose the most boring, direct implementation — hardcode where reasonable, defer config and flexibility until something demands them.\n3. Skip premature abstractions: no generic frameworks, no \"what if we later\" features, no speculative interfaces.\n4. Hit \"done and working\" fast, then stop — resist the urge to keep polishing past usable.\n5. Leave clearly-labeled TODOs where you knowingly cut a corner, so future-you knows where the tape is.\n6. Verify the happy path actually works before handing it over; correctness on the main flow is non-negotiable.\n7. If the user asks for more later, expand then — not now.\n\n## Output\nThe simplest working version that does the job, plus a short list of deliberate cut corners to revisit if it sticks around.\n"
+    },
+    {
+      "id": "duct-tape-dev",
+      "title": "Duct Tape Dev",
+      "content": "---\nname: duct-tape-dev\ndescription: Ships the quick patch that unblocks you right now and clearly flags it as debt to revisit later; invoke via /duct-tape-dev when you're blocked and need a working stopgap immediately, accepting that it's temporary.\n---\n\n# Duct Tape Dev\n\nIt's not pretty and it's not forever — but it'll hold until you can do it right. This mode finds the fastest patch that unblocks the current problem, then loudly marks it as debt so it doesn't quietly become permanent.\n\n## When to use\n- You're blocked and need to move now; the proper fix can wait.\n- A stopgap is acceptable as long as everyone knows it's a stopgap.\n\n## Behavior\n1. Identify the exact thing blocking forward progress and target only that.\n2. Apply the smallest patch that removes the block, even if it's inelegant.\n3. Keep the patch contained and reversible — no sprawling changes that are hard to rip out later.\n4. Add a clear `// TODO(duct-tape):` marker at the patch site explaining what's hacked and why.\n5. Verify the unblock actually works on the path that matters.\n6. State the risk: what this patch does NOT handle and when it will bite if left in.\n7. Suggest the proper fix in one or two lines so the real solution is captured before it's forgotten.\n\n## Output\nA minimal working patch, an inline debt marker, and a short note of the risk plus the proper fix to do later.\n"
+    },
+    {
+      "id": "feral-goblin",
+      "title": "Feral Goblin",
+      "content": "---\nname: feral-goblin\ndescription: Drops the small talk and goes heads-down — no preamble, just code and short status lines until done; invoke via /feral-goblin when you want execution with minimal chatter.\n---\n\n# Feral Goblin\n\nNo greetings. No \"great question.\" No essay about what it's about to do. This mode goes feral and heads-down: it works, it drops a terse status line now and then, and it surfaces only when there's something to show. Pure execution.\n\n## When to use\n- You want the work done with minimal commentary or preamble.\n- You already know what you want and don't need explanation along the way.\n\n## Behavior\n1. Skip all preamble, pleasantries, and restating the task — go straight to doing it.\n2. Communicate only in short status lines: what just happened, what's next.\n3. Let the code and the diff be the message; don't narrate what the code already shows.\n4. Surface only at meaningful checkpoints or when a real decision/blocker needs the user.\n5. No filler reassurance, no \"let me explain my approach\" essays.\n6. Keep correctness and verification intact — quiet does not mean careless.\n7. End with a tight summary of what changed, nothing more.\n\n## Output\nMinimal-chatter execution: terse status lines during the work and a tight final summary of what changed — no preamble, no padding.\n"
+    },
+    {
+      "id": "gas-station-genius",
+      "title": "Gas Station Genius",
+      "content": "---\nname: gas-station-genius\ndescription: Solves the problem using only what is already in the repo — no new libraries, no installs, a fix built from parts on hand; invoke via /gas-station-genius when you can't or won't add dependencies and need a solution from existing code.\n---\n\n# Gas Station Genius\n\nGenius is what you do with what's on the shelf. This mode refuses to `npm install` its way out of a problem — it solves with the dependencies, helpers, and patterns already living in your repo. Resourceful, not reckless.\n\n## When to use\n- You can't add dependencies (policy, offline, bloat concerns) but still need a fix.\n- The repo probably already has what you need if you go look.\n\n## Behavior\n1. Inventory what's on hand first — scan existing dependencies, utility modules, and helpers before writing anything.\n2. Reuse existing functions and patterns rather than reinventing or importing equivalents.\n3. If a capability seems missing, search the codebase harder — it's often already there under a different name.\n4. Build the solution strictly from the standard library plus packages already in the manifest.\n5. Match the repo's existing conventions so the fix looks native, not bolted on.\n6. If a new dependency genuinely is the only sane path, say so explicitly instead of smuggling one in.\n7. Verify the solution works with zero new installs.\n\n## Output\nA working fix built entirely from existing repo parts, naming exactly which existing modules/helpers it reused and confirming no new dependencies were added.\n"
+    },
+    {
+      "id": "goblin-mode",
+      "title": "Goblin Mode",
+      "content": "---\nname: goblin-mode\ndescription: Gets it working ugly first — no naming debates, no structure until structure earns its place; invoke via /goblin-mode when you want raw forward progress and will refactor later, if ever.\n---\n\n# Goblin Mode\n\nMake it work. Make it ugly. Make it now. This mode skips the naming bikeshed and the folder-architecture summit and just claws toward a working result. Structure is a reward the code earns later by surviving.\n\n## When to use\n- You want raw forward progress and the shape of the solution isn't clear yet.\n- Polishing and organizing now would slow down learning what actually works.\n\n## Behavior\n1. Get a working result on screen as fast as possible, however ugly.\n2. Don't agonize over names, file layout, or abstractions — use placeholders and move on.\n3. Inline first, extract later: keep things in one place until duplication or pain forces a split.\n4. Let structure emerge only when the code has proven it needs it (repeated three times, getting unwieldy).\n5. Keep a scratch list of obvious cleanups to do once the thing works, instead of doing them mid-flow.\n6. Don't break correctness for ugliness — goblin code can be messy but it must run.\n7. Once it works, offer a quick \"want me to clean this up?\" rather than auto-polishing.\n\n## Output\nAn ugly-but-working result, a short list of deferred cleanups, and an offer to refactor once the approach is confirmed.\n"
+    },
+    {
+      "id": "keyboard-gremlin",
+      "title": "Keyboard Gremlin",
+      "content": "---\nname: keyboard-gremlin\ndescription: Makes the smallest possible change — surgical edits, minimal diff, nothing touched that didn't need to be; invoke via /keyboard-gremlin when you want a precise fix with the tiniest footprint and zero collateral changes.\n---\n\n# Keyboard Gremlin\n\nIn and out. Touch one thing, change one thing, leave. This mode is surgical: it makes the minimal diff that solves the problem and refuses to \"tidy up while I'm here.\" The smaller the footprint, the happier the gremlin.\n\n## When to use\n- You want a precise fix with the smallest possible diff.\n- The codebase is sensitive and collateral changes are risky or unwelcome.\n\n## Behavior\n1. Locate the exact lines responsible for the issue before editing anything.\n2. Change only what's strictly necessary to fix the problem — no adjacent refactors, no reformatting.\n3. Preserve existing style, naming, and structure even if you'd personally do it differently.\n4. Don't reorder imports, fix unrelated lint, or rename things outside the fix's scope.\n5. Keep the diff reviewable: the smaller and more focused it is, the better.\n6. If a deeper fix is warranted, mention it separately rather than expanding the diff unasked.\n7. Verify the minimal change actually resolves the issue without side effects.\n\n## Output\nThe smallest correct diff that fixes the problem, with a one-line note of any larger fix you noticed but deliberately left out of scope.\n"
+    },
+    {
+      "id": "macgyver",
+      "title": "MacGyver",
+      "content": "---\nname: macgyver\ndescription: Improvises a solution from primitives — standard library and cleverness instead of reaching for a new framework; invoke via /macgyver when the elegant answer is a few smart lines of plain code rather than another heavy dependency.\n---\n\n# MacGyver\n\nA paperclip, some tape, and the standard library — that's all you need. This mode solves problems with primitives and a little cleverness rather than pulling in a framework to do something a function could. Lightweight by conviction.\n\n## When to use\n- A problem looks like it \"needs a library\" but probably doesn't.\n- You want a minimal-footprint solution built from language primitives.\n\n## Behavior\n1. Restate the problem in terms of its smallest primitive operations before choosing tools.\n2. Reach for the language's standard library first — it can do more than people remember.\n3. Prefer a short, well-understood handwritten solution over a heavyweight dependency for simple needs.\n4. Compose small building blocks (map/filter/reduce, basic data structures, built-in modules) into the answer.\n5. Keep the improvised solution readable — clever must not mean cryptic; add a comment where the trick is non-obvious.\n6. Know the limit: if the problem genuinely needs a battle-tested library (crypto, parsing untrusted input, dates), say so rather than hand-rolling something dangerous.\n7. Verify the improvised solution against the real inputs, including the awkward ones.\n\n## Output\nA compact solution built from standard-library primitives, with a one-line note of any trick used and an honest flag if a real library would actually be safer.\n"
+    },
+    {
+      "id": "meth-lab",
+      "title": "Meth Lab",
+      "content": "---\nname: meth-lab\ndescription: Workflow and system optimizer that takes a messy system, bloated prompt, broken automation, or slow process and strips it to the fastest, cheapest, cleanest version that still works; invoke via /meth-lab when something runs but feels heavy, expensive, or held together with tape.\n---\n\n# Meth Lab\n\nPure product, no filler. This skill takes whatever crusty, over-engineered, duct-taped process you've got running and cooks it down to the leanest version that still does the job. Same output, a fraction of the weight.\n\n## When to use\n- A system, prompt, or automation works but feels bloated, slow, or expensive.\n- You suspect there's a much simpler version hiding under the cruft.\n\n## Behavior\n1. Map the current system end to end first — every step, call, dependency, and cost — before changing anything.\n2. Identify the actual job-to-be-done and the real constraints; separate them from accidental complexity that crept in over time.\n3. Find redundant steps, duplicate work, dead branches, and over-broad scope, and mark each for removal.\n4. Collapse multi-step chains into the fewest operations that preserve the same output and guarantees.\n5. Cut token/compute/$$ waste: trim prompt bloat, batch calls, cache repeats, drop unused fields.\n6. Verify the stripped-down version produces equivalent results before declaring victory — leaner must not mean broken.\n7. Note anything you removed that carried a non-obvious purpose, so nothing load-bearing is cut by accident.\n\n## Output\nA streamlined version of the system or prompt, a before/after of steps and estimated cost, and a short list of what was cut and why.\n"
+    },
+    {
+      "id": "panic-mode",
+      "title": "Panic Mode",
+      "content": "---\nname: panic-mode\ndescription: Triages a live incident — stop the bleeding first, smallest safe fix next, post-mortem once stable; invoke via /panic-mode when something is on fire in production and you need to restore service before understanding everything.\n---\n\n# Panic Mode\n\nSomething is on fire and users are watching. This mode does not start with root-cause philosophy — it stops the bleeding, restores service with the smallest safe move, and saves the post-mortem for after the building is no longer burning.\n\n## When to use\n- A live incident: prod is down, degraded, or actively harming users.\n- You need to restore service first and understand it fully later.\n\n## Behavior\n1. Assess blast radius immediately: what's broken, who's affected, how bad, and is it getting worse.\n2. Stop the bleeding first — roll back, disable the feature, flip the flag, or throttle, whichever restores service fastest and safest.\n3. Prefer mitigation over root-cause heroics while users are impacted; a clean fix can wait until things are stable.\n4. Apply the smallest reversible change that restores service; avoid risky compound fixes mid-incident.\n5. Communicate status crisply: what's happening, what you did, current state, next step.\n6. Once stable, capture the timeline while it's fresh.\n7. Only then move to true root cause and a durable fix, plus a prevention note.\n\n## Output\nService restored via the safest mitigation, a crisp status line, an incident timeline, and a follow-up root-cause + prevention plan for once things are calm.\n"
+    },
+    {
+      "id": "questionable-engineering",
+      "title": "Questionable Engineering",
+      "content": "---\nname: questionable-engineering\ndescription: Picks the solution that works over the one that's technically correct — pragmatic, slightly cursed, perfect for prototypes; invoke via /questionable-engineering when you need a result that functions now and don't care that purists would wince.\n---\n\n# Questionable Engineering\n\nIt works. Don't worry about how. This mode optimizes for \"does the thing function\" over \"is this the textbook-approved approach.\" Slightly cursed, deeply pragmatic, and exactly right when you're prototyping and need answers, not architecture awards.\n\n## When to use\n- Prototypes, spikes, and throwaways where working > correct.\n- You need a result now and elegance is genuinely not the point.\n\n## Behavior\n1. Optimize for \"produces the right result\" first; theoretical purity is secondary on this kind of work.\n2. Take the shortest path that functions — direct hacks, shortcuts, and pragmatic shims are fair game.\n3. Be honest that the approach is questionable: label the cursed parts so nobody mistakes the prototype for production.\n4. Avoid anything that's actively unsafe (data loss, security holes) — \"questionable\" means inelegant, not dangerous.\n5. Keep the hack contained enough that it can be thrown away or rewritten when the prototype proves out.\n6. Skip tests, abstractions, and polish that a prototype doesn't need yet.\n7. Verify the result is actually correct even if the method is ugly.\n\n## Output\nA working, deliberately pragmatic solution with the cursed parts clearly labeled and a one-line \"do not ship as-is unless...\" caveat where it matters.\n"
+    },
+    {
+      "id": "rage-compile",
+      "title": "Rage Compile",
+      "content": "---\nname: rage-compile\ndescription: Attacks the error list in one relentless pass — fix, rebuild, repeat, no commentary — until it builds clean; invoke via /rage-compile when you have a wall of build/type/lint errors and just want them gone.\n---\n\n# Rage Compile\n\nErrors are not feelings to discuss. They are a list to delete. This mode locks onto the build output and grinds — fix, rebuild, fix, rebuild — without narrating its emotions, until the thing compiles green.\n\n## When to use\n- You have a wall of build, type, or lint errors and want them eliminated.\n- You don't need explanation per error — you need a clean build.\n\n## Behavior\n1. Run the build/type/lint and capture the full error list before touching anything.\n2. Group errors by root cause — one bad type or import often spawns dozens of downstream errors.\n3. Fix from the root outward: address the upstream cause first, then rebuild to see what actually remains.\n4. Loop tightly: edit, rebuild, re-read errors, repeat — minimal commentary between cycles.\n5. Don't paper over errors with `any`, `@ts-ignore`, or suppressions unless genuinely unavoidable, and flag any you use.\n6. Keep fixes correct, not just silencing — a passing build that broke behavior is a failure.\n7. Stop only when the build is fully clean, then report what was wrong.\n\n## Output\nA clean build, plus a terse after-action summary of the root causes fixed and any suppressions used that deserve a second look.\n"
+    },
+    {
+      "id": "redneck-engineer",
+      "title": "Redneck Engineer",
+      "content": "---\nname: redneck-engineer\ndescription: Turns a vague idea into a clear build plan — short PRD, task list, user flows, constraints, and acceptance criteria — so Claude Code knows exactly what to build; invoke via /redneck-engineer when you know what you want but Claude keeps building the wrong thing.\n---\n\n# Redneck Engineer\n\nYou know what you want; the problem is getting it out of your head and onto paper before anyone starts welding. This skill drags a fuzzy idea into a tight, buildable spec so the next agent stops guessing and starts shipping the right thing.\n\n## When to use\n- You have an idea but Claude keeps building the wrong interpretation of it.\n- You want a plan/spec before any code gets written.\n\n## Behavior\n1. Interrogate the idea first: ask the 3-5 sharpest clarifying questions that would change the build, and wait for answers before planning.\n2. Write a short PRD — problem, goal, target user, in-scope and explicitly out-of-scope.\n3. Lay out the primary user flows step by step, including the unhappy paths.\n4. List hard constraints: stack, performance, data, deadlines, and anything that must not change.\n5. Break the build into an ordered task list small enough that each item is unambiguous.\n6. Define acceptance criteria — concrete, checkable conditions that mean \"done\" — for the whole thing and key tasks.\n7. Call out open questions and assumptions so nothing silently gets decided wrong.\n\n## Output\nA compact, buildable spec — PRD, user flows, constraints, ordered task list, and acceptance criteria — ready to hand straight to an implementing agent.\n"
+    },
+    {
+      "id": "schizotech",
+      "title": "Schizotech",
+      "content": "---\nname: schizotech\ndescription: Connects the dots nobody asked for — wild, lateral architecture ideas linking things you'd never pair on purpose; invoke via /schizotech when you want unconventional cross-domain inspiration, with the explicit understanding that you must filter it heavily.\n---\n\n# Schizotech\n\nThe red string is already on the wall. This mode draws lines between things that have no business being connected — a queue system and a card game, a CRDT and a recipe app — and occasionally one of those lines is genius. Most are not. Filter heavily.\n\n## When to use\n- You want unconventional, cross-domain architecture inspiration.\n- The obvious approaches are exhausted and you need a lateral jolt.\n\n## Behavior\n1. Look for structural analogies across unrelated domains and propose pairings the user would never reach for deliberately.\n2. Lean into lateral leaps — borrow patterns from biology, games, finance, physics, whatever fits the shape.\n3. For each wild idea, give a one-line \"why this might actually work\" hook so it's evaluable, not just noise.\n4. Rank ideas loosely by plausibility so the user can triage fast.\n5. Be upfront that most ideas are throwaway — explicitly tell the user to filter heavily.\n6. Flag any idea that's genuinely promising versus purely provocative.\n7. Offer to ground the most plausible one into a real, sane design if the user bites.\n\n## Output\nA set of wild cross-domain architecture ideas, each with a one-line rationale and a plausibility flag, plus an explicit \"filter heavily — most of these are noise\" warning.\n"
+    },
+    {
+      "id": "sleep-deprived-founder",
+      "title": "Sleep-Deprived Founder",
+      "content": "---\nname: sleep-deprived-founder\ndescription: Cuts the backlog to the one or two things that actually move the needle and ignores the rest; invoke via /sleep-deprived-founder when you have too much to do and need ruthless prioritization, not a longer list.\n---\n\n# Sleep-Deprived Founder\n\nThere's no time and no team — only the thing that matters. This mode looks at your overstuffed backlog and brutally identifies the one or two items that actually move the business, then tells you to drop everything else. Ruthless on purpose.\n\n## When to use\n- You have a sprawling backlog and limited time/energy.\n- You need prioritization and permission to ignore most of it, not more tasks.\n\n## Behavior\n1. Take the full list of candidate work and judge each item by impact on the actual goal (revenue, users, survival), not by effort or how fun it is.\n2. Identify the 1-2 items that genuinely move the needle and name them clearly.\n3. Explicitly mark the rest as \"not now\" — distractions, busywork, or premature polish.\n4. Call out anything that feels productive but isn't (yak-shaving, vanity work) so it gets dropped.\n5. Sequence the chosen 1-2 so the highest-leverage one happens first.\n6. Be honest about tradeoffs: what you're consciously NOT doing and the risk of skipping it.\n7. Keep the recommendation short — a tired founder needs a decision, not a deck.\n\n## Output\nA ruthless shortlist of the 1-2 highest-leverage items, an explicit \"ignore for now\" pile, and a one-line rationale for each call.\n"
+    },
+    {
+      "id": "speedrun",
+      "title": "Speedrun",
+      "content": "---\nname: speedrun\ndescription: Finds the shortest path to done and takes it — no detours, no nice-to-haves; invoke via /speedrun when the only goal is to complete the task as fast as possible with nothing extra.\n---\n\n# Speedrun\n\nAny% completion. This mode plots the most direct line from here to done and runs it, skipping every optional side quest. No gold-plating, no scope creep, no \"while I'm in here.\" Just the fastest legitimate route to the finish.\n\n## When to use\n- The only goal is to finish the task quickly with nothing extra.\n- You explicitly do not want polish, refactors, or bonus features.\n\n## Behavior\n1. Define \"done\" in one sentence before starting, then refuse to do anything outside it.\n2. Pick the most direct implementation route, even if a fancier approach is tempting.\n3. Skip nice-to-haves entirely: no extra features, no refactors of nearby code, no speculative robustness.\n4. Avoid context-gathering you don't strictly need — read only what's required to finish.\n5. Batch and parallelize independent steps instead of doing them one at a time.\n6. Don't gold-plate the finish — the moment it meets \"done,\" stop.\n7. Keep correctness on the target path intact; fast is not the same as broken.\n\n## Output\nThe completed task by the most direct route, plus a one-line confirmation that it meets the \"done\" definition and nothing extra was added.\n"
+    },
+    {
+      "id": "tax-fraud",
+      "title": "Tax Fraud",
+      "content": "---\nname: tax-fraud\ndescription: Hunts cost everywhere — trims tokens, kills redundant calls, and reports the cheapest path to the same result; invoke via /tax-fraud when you want aggressive (but technically legal) cost optimization of an AI workflow, pipeline, or process.\n---\n\n# Tax Fraud\n\nEvery token is a line item, and this mode itemizes ruthlessly. It audits your workflow for waste, deducts everything it can, and reports the cheapest path to the exact same result. Aggressive optimization, fully above board. (Technically.)\n\n## When to use\n- An AI workflow, pipeline, or process is costing more than it should.\n- You want the same output for materially less money/tokens/compute.\n\n## Behavior\n1. Audit the full cost surface first: every model call, prompt size, retry, and redundant step.\n2. Find duplicate or unnecessary calls and eliminate them — cache, memoize, or batch where possible.\n3. Trim prompt bloat: cut filler, dedupe context, drop fields the model doesn't need.\n4. Right-size the model — flag where a cheaper/smaller model gets the same result.\n5. Reduce round-trips: combine calls, stream less, stop paying for output you discard.\n6. Quantify the savings concretely — estimate before/after token or dollar cost.\n7. Confirm the cheaper path still produces equivalent output before recommending it.\n\n## Output\nA cost-optimization report: identified waste, the cheaper path to the same result, and concrete before/after estimates — with confirmation that quality is preserved.\n"
+    },
+    {
+      "id": "weaponized-autism",
+      "title": "Weaponized Autism",
+      "content": "---\nname: weaponized-autism\ndescription: Obsessive-detail mode that reads every relevant file, checks every edge case, questions every assumption, and chases every dependency before answering; slower on purpose and far harder to fool — invoke via /weaponized-autism when a confident-but-wrong answer would be expensive, e.g. deep debugging, auditing, or high-stakes research.\n---\n\n# Weaponized Autism\n\nMaximum rigor, zero hand-waving. This mode refuses to guess. It reads the actual source, traces the actual call path, and treats every \"should be fine\" as a claim to be verified. Slower by design — and almost impossible to fool.\n\n## When to use\n- Debugging, auditing, or research where a wrong-but-confident answer is costly.\n- Anything where the surface-level explanation has already failed you once.\n\n## Behavior\n1. Read every file relevant to the question in full — no skimming, no assuming the obvious function does the obvious thing.\n2. List your assumptions explicitly, then attack each one. Mark which you verified and which you could not.\n3. Trace dependencies end to end: follow imports, callers, config, and runtime values rather than inferring them.\n4. Enumerate edge cases — empty inputs, nulls, concurrency, off-by-one, encoding, timezones, failure paths — and check each against the code.\n5. Reproduce the behavior or cite the exact lines that prove your claim; never assert without evidence.\n6. When two sources of truth disagree (docs vs code, comment vs implementation), trust the executing code and flag the discrepancy.\n7. Distinguish what you KNOW (verified) from what you SUSPECT (inferred) in the final answer.\n\n## Output\nA precise, evidence-backed answer with file:line citations, an explicit assumptions-checked list, and a clear separation of verified facts from open questions.\n"
+    },
+    {
+      "id": "zero-sleep",
+      "title": "Zero Sleep",
+      "content": "---\nname: zero-sleep\ndescription: Holds the thread across a big multi-step build without losing the plot — long-haul endurance and context-keeping; invoke via /zero-sleep when a task spans many steps and hours and you need consistency from start to finish.\n---\n\n# Zero Sleep\n\nThe marathon, not the sprint. This mode is built for long, sprawling builds where the real risk isn't any single step — it's forgetting what you decided three hours ago. It keeps the thread, the goals, and the constraints locked in from step one to step done.\n\n## When to use\n- A large, multi-step build that spans many actions or a long session.\n- The danger is drift: losing track of earlier decisions, goals, or constraints.\n\n## Behavior\n1. Establish and write down the north-star goal, key constraints, and decisions at the start as an anchor.\n2. Maintain a living progress ledger: what's done, what's in flight, what's next.\n3. Re-read the anchor and ledger before each major step to avoid drifting from the original plan.\n4. Keep decisions consistent — when a new step touches an earlier choice, honor it or explicitly revise it on the record.\n5. Checkpoint state at natural boundaries so the work can be resumed without re-deriving everything.\n6. Watch for contradiction: flag when a new step conflicts with something decided earlier.\n7. Periodically summarize progress against the goal so the big picture stays in view.\n\n## Output\nSteady end-to-end progress on the build, a maintained progress ledger and decision anchor, and periodic check-ins confirming the work still matches the original goal.\n"
+    }
+  ],
+  "singdia": {
+    "brand": "SingDia",
+    "description": "AI-Powered Personalized Song & Lyrics Studio in 12+ Indian & Global Languages",
+    "languages": [
+      {
+        "id": "hindi",
+        "name": "Hindi (हिंदी)",
+        "popular": true
+      },
+      {
+        "id": "hinglish",
+        "name": "Hinglish (Urban Hindi-English)",
+        "popular": true
+      },
+      {
+        "id": "english",
+        "name": "English",
+        "popular": true
+      },
+      {
+        "id": "punjabi",
+        "name": "Punjabi (ਪੰਜਾਬੀ)",
+        "popular": true
+      },
+      {
+        "id": "tamil",
+        "name": "Tamil (தமிழ்)",
+        "popular": true
+      },
+      {
+        "id": "telugu",
+        "name": "Telugu (తెలుగు)",
+        "popular": true
+      },
+      {
+        "id": "marathi",
+        "name": "Marathi (मराठी)",
+        "popular": true
+      },
+      {
+        "id": "bengali",
+        "name": "Bengali (বাংলা)",
+        "popular": true
+      },
+      {
+        "id": "gujarati",
+        "name": "Gujarati (ગુજરાતી)",
+        "popular": true
+      },
+      {
+        "id": "kannada",
+        "name": "Kannada (ಕನ್ನಡ)",
+        "popular": true
+      },
+      {
+        "id": "malayalam",
+        "name": "Malayalam (മലയാളം)",
+        "popular": true
+      },
+      {
+        "id": "urdu",
+        "name": "Urdu (اردو)",
+        "popular": true
+      }
+    ],
+    "occasions": [
+      {
+        "id": "birthday",
+        "name": "Birthday Song",
+        "desc": "Custom celebration track with name, age & milestones"
+      },
+      {
+        "id": "wedding",
+        "name": "Wedding & Sangeet",
+        "desc": "Energetic sangeet dance anthem or emotional bidaai song"
+      },
+      {
+        "id": "anniversary",
+        "name": "Anniversary",
+        "desc": "Romantic retrospective celebrating years of togetherness"
+      },
+      {
+        "id": "romance",
+        "name": "Love & Romance",
+        "desc": "Proposal, girlfriend/boyfriend special or heartfelt surprise"
+      },
+      {
+        "id": "diwali",
+        "name": "Diwali & Festivals",
+        "desc": "Festive celebration song for family groups"
+      },
+      {
+        "id": "rakhi",
+        "name": "Raksha Bandhan",
+        "desc": "Heartwarming brother-sister bond celebration"
+      },
+      {
+        "id": "farewell",
+        "name": "Farewell & Retirement",
+        "desc": "Tribute to teachers, colleagues, or moving friends"
+      },
+      {
+        "id": "corporate",
+        "name": "Brand Anthem & Jingle",
+        "desc": "Catchy company jingle, startup anthem or event opener"
+      }
+    ],
+    "genres": [
+      {
+        "id": "bollywood",
+        "name": "Bollywood Romantic Ballad",
+        "mood": "Lush strings, acoustic guitar, emotional vocals, melodic flute"
+      },
+      {
+        "id": "punjabi",
+        "name": "Punjabi Sangeet / Bhangra",
+        "mood": "Heavy dhol beats, tumbi, energetic drop, festive dance"
+      },
+      {
+        "id": "hindi_pop",
+        "name": "Hindi Pop / Urban",
+        "mood": "Modern synth pop, 808 bass, upbeat rhythm, catchy hook"
+      },
+      {
+        "id": "ghazal",
+        "name": "Ghazal & Sufi",
+        "mood": "Traditional harmonium, tabla, poetic Urdu shayars, deep soul"
+      },
+      {
+        "id": "hiphop",
+        "name": "Hindi Hip-Hop / Rap",
+        "mood": "Trap drums, rapid-fire flow, storytelling verses, bass"
+      },
+      {
+        "id": "retro",
+        "name": "90s Bollywood Disco",
+        "mood": "Vintage synth, brass section, disco beat, nostalgic melody"
+      },
+      {
+        "id": "acoustic",
+        "name": "Acoustic / Lo-Fi",
+        "mood": "Soft guitar fingerpicking, piano chords, intimate vocals"
+      },
+      {
+        "id": "lullaby",
+        "name": "Sweet Lullaby (Loree)",
+        "mood": "Gentle music box, soft strings, soothing parental warmth"
+      }
+    ],
+    "song_structure": {
+      "mukhda": "Chorus / Hook (Repeated theme with recipient's name)",
+      "antara1": "Verse 1 (Personal memory, inside joke, origin story)",
+      "antara2": "Verse 2 (Emotional gratitude, future wishes, milestones)",
+      "bridge": "High-emotion musical build-up",
+      "outro": "Warm closing sign-off and memorable tagline"
+    }
+  }
+}
